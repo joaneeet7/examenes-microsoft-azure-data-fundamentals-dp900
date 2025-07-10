@@ -3,7 +3,7 @@ PracticeTestID = 7061679
 
 
 [question-1]
-Question = "Un cliente acaba de comprar un servicio de tu empresa, y se agregó una nueva fila de datos a la tabla VENTAS para indicar este evento tan pronto como sucedió. ¿Qué tipo de base de datos es esta?"
+Question = "Una clínica dental necesita registrar cada procedimiento realizado en tiempo real. Cuando un dentista termina un tratamiento, el sistema inmediatamente actualiza la base de datos con los detalles del procedimiento. ¿Qué tipo de base de datos está utilizando esta clínica para manejar estas actualizaciones instantáneas?"
 Correct = "A"
 A = "Base de datos transaccional"
 B = "Almacén de datos"
@@ -30,7 +30,7 @@ Topic = "Carga de trabajo analítica"
 
 
 [question-2]
-Question = "¿Cuál es el impacto de asignar demasiadas Unidades de Solicitud por segundo (RU/s) a una base de datos o contenedor de Cosmos DB?"
+Question = "Como administrador de sistemas de una startup de juegos móviles, se ha configurado Cosmos DB con 10,000 RU/s para manejar el tráfico de usuarios. Sin embargo, durante las horas de menor actividad, solo se utilizan 2,000 RU/s. ¿Qué consecuencia financiera tendrá esta configuración en la facturación mensual?"
 Correct = "D"
 A = "Cosmos DB escalará las RU/s a lo que uses, independientemente de lo que aprovisiones"
 B = "Las RU/s aprovisionadas no impactan nada"
@@ -57,7 +57,7 @@ Topic = "Implementación no relacional"
 
 
 [question-3]
-Question = "¿Qué hace principalmente el Lenguaje de Definición de Datos (DDL)?"
+Question = "Se está desarrollando una aplicación para una cadena de farmacias que necesita gestionar inventario, recetas y ventas. El equipo de desarrollo necesita crear las tablas, índices y procedimientos almacenados. ¿Qué lenguaje SQL utilizarían para definir estas estructuras de base de datos?"
 Correct = "A"
 A = "Definir estructuras de datos"
 B = "Afectar la información almacenada en la base de datos"
@@ -84,7 +84,7 @@ Topic = "Lenguaje SQL"
 
 
 [question-4]
-Question = "Tienes 10 TB de archivos de registro almacenados en Azure Data Lake Storage Gen2, y te gustaría ahorrar algo de dinero en almacenamiento. Estos archivos son históricos, y no esperas necesitar acceder a ellos más. Debido a la política de la empresa, aún necesitas mantenerlos por 3 meses más en caso de que se necesiten. ¿Qué acciones puedes tomar para reducir el costo, en el menor número posible de pasos?"
+Question = "Una empresa tiene 30 TB de datos históricos en Azure Data Lake Storage Gen2 que raramente se consultan, pero deben conservarse por cumplimiento. ¿Cuál es la estrategia más eficiente para optimizar los costos sin mover físicamente los archivos?"
 Correct = "D"
 A = "Establecer el nivel de acceso predeterminado en la cuenta al nivel Cool"
 B = "Implementar un algoritmo de compresión (como ZIP) para reducir el tamaño de los archivos"
@@ -111,7 +111,7 @@ Topic = "Almacén de datos"
 
 
 [question-5]
-Question = "¿Qué tipo de carga de trabajo de análisis de datos es mejor para procesar datos sensibles al tiempo que llegan de una fuente externa cada pocos segundos?"
+Question = "Una ciudad está implementando un sistema inteligente de gestión de residuos que utiliza sensores en los contenedores para detectar el nivel de llenado. Estos sensores envían datos cada 3-5 segundos a un centro de procesamiento. ¿Qué enfoque de análisis de datos debería implementar para procesar esta información de manera inmediata y tomar decisiones operativas en tiempo real?"
 Correct = "D"
 A = "Procesamiento por lotes"
 B = "Mensajería basada en eventos"
@@ -138,7 +138,7 @@ Topic = "Carga de trabajo analítica"
 
 
 [question-6]
-Question = "Tienes un servidor de SQL Database llamado SQLDB, y dos bases de datos SQL llamadas DB1 y DB2. SQLDB tiene un firewall a nivel de servidor que permite direcciones IP en el rango 123.123.123.0-123.123.123.255 y deniega todo el otro tráfico. DB1 tiene una regla de firewall a nivel de base de datos que permite IPs en el rango 123.123.123.0-123.123.123.10. Cuando un cliente usando la dirección IP 123.123.123.25 intenta acceder a DB1, ¿tienen éxito?"
+Question = "Un servidor SQL Database tiene dos bases de datos. El firewall del servidor permite acceso desde el rango 123.123.123.0-123.123.123.255, mientras que DB1 tiene una regla específica que solo permite IPs del rango 123.123.123.0-123.123.123.10. Si alguien intenta conectarse a DB1 desde la IP 123.123.123.25, ¿podrá acceder exitosamente?"
 Correct = "B"
 A = "No, la conexión no tendrá éxito"
 B = "Sí, la conexión tendrá éxito"
@@ -159,7 +159,7 @@ Topic = "Seguridad de datos relacionales"
 
 
 [question-7]
-Question = "¿Cuál de las siguientes oraciones describe mejor qué es una TABLA en SQL Server?"
+Question = "Una organización está diseñando una base de datos para gestionar donaciones y voluntarios. ¿Cuál de las siguientes afirmaciones explica correctamente el papel fundamental de las tablas en este sistema?"
 Correct = "A"
 A = "Las tablas son objetos de base de datos que contienen todos los datos en una base de datos."
 B = "Las tablas son colecciones de pares clave-valor."
@@ -186,7 +186,7 @@ Topic = "Datos relacionales"
 
 
 [question-8]
-Question = "En Azure Data Factory, un ___________ es una agrupación lógica de actividades que juntas realizan una tarea. Completa el espacio en blanco."
+Question = "Una empresa de análisis financiero necesita consolidar datos de múltiples fuentes (bancos, bolsas de valores y agencias de calificación) en un data warehouse centralizado. Para automatizar este proceso, el equipo está utilizando Azure Data Factory. ¿Qué componente de Azure Data Factory agrupa todas las actividades necesarias para extraer, transformar y cargar estos datos financieros de manera coordinada?"
 Correct = "B"
 A = "Nodo"
 B = "Pipeline"
@@ -213,7 +213,7 @@ Topic = "Procesamiento de datos"
 
 
 [question-9]
-Question = "¿Qué tipo de datos se almacenan en Azure Blob Storage?"
+Question = "Una empresa de arquitectura está desarrollando una aplicación para gestionar planos, renders 3D y documentación técnica de proyectos. Estos archivos incluyen imágenes de alta resolución, videos de recorridos virtuales y documentos PDF. ¿Qué tipo de datos almacenaría en Azure Blob Storage para este conjunto de archivos multimedia?"
 Correct = "A"
 A = "Datos no estructurados"
 B = "Datos particionados"
@@ -240,7 +240,7 @@ Topic = "Base de datos no relacional"
 
 
 [question-10]
-Question = "¿Cuál es una característica de los informes interactivos de Power BI?"
+Question = "Una empresa de fabricación quiere que los supervisores puedan explorar datos de rendimiento de manera interactiva y crear visualizaciones personalizadas. ¿Qué característica de Power BI permitiría crear estos informes dinámicos?"
 Correct = "A"
 A = "La capacidad de crear informes web en línea personalizables, que son hermosos y se pueden personalizar y modificar de varias maneras complejas."
 B = "La capacidad de crear dashboards que te dan una mirada visual del estado del negocio."
@@ -264,7 +264,7 @@ Topic = "Power BI"
 
 
 [question-11]
-Question = "¿Cuáles de los siguientes son ejemplos de declaraciones SQL del Lenguaje de Manipulación de Datos (DML)?"
+Question = "Un equipo está creando una aplicación de gestión de inventario. Necesitan entender qué comandos SQL utilizar para consultar productos, agregar nuevos artículos y actualizar cantidades. ¿Cuáles de los siguientes son ejemplos de declaraciones SQL del Lenguaje de Manipulación de Datos (DML)?"
 Correct = "B"
 A = "GRANT, REVOKE"
 B = "SELECT, INSERT, UPDATE"
@@ -291,7 +291,7 @@ Topic = "SQL"
 
 
 [question-12]
-Question = "¿Cuál de las siguientes oraciones describe mejor qué es una VISTA en SQL Server?"
+Question = "Una empresa necesita crear una interfaz simplificada para que los agentes puedan consultar información sin acceder directamente a las tablas complejas. ¿Cuál de las siguientes oraciones describe mejor qué es una VISTA en SQL Server?"
 Correct = "A"
 A = "Una VISTA es una tabla virtual cuyo contenido está definido por una consulta."
 B = "Una VISTA es un grupo de una o más declaraciones Transact-SQL."
@@ -318,7 +318,7 @@ Topic = "Datos relacionales"
 
 
 [question-13]
-Question = "¿Qué servicio de Azure es una versión administrada de la aplicación Apache Spark de código abierto, o proporciona un entorno Spark en Azure?"
+Question = "Una startup está buscando servicios de Azure que puedan procesar grandes volúmenes de información en tiempo real. Necesitan un entorno que soporte Apache Spark. ¿Qué servicios de Azure proporcionan una versión administrada de Apache Spark?"
 Correct = "A"
 A = "Azure HDInsight, Azure Databricks"
 B = "Azure Blob Storage, Azure Table Storage"
@@ -345,7 +345,7 @@ Topic = "Almacén de datos"
 
 
 [question-14]
-Question = "¿Cuál de los siguientes métodos se usa comúnmente para asegurar datos en tránsito?"
+Question = "Un banco está implementando una aplicación móvil para transacciones bancarias. El equipo de seguridad necesita asegurar que la información financiera se transmita de manera segura. ¿Cuál de los siguientes métodos se usa comúnmente para asegurar datos en tránsito?"
 Correct = "D"
 A = "Cifrado Bitlocker"
 B = "Cifrado de disco de Azure"
@@ -372,7 +372,7 @@ Topic = "Seguridad de datos relacionales"
 
 
 [question-15]
-Question = "¿Cuál de los siguientes elementos define mejor \"datos en reposo\" cuando se trata de asegurar datos?"
+Question = "Una empresa de servicios médicos está evaluando sus políticas de seguridad para cumplir con regulaciones HIPAA. ¿Cuál de los siguientes elementos define mejor \"datos en reposo\" cuando se trata de asegurar datos?"
 Correct = "A"
 A = "Datos que existen estáticamente en el medio físico"
 B = "Datos mientras viajan por una red"
@@ -399,7 +399,7 @@ Topic = "Gestión de datos relacionales"
 
 
 [question-16]
-Question = "En una base de datos relacional, ¿puede una clave foránea referenciar otra columna en la misma tabla?"
+Question = "Una empresa está diseñando una base de datos donde cada empleado puede tener un supervisor, y los supervisores también son empleados en la misma tabla. ¿Puede una clave foránea referenciar otra columna en la misma tabla?"
 Correct = "A"
 A = "Sí"
 B = "No"
@@ -420,7 +420,7 @@ Topic = "Datos relacionales"
 
 
 [question-17]
-Question = "¿Cuál de los siguientes puede llamarse datos semi-estructurados?"
+Question = "Una empresa está evaluando diferentes tipos de datos para su plataforma web. Necesitan almacenar información de productos que puede variar en estructura según la categoría. ¿Cuál de los siguientes puede llamarse datos semi-estructurados?"
 Correct = "D"
 A = "Una factura impresa"
 B = "Imágenes en una cuenta de almacenamiento blob"
@@ -447,7 +447,7 @@ Topic = "Tipos de datos"
 
 
 [question-18]
-Question = "¿Qué tipos de amenazas protege Advanced Threat Protection en tu SQL Database?"
+Question = "Una empresa está evaluando las capacidades de seguridad de su base de datos SQL. ¿Qué tipos de amenazas puede detectar y proteger Advanced Threat Protection en SQL Database?"
 Correct = "D"
 A = "Consultas de larga duración que ralentizan el rendimiento de datos"
 B = "Amenazas de seguridad de red como acceso desde direcciones IP desconocidas"
@@ -474,7 +474,7 @@ Topic = "Seguridad de datos relacionales"
 
 
 [question-19]
-Question = "¿Cuál es el propósito de un dashboard de datos, particularmente en Microsoft Power BI?"
+Question = "Una cadena de restaurantes quiere que los gerentes puedan ver rápidamente el estado de sus operaciones diarias. ¿Cuál es el propósito de un dashboard de datos en Microsoft Power BI?"
 Correct = "C"
 A = "Un dashboard muestra los datos detallados de lo que sucedió históricamente, como el archivo de registro completo"
 B = "Un dashboard es completamente elementos visuales como gráficos y diagramas, sin números"
@@ -501,7 +501,7 @@ Topic = "Power BI"
 
 
 [question-20]
-Question = "¿Qué tipo de datos almacena Azure Table Storage?"
+Question = "Una empresa está desarrollando una aplicación para rastrear envíos en tiempo real. ¿Qué tipo de datos almacena Azure Table Storage?"
 Correct = "C"
 A = "Datos no estructurados"
 B = "Datos de gráfico"
@@ -528,7 +528,7 @@ Topic = "Base de datos no relacional"
 
 
 [question-21]
-Question = "Todos los días, los concesionarios de automóviles suben sus informes de ventas y servicio a tu portal web. Tu portal web almacena estos archivos en un contenedor de Blob Storage. Los datos están formateados exactamente como los necesita tu datos de Cosmos DB. No anticipas necesitar modificarlos antes de llevarlos a la base de datos. ¿Qué modelo de ingesta de datos parece funcionar mejor para este escenario?"
+Question = "Los concesionarios suben informes de ventas a un portal web que los almacena en Blob Storage. Los datos están formateados correctamente para Cosmos DB. ¿Qué modelo de ingesta de datos funciona mejor para este escenario?"
 Correct = "B"
 A = "ETL"
 B = "ELT"
@@ -549,7 +549,7 @@ Topic = "Procesamiento de datos"
 
 
 [question-22]
-Question = "Cosmos DB usa un modelo de clave primaria para dar a las personas control total sobre una cuenta de Cosmos DB. ¿Cómo limitas a alguien a tener solo acceso de solo lectura a tu base de datos?"
+Question = "Una empresa quiere permitir que los consultores externos accedan a ciertos datos para generar reportes, pero sin darles acceso completo. ¿Cómo limitan a alguien a tener solo acceso de solo lectura a su base de datos?"
 Correct = "A"
 A = "Tokens de recursos"
 B = "Grupo de Seguridad de Red (NSG)"
@@ -576,7 +576,7 @@ Topic = "Seguridad de datos no relacionales"
 
 
 [question-23]
-Question = "Cuando se trata de seguridad de datos, ¿qué es el modelo Zero Trust?"
+Question = "Una empresa está implementando nuevas políticas de seguridad. ¿Qué es el modelo Zero Trust cuando se trata de seguridad de datos?"
 Correct = "D"
 A = "Los usuarios son solicitados con Autenticación Multi-factor para verificación adicional de autenticación."
 B = "Permitir a los usuarios guardar una cookie para que no tengan que iniciar sesión nuevamente la próxima vez."
@@ -603,7 +603,7 @@ Topic = "Gestión de datos no relacionales"
 
 
 [question-24]
-Question = "¿Qué obtienes cuando usas el nivel de acceso Archive para Azure Blob Storage?"
+Question = "Una empresa necesita almacenar grandes cantidades de datos históricos que raramente se consultan, pero que deben mantenerse por cumplimiento. ¿Qué obtienen cuando usan el nivel de acceso Archive para Azure Blob Storage?"
 Correct = "D"
 A = "El nivel de acceso predeterminado, establecido cuando primero creas la cuenta de almacenamiento como predeterminado."
 B = "La forma más rápida de recuperar archivos en Azure para necesidades de alto rendimiento"
@@ -630,7 +630,7 @@ Topic = "Base de datos no relacional"
 
 
 [question-25]
-Question = "¿Qué tipo de seguridad proporciona el Cifrado Transparente de Datos (TDE)?"
+Question = "Una empresa de servicios legales está evaluando las opciones de seguridad para su base de datos que contiene información confidencial de casos. El equipo de TI necesita entender qué tipo de protección específica proporciona el Cifrado Transparente de Datos (TDE) para los datos sensibles de los clientes."
 Correct = "D"
 A = "Cifrado de extremo a extremo (E2E)"
 B = "Almacenamiento seguro de secretos, claves y certificados"
@@ -657,7 +657,7 @@ Topic = "Seguridad de datos relacionales"
 
 
 [question-26]
-Question = "¿Qué formato de API de CosmosDB funciona mejor con datos clave-valor?"
+Question = "Una empresa de comercio electrónico está desarrollando una aplicación de carrito de compras que necesita almacenar información de productos, precios y disponibilidad de manera eficiente. El equipo de desarrollo está evaluando Cosmos DB y necesita elegir la API más apropiada para datos que se organizan en pares clave-valor. ¿Qué formato de API de CosmosDB funciona mejor con datos clave-valor?"
 Correct = "C"
 A = "API Gremlin"
 B = "API MongoDB"
@@ -684,7 +684,7 @@ Topic = "Base de datos no relacional"
 
 
 [question-27]
-Question = "¿Cuál es el tipo de almacenamiento más barato en Azure por GB almacenado?"
+Question = "Una startup de tecnología está desarrollando una aplicación de gestión de inventario y necesita almacenar grandes volúmenes de datos de productos a un costo mínimo. El equipo de desarrollo está evaluando diferentes opciones de almacenamiento en Azure para optimizar los costos. ¿Cuál es el tipo de almacenamiento más barato en Azure por GB almacenado?"
 Correct = "B"
 A = "SQL Server Managed Instance"
 B = "Azure Table Storage"
@@ -711,7 +711,7 @@ Topic = "Datos no relacionales"
 
 
 [question-28]
-Question = "¿Cuál de los siguientes productos/servicios es una suite de herramientas de análisis empresarial que permite a los analistas crear fácilmente dashboards e informes hermosos sobre los datos de tu organización?"
+Question = "Una empresa de retail está buscando una solución para que sus analistas de negocio puedan crear dashboards e informes visuales atractivos sobre las ventas, inventario y comportamiento del cliente. Necesitan una suite completa de herramientas de análisis empresarial. ¿Cuál de los siguientes productos/servicios es una suite de herramientas de análisis empresarial que permite a los analistas crear fácilmente dashboards e informes hermosos sobre los datos de su organización?"
 Correct = "A"
 A = "Power BI"
 B = "Azure Analysis Services"
@@ -738,7 +738,7 @@ Topic = "Almacén de datos"
 
 
 [question-29]
-Question = "Por defecto, ¿cuál es el modelo de seguridad de Cosmos DB?"
+Question = "Una empresa de desarrollo de aplicaciones móviles está configurando Cosmos DB para su nueva aplicación de redes sociales. El equipo de seguridad necesita entender qué modelo de autenticación se utiliza por defecto para proteger el acceso a la base de datos. Por defecto, ¿cuál es el modelo de seguridad de Cosmos DB?"
 Correct = "B"
 A = "Nombre de usuario y contraseña"
 B = "Un token de autorización válido"
@@ -765,7 +765,7 @@ Topic = "Gestión de datos no relacionales"
 
 
 [question-30]
-Question = "Tienes un SQL Server ejecutándose dentro de tu propio entorno, y te gustaría migrarlo a la nube. Resulta que sabes que la configuración en la base de datos ha sido personalizada por una razón de negocio. Necesitas estar seguro de que absolutamente NINGÚN código tendrá que cambiar cuando muevas esta base de datos - solo la cadena de conexión. ¿Cuál es la mejor manera de migrar un SQL Server a Azure para asegurar absolutamente garantizado que no se requieren cambios de código o esquema de base de datos SQL?"
+Question = "Una empresa manufacturera tiene un SQL Server ejecutándose en su propio entorno, y quiere migrarlo a la nube. La configuración en la base de datos ha sido personalizada por razones de negocio específicas de la industria. Necesitan estar seguros de que absolutamente NINGÚN código tendrá que cambiar cuando muevan esta base de datos - solo la cadena de conexión. ¿Cuál es la mejor manera de migrar un SQL Server a Azure para asegurar absolutamente garantizado que no se requieren cambios de código o esquema de base de datos SQL?"
 Correct = "D"
 A = "Migrar a Azure SQL Database"
 B = "Migrar a Azure Table Storage"
@@ -792,7 +792,7 @@ Topic = "Relational DB management"
 
 
 [question-31]
-Question = "¿Cuál de las siguientes bases de datos de Azure se considera Infraestructura como Servicio (IaaS)?"
+Question = "Una empresa de desarrollo de software está evaluando diferentes opciones de base de datos en Azure para su nueva aplicación. El equipo de TI necesita entender qué opción les daría el mayor control sobre la infraestructura subyacente. ¿Cuál de las siguientes bases de datos de Azure se considera Infraestructura como Servicio (IaaS)?"
 Correct = "A"
 A = "SQL Server en una VM"
 B = "Managed SQL Instance"
@@ -819,7 +819,7 @@ Topic = "Servicios de datos relacionales"
 
 
 [question-32]
-Question = "¿Qué tipo de servicio en la nube es Cosmos DB?"
+Question = "Una startup de aplicaciones móviles está evaluando Cosmos DB para su nueva aplicación de mensajería en tiempo real. El equipo de desarrollo necesita entender qué tipo de servicio en la nube es Cosmos DB para planificar su arquitectura. ¿Qué tipo de servicio en la nube es Cosmos DB?"
 Correct = "A"
 A = "Plataforma-como-Servicio (PaaS)"
 B = "Software-como-Servicio (SaaS)"
@@ -843,7 +843,7 @@ Topic = "Base de datos no relacional"
 
 
 [question-33]
-Question = "¿Qué formato de API de CosmosDB funciona mejor con datos de documento (JSON)?"
+Question = "Una empresa de desarrollo web está creando una aplicación de gestión de contenido que necesita almacenar documentos JSON complejos con información de artículos, autores y metadatos. El equipo está evaluando Cosmos DB y necesita elegir la API más apropiada para trabajar con datos de documento en formato JSON. ¿Qué formato de API de CosmosDB funciona mejor con datos de documento (JSON)?"
 Correct = "A"
 A = "Core SQL"
 B = "API MongoDB"
@@ -870,7 +870,7 @@ Topic = "Base de datos no relacional"
 
 
 [question-34]
-Question = "Tu empresa espera que lleguen terabytes de datos como datos JSON no estructurados. Puedes almacenarlos como un par clave-valor. No hay requisito para mantener relaciones entre las diferentes entidades en absoluto, y tu consideración principal es la velocidad de almacenamiento de datos y el precio. ¿Cuál es el mejor almacén de datos no relacional para este escenario que recomendarías?"
+Question = "Una empresa de análisis de datos espera que lleguen terabytes de datos como datos JSON no estructurados. Pueden almacenarlos como un par clave-valor. No hay requisito para mantener relaciones entre las diferentes entidades en absoluto, y su consideración principal es la velocidad de almacenamiento de datos y el precio. ¿Cuál es el mejor almacén de datos no relacional para este escenario que recomendarías?"
 Correct = "C"
 A = "Azure Queue Storage"
 B = "Cosmos DB"
@@ -897,7 +897,7 @@ Topic = "Base de datos no relacional"
 
 
 [question-35]
-Question = "Tienes una pequeña base de datos de 25MB actualmente alojada en AWS DynamoDB que te gustaría mover a Azure Cosmos DB. Has elegido Core SQL API como el tipo de base de datos. ¿Cuál es la mejor herramienta de migración de base de datos o técnica para obtener datos de AWS DynamoDB a Azure CosmosDB?"
+Question = "Una startup de comercio electrónico tiene una pequeña base de datos de 25MB actualmente alojada en AWS DynamoDB que les gustaría mover a Azure Cosmos DB. Han elegido Core SQL API como el tipo de base de datos. ¿Cuál es la mejor herramienta de migración de base de datos o técnica para obtener datos de AWS DynamoDB a Azure CosmosDB?"
 Correct = "A"
 A = "Data Migration Tool"
 B = "Exportar la DB usando bcp e importar a Azure usando la misma herramienta"
@@ -924,7 +924,7 @@ Topic = "Gestión de base de datos no relacional"
 
 
 [question-36]
-Question = "¿Qué tipo de datos no relacional gira en torno a almacenar y recuperar rápidamente un solo valor por elemento único? No está optimizado para consultas que requieren examinar el contenido de los datos, como una cláusula WHERE en una consulta relacional típica, pero es extremadamente escalable y está diseñado para almacenar datos a través de múltiples nodos en máquinas separadas."
+Question = "Una empresa de desarrollo de aplicaciones de caché está evaluando diferentes tipos de datos no relacionales para su sistema de almacenamiento en memoria. Necesitan un tipo de datos que pueda almacenar y recuperar rápidamente un solo valor por elemento único, sin necesidad de consultas complejas. ¿Qué tipo de datos no relacional gira en torno a almacenar y recuperar rápidamente un solo valor por elemento único?"
 Correct = "B"
 A = "Datos de objeto"
 B = "Datos clave-valor"
@@ -951,7 +951,7 @@ Topic = "Base de datos no relacional"
 
 
 [question-37]
-Question = "Al implementar una cuenta de Azure Storage, y eliges Almacenamiento con Redundancia Geográfica (GRS), ¿cuántas copias de tus datos mantiene Azure?"
+Question = "Una empresa de servicios de respaldo en la nube está configurando Azure Storage para almacenar datos críticos de sus clientes. El equipo de infraestructura necesita entender cuántas copias de los datos mantiene Azure cuando se elige Almacenamiento con Redundancia Geográfica (GRS) para garantizar la máxima durabilidad."
 Correct = "C"
 A = "2"
 B = "3"
@@ -978,7 +978,7 @@ Topic = "Gestión de datos no relacionales"
 
 
 [question-38]
-Question = "Tu empresa tiene un servidor de SQL Database que tiene dos bases de datos SQL en él. Te gustaría permitir conexiones a través de la internet pública a estas bases de datos. Cada base de datos tiene un conjunto diferente de clientes sin superposición. Te gustaría que los clientes de una empresa puedan acceder a una base de datos pero no a la otra. ¿Cómo configuras tu firewall para habilitar esto?"
+Question = "Una empresa de servicios de consultoría tiene un servidor de SQL Database que tiene dos bases de datos SQL en él. Quieren permitir conexiones a través de la internet pública a estas bases de datos. Cada base de datos tiene un conjunto diferente de clientes sin superposición. Quieren que los clientes de una empresa puedan acceder a una base de datos pero no a la otra. ¿Cómo configuran su firewall para habilitar esto?"
 Correct = "C"
 A = "Grupo de Seguridad de Red (NSG)"
 B = "Servicio Azure Firewall"
@@ -1005,7 +1005,7 @@ Topic = "Seguridad de datos relacionales"
 
 
 [question-39]
-Question = "¿Cuál de los siguientes modelos de base de datos está optimizado para consultas profundas y complejas que podrían tomar horas para ejecutar o atar la computadora de manejar otras tareas?"
+Question = "Una empresa de investigación de mercado está evaluando diferentes modelos de base de datos para su sistema de análisis de tendencias de consumo. Necesitan ejecutar consultas complejas que pueden tomar varias horas para procesar grandes volúmenes de datos históricos. ¿Cuál de los siguientes modelos de base de datos está optimizado para consultas profundas y complejas que podrían tomar horas para ejecutar?"
 Correct = "D"
 A = "Azure Stream Analytics"
 B = "Almacenamiento Data Lake"
@@ -1032,7 +1032,7 @@ Topic = "Carga de trabajo analítica"
 
 
 [question-40]
-Question = "¿Qué tipo de ataque malicioso intenta leer valores de base de datos usando campos de formulario en un sitio web?"
+Question = "Una empresa de desarrollo web está evaluando las vulnerabilidades de seguridad de su aplicación de comercio electrónico. El equipo de seguridad necesita identificar qué tipo de ataque malicioso intenta leer valores de base de datos usando campos de formulario en un sitio web."
 Correct = "C"
 A = "Ataque de Denegación de Servicio Distribuido (DDoS)"
 B = "Ataque de Fuerza Bruta"
@@ -1058,10 +1058,8 @@ Referencias:
 Topic = "Seguridad de datos relacionales"
 
 
-
-
 [question-41]
-Question = "¿Qué declaración SQL se utiliza para agregar una nueva fila a una tabla?"
+Question = "Un equipo de desarrollo está creando una aplicación de gestión de empleados para una empresa. Necesitan entender qué declaración SQL utilizar cuando un nuevo empleado se une a la empresa y necesitan agregar su información a la base de datos. ¿Qué declaración SQL se utiliza para agregar una nueva fila a una tabla?"
 Correct = "A"
 A = "INSERT"
 B = "SELECT"
@@ -1085,8 +1083,10 @@ Referencias:
 [https://learn.microsoft.com/es-es/sql/t-sql/statements/insert-transact-sql](https://learn.microsoft.com/es-es/sql/t-sql/statements/insert-transact-sql)
 """
 Topic = "Conceptos relacionales"
+
+
 [question-42]
-Question = "¿Cuál de los siguientes formatos de archivo se utiliza para almacenar datos estructurados y semi-estructurados en un formato binario comprimido que está optimizado para análisis de datos?"
+Question = "Una empresa de análisis de big data está evaluando diferentes formatos de archivo para almacenar grandes volúmenes de datos de sensores IoT. Necesitan un formato que sea eficiente en almacenamiento y optimizado para consultas analíticas. ¿Cuál de los siguientes formatos de archivo se utiliza para almacenar datos estructurados y semi-estructurados en un formato binario comprimido que está optimizado para análisis de datos?"
 Correct = "B"
 A = "CSV (Comma-Separated Values)"
 B = "Parquet"
@@ -1110,8 +1110,10 @@ Referencias:
 [https://learn.microsoft.com/es-es/azure/databricks/data/data-sources/read-write-data/file-formats/parquet](https://learn.microsoft.com/es-es/azure/databricks/data/data-sources/read-write-data/file-formats/parquet)
 """
 Topic = "Opciones de almacenamiento de datos"
+
+
 [question-43]
-Question = "¿Cuál de las siguientes es una característica clave de una base de datos relacional?"
+Question = "Una empresa de servicios financieros está diseñando una nueva base de datos para gestionar transacciones bancarias. El equipo de arquitectura de datos necesita entender qué característica fundamental define una base de datos relacional. ¿Cuál de las siguientes es una característica clave de una base de datos relacional?"
 Correct = "D"
 A = "Los datos se almacenan en una estructura jerárquica"
 B = "Los datos se almacenan en una estructura distribuida y particionada"
@@ -1135,8 +1137,10 @@ Referencias:
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/)
 """
 Topic = "Conceptos relacionales"
+
+
 [question-44]
-Question = "Estás diseñando una canalización de ingesta de datos para una solución de análisis a gran escala. ¿Qué servicio utilizarías para procesar y transformar datos antes de almacenarlos en un data lake?"
+Question = "Una empresa de retail está diseñando una canalización de ingesta de datos para su solución de análisis de ventas a gran escala. Necesitan procesar y transformar datos de múltiples fuentes antes de almacenarlos en un data lake. ¿Qué servicio utilizarían para procesar y transformar datos antes de almacenarlos en un data lake?"
 Correct = "A"
 A = "Azure Data Factory"
 B = "Azure Synapse Analytics"
@@ -1160,8 +1164,10 @@ Referencias:
 [https://learn.microsoft.com/es-es/azure/data-factory/](https://learn.microsoft.com/es-es/azure/data-factory/)
 """
 Topic = "Análisis a gran escala"
+
+
 [question-45]
-Question = "¿Cuál de las siguientes es una característica clave de las cargas de trabajo transaccionales en los servicios de datos de Microsoft?"
+Question = "Una empresa de servicios de pago en línea está evaluando las características de las cargas de trabajo transaccionales para su sistema de procesamiento de pagos. El equipo de desarrollo necesita entender qué característica es fundamental para garantizar la precisión de las transacciones financieras. ¿Cuál de las siguientes es una característica clave de las cargas de trabajo transaccionales en los servicios de datos de Microsoft?"
 Correct = "D"
 A = "Admite análisis a gran escala y almacenamiento de datos"
 B = "Optimizado para cargas de trabajo de aprendizaje automático e inteligencia artificial"
@@ -1185,8 +1191,10 @@ Referencias:
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing)
 """
 Topic = "Cargas de trabajo de datos comunes"
+
+
 [question-46]
-Question = "¿Cuál de las siguientes NO es una característica de los modelos de datos en Microsoft Power BI?"
+Question = "Una empresa de consultoría está evaluando las capacidades de Microsoft Power BI para su proyecto de análisis de datos. El equipo de BI necesita entender qué características están disponibles en los modelos de datos de Power BI. ¿Cuál de las siguientes NO es una característica de los modelos de datos en Microsoft Power BI?"
 Correct = "A"
 A = "Aplicar políticas de gobernanza de datos en toda la organización"
 B = "Habilitar seguridad a nivel de fila basada en roles de usuario"
@@ -1210,8 +1218,10 @@ Referencias:
 [https://learn.microsoft.com/es-es/power-bi/transform-model/desktop-relationships-understand](https://learn.microsoft.com/es-es/power-bi/transform-model/desktop-relationships-understand)
 """
 Topic = "Microsoft Power BI"
+
+
 [question-47]
-Question = "¿Qué servicio de Azure se recomienda para almacenar y consultar grandes volúmenes de datos estructurados y semi-estructurados para cargas de trabajo analíticas?"
+Question = "Una empresa de investigación científica está buscando un servicio de Azure para almacenar y consultar grandes volúmenes de datos de experimentos que incluyen tanto datos estructurados como semi-estructurados. Necesitan un servicio optimizado para cargas de trabajo analíticas complejas. ¿Qué servicio de Azure se recomienda para almacenar y consultar grandes volúmenes de datos estructurados y semi-estructurados para cargas de trabajo analíticas?"
 Correct = "D"
 A = "Azure Cosmos DB"
 B = "Azure Data Lake Storage Gen2"
@@ -1235,8 +1245,10 @@ Referencias:
 [https://learn.microsoft.com/es-es/azure/synapse-analytics/](https://learn.microsoft.com/es-es/azure/synapse-analytics/)
 """
 Topic = "Análisis a gran escala"
+
+
 [question-48]
-Question = "Al normalizar datos en una base de datos relacional, ¿cuál de las siguientes declaraciones sobre la primera forma normal (1NF) es correcta?"
+Question = "Una empresa de desarrollo de software está normalizando su base de datos de gestión de clientes. El equipo de base de datos necesita entender los principios de la primera forma normal (1NF) para evitar redundancia de datos. Al normalizar datos en una base de datos relacional, ¿cuál de las siguientes declaraciones sobre la primera forma normal (1NF) es correcta?"
 Correct = "B"
 A = "Requiere que no haya dependencias transitivas entre atributos no clave."
 B = "Requiere que cada registro sea único y no haya grupos de datos repetidos."
@@ -1260,8 +1272,10 @@ Referencias:
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/normalization](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/normalization)
 """
 Topic = "Conceptos relacionales"
+
+
 [question-49]
-Question = "Tu organización requiere una solución de base de datos PostgreSQL escalable en Azure que admita tanto escalado vertical como horizontal para acomodar cargas variables. ¿Qué servicio de base de datos de Azure recomendarías para satisfacer esta necesidad específica para un sistema de base de datos de código abierto, mientras también proporciona respaldos automáticos, características de seguridad sólidas y la capacidad de escalar recursos de computación y almacenamiento de forma independiente?"
+Question = "Una empresa de desarrollo de aplicaciones web requiere una solución de base de datos PostgreSQL escalable en Azure que admita tanto escalado vertical como horizontal para acomodar cargas variables. ¿Qué servicio de base de datos de Azure recomendarías para satisfacer esta necesidad específica para un sistema de base de datos de código abierto, mientras también proporciona respaldos automáticos, características de seguridad sólidas y la capacidad de escalar recursos de computación y almacenamiento de forma independiente?"
 Correct = "A"
 A = "Azure Database for PostgreSQL - Hyperscale (Citus)"
 B = "Azure Database for PostgreSQL - Single Server"
@@ -1285,8 +1299,10 @@ Referencias:
 [https://learn.microsoft.com/es-es/azure/postgresql/hyperscale/](https://learn.microsoft.com/es-es/azure/postgresql/hyperscale/)
 """
 Topic = "Servicios de datos relacionales de Azure"
+
+
 [question-50]
-Question = "¿Qué servicio te permite crear y gestionar un servicio de análisis de big data nativo de la nube y completamente administrado que integra Apache Spark con las capacidades de seguridad empresarial y cumplimiento de Microsoft?"
+Question = "Una empresa de análisis de datos está buscando un servicio de Azure que les permita crear y gestionar un servicio de análisis de big data nativo de la nube y completamente administrado que integre Apache Spark con las capacidades de seguridad empresarial y cumplimiento de Microsoft. ¿Qué servicio les permitiría lograr esto?"
 Correct = "C"
 A = "Azure Synapse Analytics"
 B = "Microsoft Purview"

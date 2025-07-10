@@ -1020,7 +1020,6 @@ Referencias:
 """
 Topic = "Gestión de datos no relacionales"
 
-
 [question-39]
 Question = "Como administrador de base de datos para una empresa de retail que está rediseñando su sistema de inventario para mejorar el rendimiento y reducir la duplicación de datos, necesitas entender los principios de diseño de bases de datos. ¿Qué es el concepto de NORMALIZACIÓN cuando se trata de bases de datos relacionales?"
 Correct = "C"
@@ -1353,3 +1352,4 @@ Referencias:
 [https://learn.microsoft.com/es-es/azure/cosmos-db/introduction](https://learn.microsoft.com/es-es/azure/cosmos-db/introduction)
 """
 Topic = "Azure Cosmos DB"
+
