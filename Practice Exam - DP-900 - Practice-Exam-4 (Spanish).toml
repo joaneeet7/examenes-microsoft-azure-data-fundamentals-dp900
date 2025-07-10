@@ -1,0 +1,492 @@
+# CourseID = XXX
+# PracticeTestID = XXX
+
+[question-1]
+Question = "Estás desarrollando una aplicación para analizar imágenes de plantas y clasificar en diferentes especies. ¿Cuál servicio de Azure AI Services deberías utilizar?"
+Correct = "A"
+A = "Custom Vision"
+B = "Azure AI Vision"
+C = "Face"
+D = "Azure AI Document Intelligence"
+Explanation = """
+Opción correcta:
+
+**[@@-A]** - Custom Vision permite crear y entrenar modelos de clasificación de imágenes personalizados. Con este servicio, puedes proporcionar imágenes etiquetadas de diferentes especies de plantas y entrenar un modelo que las clasifique con precisión. Custom Vision ofrece una interfaz intuitiva para etiquetar y anotar imágenes, junto con potentes funciones de entrenamiento para crear y ajustar modelos.
+
+Opciones incorrectas:
+
+**[@@-B]** - Azure AI Vision proporciona diversas capacidades de análisis de imágenes, como detección de objetos, etiquetado de imágenes y OCR (reconocimiento óptico de caracteres), pero no está optimizado para la clasificación de especies de plantas. Custom Vision, en cambio, ofrece más personalización y control sobre el proceso de entrenamiento, haciéndolo ideal para construir un modelo diseñado específicamente para clasificar especies de plantas.
+
+**[@@-C]** - Face está enfocado en la detección y análisis de rostros. No es adecuado para clasificar plantas ni otros objetos.
+
+**[@@-D]** - Azure AI Document Intelligence está diseñado para extraer datos estructurados de formularios y documentos. No es adecuado para tareas de clasificación de imágenes, como identificar especies de plantas.
+
+Referencias:
+
+[https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service](https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service)
+
+[https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service/overview](https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service/overview)
+
+[https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service/getting-started-build-a-classifier](https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service/getting-started-build-a-classifier)
+"""
+Topic = "Computer Vision"
+
+
+
+===
+
+
+Question 1
+Skipped
+Which of the following is an advantage of batch processing of data? Choose two.
+One single bad row of data doesn't affect the whole job
+Data gets processed immediately
+Correct selection
+You can choose a time when computers are idle, such as overnight
+Correct selection
+Processing data altogether is sometimes more efficient than processing data one at a time
+Overall explanation
+Batch processing of data allows you to schedule a job in an off-peak hour such as overnight. It is also sometimes easier to run a batch of data through a process instead of a constant stream of one at a time. But batch processing does add delay to data processing, and it can happen that a bad piece of data stops the job, affecting other data too.
+Domain
+Core data workloads
+Question 2
+Skipped
+Your company is implementing an Enterprise Data Warehouse, and the first step is to get the data from an external source into Azure. You anticipate there being a lot of data to bring into Azure, and you can't estimate with certainty how much. There could possibly be an Exabyte of data. You need a data storage solution designed for storing a large amount of non-relational data, before using a Data Factory to process the data. What data store is appropriate for the first step?
+Azure Blob Storage
+Azure Synapse Analytics
+Correct answer
+Azure Data Lake Storage Gen2
+Azure Cosmos DB
+Overall explanation
+Azure Data Lake is the correct answer. Blob Storage is also a place to store data before processing, but if you can't estimate how much data, there are limits on the size per account. Cosmos DB is not great for large amounts of unprocessed data. A Data Lake is a much better answer for ingesting data before processing. Synapse is a good data warehouse solution, but typically is used after you have ingested and processed the data. Refer to Microsoft Doc: https://docs.microsoft.com/en-ca/azure/storage/blobs/data-lake-storage-introduction
+Domain
+Data Warehouse
+Question 3
+Skipped
+Which of the following metrics affect how much an Azure Table Storage account costs?
+Consumed storage only
+Correct answer
+Region, geo-replication, consumed storage
+Tier - Standard or Premium
+Per transaction - reads and writes
+Overall explanation
+Storage tables are charged based on the region they are located in, the replication option, the consumed storage, and a few cents per million transactions. Refer to Microsoft Doc: https://azure.microsoft.com/en-us/pricing/details/storage/tables/
+Domain
+Non-relational deployment
+Question 4
+Skipped
+Which Azure Storage service is specifically designed to store large quantities of raw and unprocessed data, at very fast speeds? That is, where would a Data Warehouse store it's raw data before being ingested?
+Azure SQL Database
+Azure Table Storage
+Azure Queue Storage
+Correct answer
+Azure Data Lake Storage
+Overall explanation
+Azure Data Lake Storage is specifically designed to be the initial place data is ingested into Azure, before being further processed and moved into a more organized and structured data storage such as Azure SQL Database or Azure Cosmos DB for further analysis. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/learn/modules/examine-components-of-modern-data-warehouse/3-explore-azure-data-services-warehousing
+Domain
+Data Warehouse
+Question 5
+Skipped
+What are the four pricing tiers for Azure File Storage?
+Basic, Standard, Premium, Isolated
+Correct answer
+Premium, Transaction Optimized, Hot, Cool
+Premium, Hot, Cold, Glacier
+S1, S2, S3, S4
+Overall explanation
+Azure File Storage can support Premium storage on premium disks, or transaction optimized storage, hot and cool options as well. Refer to Microsoft Doc: https://azure.microsoft.com/en-us/pricing/details/storage/files/
+Domain
+Azure Storage
+Question 6
+Skipped
+Can Azure Data Factory be used to copy data from an external source such as Amazon Redshift?
+No
+Correct answer
+Yes
+Overall explanation
+Yes, Azure Data Factory supports many different internal and external data sources for it's Copy Data activity, including Redshift. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities
+Domain
+Data processing
+Question 7
+Skipped
+Can you run SQL Server on Linux in Azure?
+No, SQL Server is Windows only.
+Correct answer
+Yes! Azure has SQL Server 2017 and 2019 on Linux
+Overall explanation
+Yes! Azure has SQL Server 2017 and 2019 on Linux
+Domain
+SQL Server on VM
+Question 8
+Skipped
+Which of the following terms means "processing data in groups"?
+Streaming
+Buffering
+Correct answer
+Batching
+Templating
+Overall explanation
+Batching data is processed in groups.
+Domain
+Core data workloads
+Question 9
+Skipped
+When data analytics output only answers questions about what happened in the past based on historical data, what category is it?
+Cognitive
+Diagnostic
+Prescriptive
+Correct answer
+Descriptive
+Overall explanation
+Descriptive analytics helps answers questions about what has happened, based on historical data.
+Domain
+Data analytics core concepts
+Question 10
+Skipped
+Which of the following data processing techniques would be best used for handling a file containing millions of rows of data?
+Correct answer
+Batch processing
+Stream processing
+Overall explanation
+Batch processing is better designed to handle large quantities of data efficiently. Stream processing is intended for small batches of data or individual items.
+Domain
+Core data workloads
+Question 11
+Skipped
+Which data loading approach is more suitable for situations that require scaling, and is ideal for large volumes of data?
+ETL
+Correct answer
+ELT
+Overall explanation
+ELT is a more scalable approach, because the data is transformed after it's loaded into the cloud database.
+Domain
+Data analytics core concepts
+Question 12
+Skipped
+Which of the following terms means "processing data as it arrives"?
+Batching
+Buffering
+Templating
+Correct answer
+Streaming
+Overall explanation
+Streaming data is processed as it arrives.
+Domain
+Core data workloads
+Question 13
+Skipped
+Does MySQL, PostgreSQL and SQL Database share the exact same SQL syntax?
+Yes, SQL is a standard and all Azure managed databases use the same version of SQL.
+Correct answer
+No, even though SQL is a standard, each database has it's own version of that standard that is not 100% the same.
+Overall explanation
+SQL Server runs T-SQL, while MySQL
+Domain
+SQL Query
+Question 14
+Skipped
+Which data visualization style is a tabular structure?
+Line chart
+Treemap
+Correct answer
+Matrix
+Bar chart
+Overall explanation
+A matrix visual is a tabular structure that summarizes data.
+Domain
+Data analytics core concepts
+Question 15
+Skipped
+What method of provisioning a non-relational database involves first defining the database in a JSON file, which can then be checked into a code repository for source control, sometimes also referred to as Infrastructure as Code?
+Azure Portal
+PowerShell Scripts
+Correct answer
+ARM templates
+CLI Bash Shell
+Overall explanation
+ARM templates are a way of defining your infrastructure using declaritive statements, as opposed to scripts. You define what you want your resources to look like, including the properties and values, and Azure will ensure they look that way. Scripts suffer from the problem of not being able to run the same script twice, whereas ARM templates can be deployed again and again without issue. This is sometimes called Desired State Configuration (or DSC). Refer to Microsoft Doc: https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services
+Domain
+Non-relational deployment
+Question 16
+Skipped
+What method of provisioning a non-relational database would be best for users that only need to do this one time?
+Correct answer
+Azure Portal
+Bicep scripting
+PowerShell scripting
+ARM templates
+Overall explanation
+If you only need to perform a task once, or have custom configuration needs, using the Azure Portal to create a resource is probably the best approach. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services
+Domain
+Non-relational DB management
+Question 17
+Skipped
+Which of the following database features would be best for an analytics workload and not a transactional workload?
+A fully-normalized table structure, requiring a lot of JOINs to extract reports
+Semi-structured data, stored in JSON documents
+Unstructured data, stored as binary files in a Blob storage account
+Correct answer
+Optimized for reading data and not optimized (or even able) to update data
+Overall explanation
+Analytics workloads focus on running reports, with complex and long-running queries. They are best unnormalized or at least partially-unnormalized. Data that can change at any moment would make such a DB difficult as reports would have different results between runs. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing
+Domain
+Analytics Workload
+Question 18
+Skipped
+With SQL Server in a Virtual Machine, can you select the specific version of SQL Server you need or does it only run the latest version?
+Correct answer
+You can choose from any number of still-supported SQL Server versions
+Running SQL Server in the cloud means you have to accept whatever version they are running
+Overall explanation
+You can select from any of the still-supported versions of SQL Sever on a VM.
+Domain
+SQL Server on VM
+Question 19
+Skipped
+What data structure represents "entities" in a relational database?
+Correct answer
+Tables
+Indexes
+Databases
+Rows
+Overall explanation
+A table represents a unique entity in the real world - such as a customer, an order, or a product.
+Domain
+Relational data workloads
+Question 20
+Skipped
+Which of the following statements best describes Azure Databricks?
+A machine learning platform
+Correct answer
+A data analytics platform optimized for Azure cloud services
+A non-relational data store
+A relational database
+Overall explanation
+Azure Databricks offers a SQL platform for analysts to run queries against data, a platform to allow data scientists and engineers to work together on tough data science problems, and a machine learning environment to build, train and test models. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks
+Domain
+Azure Databricks
+Question 21
+Skipped
+Which type of SQL query language is used to creating and modifying the structure of a database?
+Correct answer
+DDL
+DML
+DQL
+DCL
+Overall explanation
+DDL is Data Definition Language, and is used for creating data schema elements.
+Domain
+SQL Query
+Question 22
+Skipped
+Which type of data analytics workload is best for processing data that arrives in a stream, without a start or an end?
+Correct answer
+Real-time processing
+ETL pipeline
+Batch processing
+Overall explanation
+Real-time processing is defined as the processing of unbounded stream of input data, with very short latency requirements for processing - measured in milliseconds or seconds. This incoming data typically arrives in an unstructured or semi-structured format, such as JSON, and has the same processing requirements as batch processing, but with shorter turnaround times to support real-time consumption. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/real-time-processing
+Domain
+Analytics workload
+Question 23
+Skipped
+In what way can ETL help with data privacy and compliance?
+ETL is ideal for large volumes of data
+ETL cannot help with privacy and compliance
+ETL allows you to run reports on the data before it is ingested
+Correct answer
+ETL allows you to filter out sensitive data before it's loaded into the data store
+Overall explanation
+ETL means that you transform the data before it gets loaded into the data store, which can allow you to filter out sensitive fiels and personally-identifiable information.
+Domain
+Data analytics core concepts
+Question 24
+Skipped
+What happens if you do not provision enough Request Units per second (RU/s) than your application requires?
+You will be charged for the excess Request Units
+The application will not receive any errors but you will see a notification in the Azure portal
+Correct answer
+Requests will be asked to retry later
+Requests will take longer than expected
+Overall explanation
+If you underprovision (by specifying too few RU/s), Cosmos DB will start throttling performance. Once throttling begins, requests will be asked to retry later when hopefully there are available resources to satisfy it. If an application makes too many attempts to retry a throttled request, the request could be aborted. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/3-provision-azure-cosmos-db
+Domain
+Non-relational deployment
+Question 25
+Skipped
+Which of the following data processing techniques would be best used for a stock market trading app that relies on real-time changes in the price of a stock?
+Correct answer
+Stream processing
+Batch processing
+Overall explanation
+Any program that requires real-time processing and is extremely time-sensitive might want to consider stream processing data
+Domain
+Core data workloads
+Question 26
+Skipped
+Which of the following SQL statements is most likely to retrieve all of the columns and rows of the Employees table?
+SELECT Employees WHERE Location = 'Idaho';
+Correct answer
+SELECT * FROM Employees;
+SELECT TABLE Employees;
+SELECT VIEW Employees;
+Overall explanation
+The SQL syntax requires the verb SELECT, followed by a list of column names or *, followed by FROM, followed by the table name, and ending in a semi-colon.
+Domain
+SQL Query
+Question 27
+Skipped
+Your company has an Azure Function with a public URL. An outside service periodically calls that URL with a binary image as data in the body of the request. You want this Azure Function to take this request, and store the binary image data somewhere in Azure for later retrival. You need an Azure storage service that can store binary data such as images. Which is the best non-relational data store for this scenario that you would recommend?
+Cosmos DB
+Correct answer
+Azure Blob Storage
+Redis Cache
+SQL Database
+Overall explanation
+Blob Storage is the best place to store binary files such as images. Neither Cosmos DB nor Redis Cache can handle large amounts of data such as this, and it does not make sense to do it using SQL Database. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/3-explore-azure-blob-storage
+Domain
+Non-relational DB
+Question 28
+Skipped
+Which SQL server query tool offers a modern editor experience, Intellisense, code snippets, source control integration, and an integrated terminal?
+sqlcmd
+Azure Portal Data Explorer
+Correct answer
+Azure Data Studio
+Microsoft Visual Studio
+Overall explanation
+Azure Data Studio is a modern data development environment that offers all of those features. In the Azure Portal, you can run some basic queries against your database, but won't get access to those featuers. sqlcmd is a command line tool. Microsoft Visual Studio offers a lot of those features for code development, and not specifically for SQL Server data development. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15
+Domain
+Relational DB Management
+Question 29
+Skipped
+Which of the following Azure data services is said to be in the IaaS model?
+Correct answer
+SQL Server in a Virtual Machine
+SQL Server running on premises
+SQL Managed Instances
+Azure SQL Database
+Overall explanation
+SQL Server in a virtual machine is the Infrastructure as a Service Model. This requires you to have the expertise to maintain both the server software for patches and upgrades, as well as the operating system underneath. It is one of the easiest ways to migrate your on-prem SQL Server into Azure, as it usually requires very little coding or other changes.
+Domain
+Relational Azure databases
+Question 30
+Skipped
+Which of the following columns would make a good ID field for a data table?
+A timestamp field with the current date and time, down to the second
+Customer name
+Email address
+Correct answer
+A sequential number starting from 1 that increments by 1 every time a data row is added to the table
+Overall explanation
+The most common type of ID field is a sequential number that starts from 1, managed by the database itself. This is to ensure each row is unique and can be addressed by a unique number. A customer name would make a terrible ID field as it might not be unique. ID fields are typically decimal or hexidecimal numbers.
+Domain
+Relational data workloads
+Question 31
+Skipped
+Which Azure service allows data analysts, data scientists, machine learning engineers, and data engineers to collaborate together in an interactive workspace? The workspace exists inside an Apache Spark cluster.
+Correct answer
+Azure Databricks
+Azure Data Factory
+Azure Synapse Analytics
+Azure SQL Database
+Overall explanation
+Azure Databricks is a data analytics platform optimized for the Microsoft Azure cloud services platform. Azure Databricks offers three environments for developing data intensive applications: Databricks SQL, Databricks Data Science & Engineering, and Databricks Machine Learning. Databricks Data Science & Engineering provides an interactive workspace that enables collaboration between data engineers, data scientists, and machine learning engineers. For a big data pipeline, the data (raw or structured) is ingested into Azure through Azure Data Factory in batches, or streamed near real-time using Apache Kafka, Event Hub, or IoT Hub. This data lands in a data lake for long term persisted storage, in Azure Blob Storage or Azure Data Lake Storage. As part of your analytics workflow, use Azure Databricks to read data from multiple data sources and turn it into breakthrough insights using Spark. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks
+Domain
+Data processing
+Question 32
+Skipped
+Which data visualization style is colored rectangles of varying size?
+Matrix
+Correct answer
+Treemap
+Scatter chart
+Pie chart
+Overall explanation
+Treemaps are charts of colored rectangles, with size representing the relative value of each item. They can be hierarchical, with rectangles nested within the main rectangles.
+Domain
+Data analytics core concepts
+Question 33
+Skipped
+What data structure allows a database server to find data much faster than without it?
+Correct answer
+Indexes
+Foreign Keys
+Columns
+Rows
+Overall explanation
+Indexes allow a database query engine to find data much faster than searching the entire table for the data.
+Domain
+Relational data workloads
+Question 34
+Skipped
+What is one reason why someone would design a report as a paginated report?
+Generating the report will likely go into the 100,000s of pages.
+It needs to be a visual summary of the data, including charts and graphs
+Correct answer
+It needs to be printed or shared.
+It will be consumed entirely online
+Overall explanation
+Paginated reports are great when you need all of the details in one place. Instead of printing thousands of rows on the screen, you paginate them which makes it easier to navigate. It can also be printed. Charts and graphs are more likely to appear on a dashboard, where data needs to be summarized. And I would not suggest creating a report that spans 100,000s of pages because no one will every read that. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/power-bi/paginated-reports/paginated-reports-report-builder-power-bi
+Domain
+Power BI
+Question 35
+Skipped
+Can a SQL Database server have both Server-level IP firewall rules AND Database-level IP firewall rules? Or must you choose one or the other?
+No, you must choose one or the other
+Any IPs in the database-level firewall must also exist in the server-level firewall
+Correct answer
+You can have both server-level rules and database-level rules
+Overall explanation
+You can have both server- and database-level firewall IP rules, and they exist independently. An IP can exist in a database rule and not a server rule, and the user would have access to the specific database and not all databases on the server. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-configure
+Domain
+Relational data security
+Question 36
+Skipped
+What feature of Azure Blob Storage would allow recovery of a file that was accidentally deleted? Choose two.
+Correct selection
+Blob versioning
+Correct selection
+Soft delete
+Change feed
+Immutable blobs
+Overall explanation
+The best answer is the soft delete feature. This enforces a time in which a deleted blob is recoverable. Blob versioning also allows a deleted blob to be recovered. The other two answers do not specifically deal with recovering deleted data. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview
+Domain
+Azure Storage
+Question 37
+Skipped
+Which of the following is an advantage of running your SQL database on the PaaS model in Azure?
+Correct answer
+Cheapest up-front capital expenditure
+Cheapest per-day operational expenditure
+Keep control of your data inside your own corporate environment
+Maximize your control of the hardware settings
+Overall explanation
+Starting a SQL Database in Azure costs nothing up front ($0), you simply pay for the ongoing per hour cost of running the database.
+Domain
+Relational Azure databases
+Question 38
+Skipped
+When deploying an Azure Storage account, and you choose Locally Redundant Storage (LRS), how many copies of your data does Azure keep?
+1 copy in each Availability Zone
+1
+6
+Correct answer
+3
+Overall explanation
+Azure Storage always stores multiple copies of your data so that it is protected from planned and unplanned events, including transient hardware failures, network or power outages, and massive natural disasters. Redundancy ensures that your storage account meets its availability and durability targets even in the face of failures. Locally redundant storage (LRS) copies your data synchronously three times within a single physical location in the primary region. LRS is the least expensive replication option, but is not recommended for applications requiring high availability or durability. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+Domain
+Non-relational data management
+Question 39
+Skipped
+What type of non-relational data revolves around nodes and the relationships between the nodes? This would be a good data type for databases that need to navigate from node to related nodes, like a company organization chart or a social network.
+MongoDB data
+Core (SQL) data
+Correct answer
+Graph data
+Document data
+Overall explanation
+Graph databases allow you to easily navigate the relationships between the data (edges) and not just the data itself. It was specially designed for things like social networks. Refer to Microsoft Doc: https://docs.microsoft.com/en-gb/azure/architecture/data-guide/big-data/non-relational-data
+Domain
+Non-relational DB

@@ -1,0 +1,82 @@
+# CourseID = XXX
+# PracticeTestID = XXX
+
+[question-1]
+From = "Practice Exam - DP-900 - Practice-Exam-1 (Spanish).toml"
+QuestionID = 1
+
+[question-2]
+From = "Practice Exam - DP-900 - Practice-Exam-1 (Spanish).toml"
+QuestionID = 2
+
+[question-3]
+From = "Practice Exam - DP-900 - Practice-Exam-1 (Spanish).toml"
+QuestionID = 3
+
+[question-4]
+From = "Practice Exam - DP-900 - Practice-Exam-1 (Spanish).toml"
+QuestionID = 4
+
+[question-5]
+From = "Practice Exam - DP-900 - Practice-Exam-1 (Spanish).toml"
+QuestionID = 5
+
+[question-6]
+From = "Practice Exam - DP-900 - Practice-Exam-2 (Spanish).toml"
+QuestionID = 6
+
+[question-7]
+From = "Practice Exam - DP-900 - Practice-Exam-2 (Spanish).toml"
+QuestionID = 7
+
+[question-8]
+From = "Practice Exam - DP-900 - Practice-Exam-2 (Spanish).toml"
+QuestionID = 8
+
+[question-9]
+From = "Practice Exam - DP-900 - Practice-Exam-2 (Spanish).toml"
+QuestionID = 9
+
+[question-10]
+From = "Practice Exam - DP-900 - Practice-Exam-2 (Spanish).toml"
+QuestionID = 10
+
+[question-11]
+From = "Practice Exam - DP-900 - Practice-Exam-3 (Spanish).toml"
+QuestionID = 11
+
+[question-12]
+From = "Practice Exam - DP-900 - Practice-Exam-3 (Spanish).toml"
+QuestionID = 12
+
+[question-13]
+From = "Practice Exam - DP-900 - Practice-Exam-3 (Spanish).toml"
+QuestionID = 13
+
+[question-14]
+From = "Practice Exam - DP-900 - Practice-Exam-3 (Spanish).toml"
+QuestionID = 14
+
+[question-15]
+From = "Practice Exam - DP-900 - Practice-Exam-3 (Spanish).toml"
+QuestionID = 15
+
+[question-16]
+From = "Practice Exam - DP-900 - Practice-Exam-4 (Spanish).toml"
+QuestionID = 16
+
+[question-17]
+From = "Practice Exam - DP-900 - Practice-Exam-4 (Spanish).toml"
+QuestionID = 17
+
+[question-18]
+From = "Practice Exam - DP-900 - Practice-Exam-4 (Spanish).toml"
+QuestionID = 18
+
+[question-19]
+From = "Practice Exam - DP-900 - Practice-Exam-4 (Spanish).toml"
+QuestionID = 19
+
+[question-20]
+From = "Practice Exam - DP-900 - Practice-Exam-4 (Spanish).toml"
+QuestionID = 20

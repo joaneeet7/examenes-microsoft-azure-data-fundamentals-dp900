@@ -1,0 +1,743 @@
+# CourseID = XXX
+# PracticeTestID = XXX
+
+[question-1]
+Question = "Estás desarrollando una aplicación para analizar imágenes de plantas y clasificar en diferentes especies. ¿Cuál servicio de Azure AI Services deberías utilizar?"
+Correct = "A"
+A = "Custom Vision"
+B = "Azure AI Vision"
+C = "Face"
+D = "Azure AI Document Intelligence"
+Explanation = """
+Opción correcta:
+
+**[@@-A]** - Custom Vision permite crear y entrenar modelos de clasificación de imágenes personalizados. Con este servicio, puedes proporcionar imágenes etiquetadas de diferentes especies de plantas y entrenar un modelo que las clasifique con precisión. Custom Vision ofrece una interfaz intuitiva para etiquetar y anotar imágenes, junto con potentes funciones de entrenamiento para crear y ajustar modelos.
+
+Opciones incorrectas:
+
+**[@@-B]** - Azure AI Vision proporciona diversas capacidades de análisis de imágenes, como detección de objetos, etiquetado de imágenes y OCR (reconocimiento óptico de caracteres), pero no está optimizado para la clasificación de especies de plantas. Custom Vision, en cambio, ofrece más personalización y control sobre el proceso de entrenamiento, haciéndolo ideal para construir un modelo diseñado específicamente para clasificar especies de plantas.
+
+**[@@-C]** - Face está enfocado en la detección y análisis de rostros. No es adecuado para clasificar plantas ni otros objetos.
+
+**[@@-D]** - Azure AI Document Intelligence está diseñado para extraer datos estructurados de formularios y documentos. No es adecuado para tareas de clasificación de imágenes, como identificar especies de plantas.
+
+Referencias:
+
+[https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service](https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service)
+
+[https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service/overview](https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service/overview)
+
+[https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service/getting-started-build-a-classifier](https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service/getting-started-build-a-classifier)
+"""
+Topic = "Computer Vision"
+
+
+====
+
+Pregunta 1
+Omitida
+Con un almacén de datos relacional, cuando los volúmenes de transacciones de datos se vuelven demasiado altos y el rendimiento de la base de datos se ve afectado, ¿cuál de los siguientes es un método común pero difícil de distribuir esas transacciones de datos en múltiples servidores?
+Escalado automático de SQL Database
+Explicación
+El escalado automático de SQL Database ajusta automáticamente los recursos asignados a una base de datos SQL según las demandas de carga de trabajo. Si bien esto puede ayudar a optimizar el rendimiento, no aborda directamente el problema de distribuir transacciones de datos en múltiples servidores, lo cual es necesario cuando se trata de volúmenes de transacciones altos.
+Escalado vertical del servidor
+Explicación
+El escalado vertical del servidor implica aumentar los recursos (CPU, memoria, almacenamiento) de un solo servidor para manejar volúmenes de transacciones de datos más altos. Si bien esto puede mejorar temporalmente el rendimiento, puede no ser una solución sostenible a largo plazo ya que hay un límite en cuanto puede escalar un solo servidor.
+SQL Server Stretch DB
+Explicación
+SQL Server Stretch DB te permite extender tus bases de datos SQL Server locales a Azure para acceso rentable a datos históricos. Si bien puede ayudar con el almacenamiento y acceso de datos, no aborda específicamente el problema de distribuir transacciones de datos en múltiples servidores para mejorar el rendimiento de la base de datos bajo volúmenes de transacciones altos.
+Respuesta correcta
+Fragmentación manual
+Explicación
+La fragmentación manual implica particionar una base de datos en partes más pequeñas y manejables y distribuir esas partes en múltiples servidores. Si bien es efectiva para mejorar el rendimiento de la base de datos, puede ser difícil de implementar y mantener ya que requiere planificación y coordinación cuidadosas para asegurar la consistencia e integridad de los datos.
+Explicación general
+Consulta la documentación de Microsoft: https://docs.microsoft.com/en-us/azure/cosmos-db/relational-nosql
+
+Dominio
+Base de datos no relacional
+Pregunta 2
+Omitida
+¿Cuáles de las siguientes métricas afectan cuánto cuesta una instancia de Azure Redis Cache?
+Respuesta correcta
+Región, nivel de precios, horas
+Región, Nivel de precios
+Región, Almacenamiento consumido, nivel de precios
+Por transacción
+Explicación general
+Redis Cache se cobra por hora y varía según la región. También depende del nivel que elijas. Consulta la documentación de Microsoft: https://azure.microsoft.com/en-us/pricing/details/cache/
+Dominio
+Implementación no relacional
+Pregunta 3
+Omitida
+Tienes problemas para conectarte a una base de datos SQL de Azure dentro de Azure desde tu casa. Otros clientes pueden conectarse exitosamente. Tienes el software instalado y puedes conectarte a otras bases de datos SQL de Azure en tu suscripción. ¿Cuál es la razón más probable por la que no puedes conectarte a esta base de datos SQL en particular?
+Necesitas otorgar derechos de lectura a tu usuario de Azure AD en la base de datos
+Necesitas conectarte a través del puerto 1433
+Respuesta correcta
+Necesitas agregar la dirección IP de tu cliente al firewall.
+Necesitas dar derechos específicos al usuario en la base de datos individual
+Explicación general
+Azure SQL Database tiene un firewall de servidor y base de datos. Por defecto, no se permiten direcciones IP para acceder a la base de datos hasta que agregues una. Consulta la documentación de Microsoft: https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/ways-to-connect-to-sql
+Dominio
+Gestión de base de datos relacional
+Pregunta 4
+Omitida
+La declaración SQL SELECT es parte de ¿qué grupo de declaraciones SQL?
+Lenguaje de Definición de Datos (DDL)
+Explicación
+Las declaraciones del Lenguaje de Definición de Datos (DDL) en SQL se utilizan para definir la estructura de objetos de base de datos como tablas, índices y vistas. La declaración SQL SELECT no es parte de DDL; en su lugar, se utiliza para recuperación y manipulación de datos, convirtiéndola en parte del Lenguaje de Manipulación de Datos (DML).
+Respuesta correcta
+Lenguaje de Manipulación de Datos (DML)
+Explicación
+La declaración SQL SELECT se categoriza bajo el Lenguaje de Manipulación de Datos (DML) en SQL. Las declaraciones DML se utilizan para recuperar, insertar, actualizar y eliminar datos en una base de datos. La declaración SELECT específicamente se utiliza para recuperar datos de una o más tablas basándose en criterios especificados.
+Explicación general
+Consulta la documentación de Microsoft: https://docs.microsoft.com/en-us/sql/t-sql/statements/statements?view=sql-server-ver15#data-manipulation-language
+
+Dominio
+Lenguaje SQL
+Pregunta 5
+Omitida
+Eres un desarrollador para la organización ACME y ejecutas una consulta SQL SELECT básica contra la base de datos de clientes. Algunos de los campos regresan parcialmente ocultos, como este número de teléfono - XXX-XXX-8866. ¿Qué característica de SQL Database se está utilizando para ocultar los datos?
+Seguridad a nivel de fila
+Explicación
+La seguridad a nivel de fila no es la opción correcta ya que es una característica que restringe el acceso a las filas en una tabla de base de datos basándose en las características del usuario que ejecuta una consulta. No implica enmascarar datos para ocultar información específica como el número de teléfono parcialmente oculto en los resultados de la consulta.
+Cifrado de Datos de Azure
+Explicación
+El Cifrado de Datos de Azure no es la opción correcta para esta situación ya que se refiere a cifrar datos almacenados en servicios de Azure para protegerlos del acceso no autorizado. No implica enmascarar datos para ocultar información sensible como lo que está sucediendo con el número de teléfono en los resultados de la consulta.
+Respuesta correcta
+Enmascaramiento Dinámico de Datos
+Explicación
+El Enmascaramiento Dinámico de Datos es la opción correcta ya que es una característica en SQL Database que te permite limitar la exposición de datos sensibles enmascarándolos a usuarios no privilegiados. En este caso, el número de teléfono está parcialmente oculto para proteger información sensible.
+Cifrado Always On
+Explicación
+El Cifrado Always On no es la opción correcta en este escenario ya que se enfoca en cifrar datos en reposo y en tránsito para proporcionar un nivel más alto de seguridad. No implica enmascarar datos como lo que se ve en el número de teléfono parcialmente oculto.
+Explicación general
+Consulta la documentación de Microsoft: https://docs.microsoft.com/en-us/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver15
+
+Dominio
+Seguridad de datos relacionales
+Pregunta 6
+Omitida
+Eres un diseñador de informes de Power BI y al hablar con el cliente, están buscando un informe de ventas que liste todos los autos vendidos en el mes pasado. Cada fila representa un auto vendido y cada columna contiene las características de la venta incluyendo la marca y modelo, quién lo vendió, la fecha de venta y el monto por el que se vendió. El cliente espera que hay miles de filas por mes, pero quieren este informe de todas formas. ¿Qué tipo de informe deberías crear para ellos en Power BI?
+Dashboard
+Explicación
+Los dashboards son más visuales e interactivos, típicamente utilizados para mostrar indicadores clave de rendimiento y resúmenes de alto nivel de datos. No son adecuados para presentar miles de filas de información detallada, ya que están destinados a proporcionar una vista general rápida en lugar de un análisis detallado.
+Respuesta correcta
+Informes Paginados
+Explicación
+Los Informes Paginados están diseñados para presentar grandes cantidades de datos en un formato imprimible, haciéndolos ideales para informes con miles de filas. Permiten un control preciso sobre el diseño y formato del informe, asegurando que toda la información necesaria se muestre claramente y de manera eficiente.
+Un informe de una página con miles de filas
+Explicación
+Crear un informe de una página con miles de filas no sería amigable para el usuario ni práctico para el cliente. Haría difícil navegar y analizar los datos efectivamente, llevando a una mala experiencia de usuario y potencialmente perdiendo insights importantes dentro del gran conjunto de datos.
+Jupyter Notebook
+Explicación
+Los Jupyter Notebooks se utilizan para computación interactiva y análisis de datos, típicamente en un entorno de codificación. Si bien pueden manejar grandes conjuntos de datos y proporcionar capacidades de análisis detallado, no son la opción más apropiada para crear un informe de ventas con miles de filas en un formato estructurado y visualmente atractivo como lo haría un Informe Paginado de Power BI.
+Explicación general
+Consulta la documentación de Microsoft: https://docs.microsoft.com/en-us/power-bi/paginated-reports/paginated-reports-report-builder-power-bi
+
+Dominio
+Power BI
+Pregunta 7
+Omitida
+Estás desarrollando un informe de Power BI para que los usuarios lo vean en sus estaciones de trabajo de escritorio. El informe necesita mostrar datos detallados y permitir que el usuario personalice los filtros y modifique la columna para ordenar. Además, los usuarios deberían poder hacer drill-through del informe a otros informes si desean ver los datos de otra manera. ¿Qué tipo de informe de Power BI deberías crear?
+Dashboard
+Explicación
+Los dashboards en Power BI proporcionan una vista general de alto nivel de métricas clave y KPIs. Si bien los usuarios pueden interactuar con los dashboards haciendo clic en visuales para ver datos subyacentes, no ofrecen el mismo nivel de capacidades de personalización, ordenamiento y drill-through que los Informes Interactivos.
+Informes PDF
+Explicación
+Los Informes PDF en Power BI son informes estáticos que se exportan a formato PDF para compartir o imprimir. Los usuarios no pueden interactuar con los datos, personalizar filtros, ordenar columnas o hacer drill-through a otros informes en un informe PDF. Este tipo de informe no es adecuado para usuarios que requieren exploración e análisis de datos interactivos.
+Informes Paginados
+Explicación
+Los Informes Paginados en Power BI están diseñados para imprimir o compartir datos en un formato de diseño fijo. No son interactivos y no permiten que los usuarios personalicen filtros, ordenen columnas o hagan drill-through a otros informes. Este tipo de informe es más adecuado para vistas estáticas y paginadas de datos.
+Respuesta correcta
+Informes Interactivos
+Explicación
+Los Informes Interactivos en Power BI permiten a los usuarios interactuar con los datos personalizando filtros, ordenando columnas y haciendo drill-through a otros informes para análisis adicional. Este tipo de informe es ideal para usuarios que quieren explorar y analizar datos de manera dinámica e interactiva.
+Explicación general
+Los informes interactivos permiten al usuario interactuar con el informe (¡sorprendente!). Pueden mostrar datos detallados y características opcionales como drill-downs, filtros y ordenamiento. Consulta la documentación de Microsoft: https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop
+
+Dominio
+Power BI
+Pregunta 8
+Omitida
+¿Cuál de los siguientes se considera una desventaja de usar un almacén de datos no relacional comparado con una base de datos relacional?
+Respuesta correcta
+Un almacén de datos no relacional no hace cumplir un estado de datos consistente dentro de la base de datos.
+Explicación
+Los almacenes de datos no relacionales no hacen cumplir relaciones y restricciones estrictas entre datos, llevando a una falta de consistencia en el estado de los datos dentro de la base de datos. Esto puede resultar en problemas de integridad de datos y hacer desafiante mantener la calidad de los datos.
+El almacén de datos no relacional no soporta diferentes tipos de almacenamiento de datos
+Explicación
+Esto no se considera una desventaja de una base de datos no relacional.
+
+Es más difícil modificar el esquema de datos de un almacén de datos no relacional
+Explicación
+Algunas bases de datos no relacionales no requieren un esquema, y es muy fácil modificar las propiedades de los datos.
+
+Los almacenes de datos relacionales son mejores para rendimiento extremadamente alto
+Explicación
+La mayoría de los grandes sitios web de redes sociales (X, Facebook, etc.) usan bases de datos no relacionales porque están mejor adaptados a los rendimientos realmente altos que requieren esos sitios.
+
+Explicación general
+Si tu base de datos tiene muchos enlaces que requieren que los datos existan en un lugar para que los datos en otro lugar tengan significado, podrías necesitar hacer más trabajo para asegurar esa consistencia en una base de datos no relacional. Las bases de datos relacionales soportan claves foráneas y pueden bloquear ciertos INSERTS, UPDATES o DELETES si la relación de clave foránea no lo permite. Consulta la documentación de Microsoft: https://docs.microsoft.com/en-us/azure/cosmos-db/relational-nosql
+
+Dominio
+Base de datos no relacional
+Pregunta 9
+Omitida
+¿Cuál es el número mínimo de Unidades de Solicitud por segundo (RU/s) que puedes asignar a una base de datos o contenedor de Cosmos DB?
+1000 RU/s
+100 RU/s
+Respuesta correcta
+400 RU/s
+0 RU/s
+Explicación general
+El rendimiento mínimo que puedes asignar a una base de datos o contenedor es 400 RU/s. Puedes aumentar y disminuir las RU/s para un contenedor en cualquier momento. Asignar más RU/s aumenta el costo. Sin embargo, una vez que asignes rendimiento a una base de datos o contenedor, se te cobrará por los recursos aprovisionados, ya sea que los uses o no. Consulta la documentación de Microsoft: https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/3-provision-azure-cosmos-db
+Dominio
+Implementación no relacional
+Pregunta 10
+Omitida
+¿Cuál es una forma de asegurar todos los datos que entran y salen de una cuenta de Azure Storage?
+Regenerar la Clave de Acceso Primaria
+Explicación
+Regenerar la Clave de Acceso Primaria es una práctica de seguridad recomendada para rotar claves de acceso periódicamente, pero no asegura directamente los datos que entran y salen de una cuenta de Azure Storage.
+Enmascaramiento Dinámico de Datos
+Explicación
+El Enmascaramiento Dinámico de Datos es una característica que ayuda a prevenir el acceso no autorizado a datos sensibles enmascarándolos, pero no asegura los datos en tránsito hacia y desde una cuenta de Azure Storage.
+Usar la biblioteca cliente Always Encrypted
+Explicación
+Usar la biblioteca cliente Always Encrypted es un método para cifrar datos sensibles almacenados en una base de datos, pero no asegura directamente los datos que entran y salen de una cuenta de Azure Storage.
+Respuesta correcta
+Habilitar la propiedad "Transferencia segura requerida" para la cuenta de almacenamiento
+Explicación
+Habilitar la propiedad "Transferencia segura requerida" para la cuenta de almacenamiento asegura que todos los datos transferidos hacia y desde la cuenta de Azure Storage estén cifrados en tránsito, proporcionando una capa adicional de seguridad para los datos.
+Explicación general
+Consulta la documentación de Microsoft: https://docs.microsoft.com/en-us/azure/storage/common/storage-require-secure-transfer
+
+Dominio
+Seguridad de datos relacionales
+Question 11
+Skipped
+Who's responsibility is "data security" in the Azure Shared Responsibility model?
+Correct answer
+Shared between Azure and the client
+Explanation
+In the Azure Shared Responsibility model, data security is a shared responsibility between Azure and the client. Azure is responsible for the security of the cloud infrastructure, while the client is responsible for securing their data and applications within the cloud environment.
+Nobody's responsibility
+Explanation
+Data security cannot be nobody's responsibility in the Azure Shared Responsibility model. Both Azure and the client have specific responsibilities when it comes to securing data within the cloud environment.
+Entirely the client's responsibility
+Explanation
+It is not entirely the client's responsibility to ensure data security in the Azure Shared Responsibility model. While the client is responsible for securing their data and applications within the cloud environment, Azure also plays a role in ensuring the overall security of the infrastructure.
+Entirely Microsoft's responsibility
+Explanation
+It is not entirely Microsoft's responsibility to ensure data security in the Azure Shared Responsibility model. While Microsoft provides a secure cloud infrastructure, the client is still responsible for securing their data and applications within that environment.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/cosmos-db/database-security
+
+Domain
+Non-relational data security
+Question 12
+Skipped
+When it comes to data security, what is the principle of least privilege?
+Users are only granted permissions for the specific task that they are trying to do, at the moment they are trying to do it.
+Explanation
+This choice does not accurately describe the principle of least privilege. The principle focuses on limiting users' permissions to only what is required for their job roles, rather than granting permissions for specific tasks at specific times.
+Correct answer
+Users only have the permissions they need to complete their job, and no more.
+Explanation
+The principle of least privilege states that users should only have the permissions necessary to perform their job functions and no more. This helps minimize the risk of unauthorized access and reduces the potential impact of a security breach.
+Administrative users should be forced to use MFA when logging in.
+Explanation
+Enforcing multi-factor authentication (MFA) for administrative users is a good security practice, but it is not directly related to the principle of least privilege. MFA adds an extra layer of security to user logins but does not specifically address the concept of limiting user permissions to the minimum required.
+Users access rights should be reviewed regularly, every month or every quarter, to ensure that they still require access to the resources they have access to.
+Explanation
+While reviewing user access rights regularly is a good security practice, it is not specifically related to the principle of least privilege. The principle of least privilege is about limiting permissions to the minimum necessary for users to perform their job functions.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data
+
+Domain
+Non-relational data management
+Question 13
+Skipped
+You are trying to determine which type of database to store your Employee data in. First, you need to figure out what kind of data you have. The data comes from an external source, and can be formatted in any way that you need. The thing is, not every entity has value for every property. Some entities have middle names, and for other records, that information doesn't exist. One thing you've discovered is that, at any time, this external data source can add a new never-seen-before field (like a list of awards an employee has won) and you need to store it. What type of data do you have?
+Structured data
+Explanation
+Structured data is not the correct choice because structured data typically follows a fixed schema with predefined fields and data types. In this scenario, the data does not have a consistent structure, making it more suitable for semi-structured data.
+Comma-separated files (CSV)
+Explanation
+Comma-separated files (CSV) are a file format used to store tabular data, typically with a fixed number of columns and consistent structure. In this case, the data can have varying attributes and new fields added over time, making it more appropriate for semi-structured data rather than CSV format.
+Unstructured data
+Explanation
+Unstructured data typically refers to data that does not have a predefined data model or is not organized in a specific manner. In this case, the data may have some structure and organization, even though it is not rigid, making it more aligned with semi-structured data.
+Correct answer
+Semi-structured data
+Explanation
+Semi-structured data is the correct choice because the data coming from the external source does not have a fixed schema and can have varying attributes for different entities. This type of data allows for flexibility in adding new fields without the need to redefine the entire structure, making it suitable for the scenario described.
+Overall explanation
+Refer to Microsoft Doc: https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats
+
+Domain
+Non-relational DB
+Question 14
+Skipped
+Why would someone choose Azure Table Storage instead of Azure Cosmos DB Table API?
+Scalable to any number of regions
+Explanation
+Azure Cosmos DB Table API is scalable to any number of regions, allowing users to distribute their data globally and achieve high availability and low latency across different geographical locations. This scalability feature is not present in Azure Table Storage.
+Correct answer
+Lowest-cost option
+Explanation
+Azure Table Storage is known for being the lowest-cost option compared to Azure Cosmos DB Table API. It is a more budget-friendly choice for users who are looking to store large amounts of data without incurring high costs.
+Guaranteed single-digit millisecond latency for reads and writes
+Explanation
+Azure Cosmos DB Table API offers guaranteed single-digit millisecond latency for reads and writes, making it a more suitable choice for applications that require high performance and low latency. This feature is not available in Azure Table Storage.
+Complete indexing of on all properties by default
+Explanation
+Azure Cosmos DB Table API provides complete indexing on all properties by default, enabling users to efficiently query and retrieve data based on various properties without the need for additional configuration. This indexing capability is not available in Azure Table Storage, which may impact the performance of complex queries.
+Overall explanation
+Refer to Microsoft Doc: https://learn.microsoft.com/en-us/azure/cosmos-db/table/support
+
+Domain
+Non-relational data
+Question 15
+Skipped
+Which type of data analytics workload is best for processing data that arrives from an external source once per day?
+Stream processing
+Correct answer
+Batch processing
+Queue messaging
+Real-time processing
+Overall explanation
+A common big data scenario is batch processing of data at rest. In this scenario, the source data is loaded into data storage, either by the source application itself or by an orchestration workflow. The data is then processed in-place by a parallelized job, which can also be initiated by the orchestration workflow. The processing may include multiple iterative steps before the transformed results are loaded into an analytical data store, which can be queried by analytics and reporting components. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/batch-processing
+Domain
+Analytics workload
+Question 16
+Skipped
+What type of storage is Azure Table Storage?
+Object storage
+Explanation
+Object storage, such as Azure Blob Storage or Amazon S3, stores data as objects with unique identifiers. Azure Table Storage does not store data in the form of objects, but rather as entities with key-value pairs, making it distinct from object storage solutions.
+Document storage
+Explanation
+Document storage, like Azure Cosmos DB or MongoDB, stores data in flexible, JSON-like documents. While Azure Table Storage allows for some flexibility in schema design, it does not store data in document format, making it different from traditional document storage solutions.
+Correct answer
+Key-value storage
+Explanation
+Azure Table Storage is a key-value storage solution where each entity in a table is uniquely identified by a primary key. This makes it suitable for storing large amounts of structured data with flexible schema design, making it an ideal choice for applications that require fast and efficient access to data based on key lookups.
+Column-family storage
+Explanation
+Column-family storage, such as Apache HBase or Cassandra, organizes data into columns grouped together in column families. Azure Table Storage does not follow this specific data organization model, as it focuses on key-value pairs rather than column families.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview
+
+Domain
+Non-relational data
+Question 17
+Skipped
+What type of non-relational data revolves around storing and retriving large binary files or blobs, such as images, videos, text files and audio files?
+Graph data
+Correct answer
+Object data
+Document data
+Key-value data
+Overall explanation
+Object data, which is Azure Blob Storage inside Azure, uses a container metaphor. You can store any type of binary or text data into it, using files. The data store is optimzed for files such as images and videos. Refer to Microsoft Doc: https://docs.microsoft.com/en-gb/azure/architecture/data-guide/big-data/non-relational-data
+Domain
+Non-relational DB
+Question 18
+Skipped
+Which of the following techniques is an example of Least Privileged Access?
+Enable auditing and logging.
+Explanation
+Enabling auditing and logging is a good security practice to monitor and track access activities, but it is not specifically an example of Least Privileged Access. Auditing and logging help in identifying security incidents and compliance issues but do not directly relate to limiting access to the minimum required level.
+Have users regularly review their own access using Access Reviews.
+Explanation
+Having users regularly review their own access using Access Reviews is not necessarily an example of Least Privileged Access. While it is important for users to review and validate their access rights, it does not directly enforce the principle of granting the minimum level of access necessary for users to perform their job functions.
+Correct answer
+Just-In-Time (JIT) access
+Explanation
+Just-In-Time (JIT) access is an example of Least Privileged Access because it provides users with temporary access only when needed for a specific task or time period. This minimizes the risk of unauthorized access and reduces the attack surface by limiting access to the bare minimum required for the task at hand.
+Have managers reguarly review their employees' access using Access Reviews.
+Explanation
+Having managers regularly review their employees' access using Access Reviews may help in ensuring that access rights are appropriate for job roles, but it does not directly align with the principle of Least Privileged Access. This approach may lead to over-provisioning of access rights rather than strictly adhering to the concept of granting the least amount of access necessary for users to perform their tasks.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/security/zero-trust/
+
+Domain
+Non-relational data management
+Question 19
+Skipped
+Which of the following activities would be considered part of Azure Data Factory's Control Flow?
+Correct answer
+If Condition
+MapReduce
+Copy Data
+Data Flow
+Overall explanation
+Control flow activities are the ones that allow looping, if conditions, filtering, and having a pipeline invoke another pipeline. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities#control-flow-activities
+Domain
+Data processing
+Question 20
+Skipped
+What feature of SQL Database ensures that data can be encrypted end to end, and never in a decrypted state at any time outside the client machine?
+Azure Threat Detection
+Explanation
+Azure Threat Detection is a security feature in Azure that helps detect and respond to potential threats in real-time by analyzing database activity and identifying suspicious patterns. While it enhances security by detecting threats, it does not specifically focus on encrypting data end to end to prevent decryption outside the client machine.
+Dynamic Data Masking
+Explanation
+Dynamic Data Masking is a feature in SQL Database that allows sensitive data to be masked to non-privileged users, providing an additional layer of security by hiding the original data. However, it does not ensure end-to-end encryption of data to prevent it from being decrypted outside the client machine.
+Correct answer
+Always Encrypted
+Explanation
+Always Encrypted is the feature in SQL Database that ensures data is encrypted end to end and remains encrypted outside the client machine. This feature allows sensitive data to be stored in encrypted form in the database and only decrypted within the client application, providing a high level of security and privacy.
+Row-level security
+Explanation
+Row-level security is a feature in SQL Database that restricts access to rows in a database table based on the characteristics of the user executing a query. While it helps control access to specific rows of data, it does not provide end-to-end encryption of data to ensure it remains encrypted outside the client machine.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15
+
+Domain
+Relational data security
+Question 21
+Skipped
+What type of file system does Azure Data Lake Storage Gen2 use?
+EXT3
+Correct answer
+Hadoop Distributed File System (HDFS)
+NTFS
+FAT32
+Overall explanation
+The Azure Data Lake uses a driver compatible with the Hadoop File System (HDFS). It is designed to be highly fault-tolerant, provide high throughput access, and is suitable for applications that have large data sets. It runs on top of the underlying disk file system. FAT32 has serious limitations for large data, and NTFS has certainly improved that with some tradeoffs. HDFS is the correct answer. Refer to Microsoft Doc: https://docs.microsoft.com/en-ca/azure/storage/blobs/data-lake-storage-introduction
+Domain
+Data Warehouse
+Question 22
+Skipped
+You need a non-relational data store that supports key-value storage. This needs to be the most cost-effective way for storing data in Azure as you are expecting a large volume of data that needs to be sorted, processed and cleaned up before being migrated into another long-term data format. Which non-relational data store do you recommend?
+Correct answer
+Azure Table Storage
+Explanation
+Azure Table Storage is a cost-effective non-relational data store that supports key-value storage. It is suitable for storing large volumes of structured data and allows for sorting, processing, and cleaning up data before migrating it to another format, making it a suitable choice for the scenario described in the question.
+Azure SQL Database
+Explanation
+Azure SQL Database is a relational database service that is not designed for key-value storage. It is optimized for structured data and may not be the most cost-effective solution for storing large volumes of data in a key-value format as described in the question.
+Cosmos DB
+Explanation
+Cosmos DB is a globally distributed, multi-model database service that supports multiple data models, including key-value pairs. While Cosmos DB is a powerful and versatile option, it may not be the most cost-effective choice for storing large volumes of data that require sorting, processing, and cleanup before migration.
+Azure Data Lake Storage Gen2
+Explanation
+Azure Data Lake Storage Gen2 is a scalable and secure data lake solution for big data analytics. While it can store large volumes of unstructured data, it is not specifically designed for key-value storage. It may not be the most cost-effective option for the scenario described, where key-value storage is the primary requirement.
+Overall explanation
+Refer to Microsoft Doc: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/5-azure-tables
+
+Domain
+Non-relational DB
+Question 23
+Skipped
+Which of the follwing is a consequnce of having a foreign key relationship between two relational data tables?
+If the user attempts to INSERT data into one table, and the foreign key doesn't exist in the other table, the database will insert a new row for it to maintain intregity.
+Explanation
+This is incorrect because the database will not automatically insert a new row in the referenced table if the foreign key value does not exist. It is the responsibility of the user to ensure that data integrity is maintained by inserting valid foreign key values.
+You can DELETE a row of a data table that has several other rows in other tables dependent on it as a foreign key.
+Explanation
+This is incorrect because a foreign key relationship enforces referential integrity, meaning that you cannot delete a row in the parent table if there are dependent rows in the child table. This constraint prevents orphaned records and ensures data consistency.
+Correct answer
+An INSERT statement will fail if the value of the foreign key column, other than NULL, doesn't exist in the other table.
+Explanation
+This is correct because a foreign key constraint ensures referential integrity between two tables. If an INSERT statement tries to add a value to the foreign key column that does not exist in the referenced table, the operation will fail to maintain data consistency.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/sql/relational-databases/tables/create-foreign-key-relationships?view=sql-server-ver15
+
+Domain
+Relational data
+Question 24
+Skipped
+What method of provisioning a non-relational database involves writing a script, which is a set of commands that you can run from any operating system prompt such as Linux, macOS or Windows?
+Correct answer
+PowerShell, or CLI
+Visual C#
+Azure Portal
+ARM templates
+Overall explanation
+You can use command-line scripts using Powershell or CLI to make changes to Azure. For instance, you can list all of the Virtual Machines in a region, add a new VM, delete a VM, or make other changes to your resources - all from the command line. You can provision Cosmos DB from the command line as well. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services
+Domain
+Non-relational deployment
+Question 25
+Skipped
+Which Azure data service is best used for moving data from one source to another destination, with the ability to transform the data (process it) along the way?
+Azure Data Migration
+Explanation
+Azure Data Migration is a service that helps you migrate your on-premises databases to Azure, but it is not designed for ongoing data movement and transformation tasks. It focuses on the migration process rather than the continuous movement and transformation of data.
+Azure SQL Database
+Explanation
+Azure SQL Database is a fully managed relational database service, but it is not specifically designed for data movement and transformation tasks. While it can store and manage data, it does not offer the same level of data integration and transformation capabilities as Azure Data Factory.
+Correct answer
+Azure Data Factory
+Explanation
+Azure Data Factory is the correct choice for moving data from one source to another destination while also providing the ability to transform the data during the process. It is a cloud-based data integration service that allows you to create, schedule, and manage data pipelines for data movement and transformation tasks.
+Azure Machine Learning
+Explanation
+Azure Machine Learning is a service that enables you to build, train, and deploy machine learning models, but it is not primarily focused on data movement and transformation tasks. While it can process data for machine learning purposes, it is not the best choice for moving and transforming data between different sources and destinations.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/data-factory/introduction
+
+Domain
+Data processing
+Question 26
+Skipped
+You have a SQL Database Server named SQLDB, and two SQL Databases named DB1 and DB2. SQLDB has a server-level firewall that allows IP addresses in the range 123.123.123.0-123.123.123.255 and denies all other traffic. DB1 has a database level firewall rule that allows IPs in the range 123.123.123.0-123.123.124.255. When a client using the IP address 123.123.124.25 attempts to access DB1, are they successful?
+No, the connection will not succeed
+Correct answer
+Yes, the connection will succeed
+Overall explanation
+You can have both server- and database-level firewall IP rules, and they exist independently. An IP can exist in a database rule and not a server rule, and the user would have access to the specific database and not all databases on the server. In this case, the client trying to access the database is allowed by a database-level IP rule. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-configure
+Domain
+Relational data security
+Question 27
+Skipped
+What is the advantage of using Transaction Optimized storage for Azure File Storage?
+It costs the same as Hot storage, but provides better performance for smaller files
+Explanation
+This choice is incorrect because Transaction Optimized storage for Azure File Storage does not cost the same as Hot storage. It has a different cost structure that focuses on optimizing read-write operations rather than providing better performance for smaller files.
+It provides the same performance as Premium Storage, for half the price
+Explanation
+Transaction Optimized storage for Azure File Storage does not provide the same performance as Premium Storage for half the price. This choice is incorrect as it misrepresents the capabilities and cost structure of Transaction Optimized storage.
+It stores files in memory, providing much faster performance than storing to the disk drive
+Explanation
+Storing files in memory for faster performance is not a feature of Transaction Optimized storage for Azure File Storage. This choice is incorrect as it does not accurately describe the advantages of using this storage option.
+Correct answer
+Around 25%-33% of the cost of Hot storage per read-write operation, but twice as expensive per GB for storage. This can save you money for heavily accessed files without using the Premium access tier.
+Explanation
+Transaction Optimized storage for Azure File Storage offers cost savings of around 25%-33% per read-write operation compared to Hot storage. While it is twice as expensive per GB for storage, this cost structure can be advantageous for heavily accessed files without the need to use the Premium access tier, ultimately saving money in the long run.
+Overall explanation
+Refer to Microsoft Doc: https://azure.microsoft.com/en-us/pricing/details/storage/files/
+
+Domain
+Azure Storage
+Question 28
+Skipped
+Which of the following are all non-relational data stores that store data as key-value pairs?
+
+Azure Database for MySQL, Azure Database for PostgreSQL, Azure Database for MariaDB
+Explanation
+Azure Database for MySQL, Azure Database for PostgreSQL, and Azure Database for MariaDB are all relational database options that do not store data as key-value pairs. They are designed for structured data storage and retrieval using SQL queries, unlike key-value pair data stores.
+Cosmos DB
+Explanation
+Cosmos DB is a non-relational database service that supports multiple data models, including key-value pairs. It is a globally distributed database that can store data in key-value format, making it suitable for applications that require fast and scalable access to key-value data.
+Correct answer
+Cosmos DB Table API, Azure Cache for Redis, Table Storage
+Explanation
+Cosmos DB Table API, Azure Cache for Redis, and Table Storage are all Azure non-relational data stores that store data as key-value pairs. They are designed to efficiently store and retrieve data based on key-value pairs, making them suitable for scenarios where fast access to specific data is required.
+Azure SQL Database, SQL Server in a VM, SQL Managed Instance
+Explanation
+Azure SQL Database, SQL Server in a VM, and SQL Managed Instance are all relational database options that do not store data as key-value pairs. They are designed for structured data storage and retrieval using SQL queries, unlike key-value pair data stores.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data
+
+Domain
+Non-relational DB
+Question 29
+Skipped
+Which of the following methods is commonly used to secure data in transit?
+User id and password
+Explanation
+User ID and password are authentication methods used to verify the identity of users accessing a system or application. While important for access control, they do not directly secure data during transit.
+Correct answer
+Site-to-site VPN
+Explanation
+Site-to-site VPN is commonly used to secure data in transit by creating a secure encrypted connection between two networks. This ensures that data transferred between the networks is protected from unauthorized access or interception.
+Hard disk encryption
+Explanation
+Hard disk encryption is a method used to secure data at rest, not during transit. It encrypts data stored on a hard disk to protect it in case the physical disk is stolen or compromised.
+Microsoft Entra ID (formerly Azure Active Directory)
+
+Explanation
+Microsoft Entra ID (formerly Azure Active Directory) is a cloud-based identity and access management service that provides user authentication and authorization for Azure services and applications. While it plays a crucial role in securing access to resources, it is not primarily used to secure data during transit between networks.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices#protect-data-in-transit
+
+Domain
+Relational data security
+Question 30
+Skipped
+How many databases can you create in a single Cosmos DB account?
+1
+Explanation
+Creating only one database in a single Cosmos DB account is not a limitation. Cosmos DB provides the flexibility to create multiple databases within a single account to support different applications, workloads, or data partitioning requirements.
+100
+Explanation
+The option of creating 100 databases in a single Cosmos DB account is not correct. Cosmos DB offers the capability to create an unlimited number of databases within an account, enabling users to scale and manage their data storage requirements efficiently.
+10
+Explanation
+The limit of creating 10 databases in a single Cosmos DB account is not accurate. Cosmos DB does not impose a restriction on the number of databases that can be created within an account, allowing for greater flexibility in data organization and management.
+Correct answer
+Unlimited
+Explanation
+In a single Cosmos DB account, you can create an unlimited number of databases. This scalability feature allows you to create as many databases as needed to organize and manage your data effectively within the account.
+Overall explanation
+There is no limit to the number of databases in a single Cosmos DB account, currently.  Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/cosmos-db/concepts-limits
+
+Domain
+Non-relational DB
+Question 31
+Skipped
+What is the difference between a clustered and unclustered index in SQL Server?
+Correct answer
+A clustered index sort and store the data rows based on their key values. Nonclustered indexes have a structure separate from the data rows.
+Explanation
+A clustered index physically sorts and stores the data rows in the table based on their key values. This means that the actual data rows are arranged in the order of the clustered index key. On the other hand, nonclustered indexes have a separate structure that contains the index key values and pointers to the actual data rows.
+A clustered index uses a single column as a key, while a nonclustered index uses multiple columns.
+Explanation
+The distinction between clustered and nonclustered indexes is not based on the number of columns used as keys. Both types of indexes can use single or multiple columns as keys. The key difference lies in how the data rows are physically organized and stored within the index structure.
+A nonclustered index sort and store the data rows based on their key values. Clustered indexes have a structure separate from the data rows.
+Explanation
+This statement is incorrect. Nonclustered indexes do not store the data rows themselves; instead, they store the index key values along with pointers to the actual data rows. Clustered indexes physically sort and store the data rows based on their key values.
+There is no performance cost to inserting data into a table with a clustered index, while inserting data into a table with an nonclustered index is an expensive operation.
+Explanation
+The statement about performance cost related to inserting data into tables with clustered and nonclustered indexes is not accurate. Inserting data into a table with a clustered index may involve rearranging the physical order of data rows to maintain the sort order, which can incur a performance cost. Inserting data into a table with a nonclustered index involves adding the index key values and pointers to the data rows, which may or may not be more expensive depending on the specific scenario.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15
+
+Domain
+Relational data
+Question 32
+Skipped
+You have a production application that reads and writes to an Azure SQL Database around 100 times per second. Ocassionally, you get an exception inside your application, "40501 - The service is currently busy." What is the likely cause of this type of error? And what is the mitigation for that?
+Azure SQL Database runs on the same server as other Azure clients, and sometimes their usage will affect yours. Move to an isolated DB instance.
+Correct answer
+Azure SQL Database has per DTU IOPS limits. Increase the DTUs to a higher level, or retry the request after a few seconds delay.
+Azure SQL Database has per DTU IOPS limits. Those limits can be increased by opening a support ticket with Azure.
+Azure SQL Database has IOPS limits. Move the database to a SQL Server in a VM or a Managed SQL Instance.
+Overall explanation
+There are IOPS limits tied to the number of DTUs in a database tier. Moving to a higher tier will increase those limits. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu
+Domain
+Relational DB Management
+Question 33
+Skipped
+Which of the following data types can be called unstructured data?
+SQL Database table
+Explanation
+A SQL Database table stores structured data in a tabular format with predefined columns and data types. SQL databases require a schema to define the structure of the data, making them unsuitable for storing unstructured data types.
+Azure Table Storage
+Explanation
+Azure Table Storage is a NoSQL data store that stores structured data in a key-value format. While Azure Table Storage allows for flexible schema design, it still requires a defined structure for data storage, making it more suitable for structured data types rather than unstructured data.
+Correct answer
+Contents of a Blob storage container
+Explanation
+The contents of a Blob storage container can be considered unstructured data because they do not follow a specific schema or format. Blob storage is designed to store large amounts of unstructured data, such as images, videos, documents, and logs, making it a suitable choice for storing unstructured data types.
+JSON data
+Explanation
+JSON data is structured data that follows a specific format and schema. JSON is commonly used for data interchange between systems and applications, and it is not typically classified as unstructured data.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data
+
+Domain
+Data warehouse
+Question 34
+Skipped
+What do you get when you use Cool access tier for Azure Blob Storage?
+The lease expensive way to store files per GB in Azure
+The fastest way to retrieve files in Azure for high-performance needs
+A way to archive files that are needed only in emergency, but take a few hours to recover if you need them
+Correct answer
+Less expensive per GB to store the file, and more expensive to access the file
+Overall explanation
+Azure storage offers different access tiers, allowing you to store blob object data in the most cost-effective manner. Cool tier is optimized for storing data that is infrequently accessed and stored for at least 30 days. It's roughly 25% cheaper to store data than the Hot tier, but twice as expensive to read and write data. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers
+Domain
+Non-relational DB
+Question 35
+Skipped
+Which of the following is a valid IP address range using the CIDR address method?
+Correct answer
+110.0.0.0/8
+Explanation
+The IP address range 110.0.0.0/8 is a valid CIDR notation, where the /8 represents the subnet mask. In this case, the subnet mask is 8 bits, allowing for a range of IP addresses from 110.0.0.0 to 110.255.255.255, making it a valid IP address range.
+110.0.0.*
+Explanation
+The format 110.0.0.* is not a valid CIDR notation. CIDR notation requires the subnet mask to be specified after the IP address range using the forward slash notation. Using an asterisk (*) in the IP address range is not a valid representation in CIDR notation.
+110.0.0.0-110.0.0.255
+Explanation
+The format 110.0.0.0-110.0.0.255 does not represent a valid CIDR notation. CIDR notation uses a forward slash followed by the subnet mask to specify the range of IP addresses. This format does not follow the standard CIDR format.
+110.0.0.0-255
+Explanation
+The format 110.0.0.0-255 is not a valid CIDR notation. CIDR notation requires the subnet mask to be specified after the IP address range using the forward slash notation. This format does not adhere to the CIDR standard.
+Overall explanation
+Refer to: https://whatismyipaddress.com/cidr
+
+Domain
+Non-relational data management
+Question 36
+Skipped
+A customer just purchased a service from your company, and a new data row was added to table SALES to indicate this event as soon as it happened. What type of database is this?
+OLAP
+Explanation
+OLAP (Online Analytical Processing) databases are designed for complex queries and data analysis rather than real-time transaction processing. They are optimized for querying and analyzing large volumes of data to gain insights and make strategic decisions, rather than for immediate data updates like adding a new row to a table.
+Correct answer
+OLTP
+Explanation
+OLTP (Online Transaction Processing) databases are designed for real-time transaction processing. They are optimized for inserting, updating, and deleting small amounts of data quickly and efficiently, making them suitable for scenarios where data needs to be added or modified as soon as events occur, such as in the case of a new customer purchase.
+Data Warehousing
+Explanation
+Data Warehousing databases are used for storing and analyzing large volumes of historical data for reporting and data analysis purposes. They are not typically optimized for real-time transaction processing or immediate data updates like adding a new row to a table as soon as an event occurs.
+Cache
+Explanation
+Cache databases are used to temporarily store data in memory to improve performance by reducing the need to access data from slower storage systems. While they can help speed up data retrieval, they are not typically used for immediate data updates like adding a new row to a table.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing
+
+Domain
+Analytics Workload
+Question 37
+Skipped
+What feature of Azure Blob Storage, if enabled, allows you to retrieve files that have previously been deleted within a time period?
+Correct answer
+Soft Delete
+Explanation
+Soft Delete is the correct choice as it allows you to recover files that have been deleted within a specified time period. This feature helps prevent accidental data loss by keeping deleted files in a recoverable state for a set duration before permanently removing them.
+Immutable blobs
+Explanation
+Immutable blobs do not relate to the ability to retrieve deleted files within a time period. Immutable blobs ensure that once data is written to a blob, it cannot be modified or deleted during a specified retention period, providing data protection against tampering.
+Change Feed
+Explanation
+Change Feed is not the correct choice for this scenario. Change Feed provides a persistent record of changes that occur to a blob, but it does not specifically enable the retrieval of deleted files within a time period.
+Azure Policy
+Explanation
+Azure Policy is not the correct choice for this situation. Azure Policy is used to enforce rules and actions for resources in an Azure subscription, such as compliance requirements or governance policies. It does not directly enable the retrieval of deleted files within a time period in Azure Blob Storage.
+Overall explanation
+Refer to Microsoft Doc: https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview
+
+Domain
+Azure Storage
+Question 38
+Skipped
+When deploying an Azure Storage account, and you choose Zone Redundant Storage (ZRS), how many copies of your data does Azure keep?
+1
+Correct answer
+3
+3 copies in each Availability Zone
+6
+Overall explanation
+Azure Storage always stores multiple copies of your data so that it is protected from planned and unplanned events, including transient hardware failures, network or power outages, and massive natural disasters. Redundancy ensures that your storage account meets its availability and durability targets even in the face of failures. Zone-redundant storage (ZRS) copies your data synchronously across three Azure availability zones in the primary region. For applications requiring high availability, Microsoft recommends using ZRS in the primary region, and also replicating to a secondary region. Refer to Microsoft Doc: https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+Domain
+Non-relational data management
+Question 39
+Skipped
+What is the concept of NORMALIZATION when it comes to relational databases?
+Regenerating a table's indexes to increase performance
+Explanation
+Regenerating a table's indexes to increase performance is not the concept of normalization in relational databases. Normalization focuses on organizing data efficiently by eliminating redundancy and establishing relationships between tables, rather than optimizing indexes for performance.
+Compressing a data table to it's smallest possible size
+Explanation
+Compressing a data table to its smallest possible size is not the concept of normalization in relational databases. Normalization focuses on organizing data to eliminate redundancy and improve data integrity, rather than reducing the physical size of a table.
+Correct answer
+The process of eliminating redundancy in data tables by splitting large tables up into several smaller tables, establishing relationships between those tables, and reducing the size of the overall database.
+Explanation
+Normalization in relational databases is the process of organizing data in a database efficiently. It involves breaking down large tables into smaller, more manageable tables to eliminate redundancy and ensure data integrity. By establishing relationships between these smaller tables, normalization reduces data duplication and improves database performance.
+Removing duplicate rows from a table
+Explanation
+Removing duplicate rows from a table is not the concept of normalization in relational databases. Normalization aims to organize data efficiently by breaking down large tables into smaller ones and establishing relationships between them to reduce redundancy and improve data integrity.
+Overall explanation
+Refer to Microsoft Doc: https://docs.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description
+
+Domain
+Analytics
+
+
