@@ -4,7 +4,7 @@ PracticeTestID = 7061683
 
 
 [question-1]
-Question = "¿Cuál de las siguientes es una ventaja del procesamiento por lotes de datos? (Selecciona dos)."
+Question = "Una empresa de análisis de big data está evaluando diferentes métodos de procesamiento para su plataforma de datos. ¿Cuál de las siguientes es una ventaja del procesamiento por lotes de datos? (Selecciona dos)."
 Correct = "C,D"
 A = "Una sola fila mala de datos no afecta todo el trabajo"
 B = "Los datos se procesan inmediatamente"
@@ -31,7 +31,7 @@ Topic = "Cargas de trabajo de datos principales"
 
 
 [question-2]
-Question = "Tu empresa está implementando un Almacén de Datos Empresarial, y el primer paso es obtener los datos de una fuente externa a Azure. Anticipas que habrá muchos datos para traer a Azure, y no puedes estimar con certeza cuánto. Podría haber posiblemente un Exabyte de datos. Necesitas una solución de almacenamiento de datos diseñada para almacenar una gran cantidad de datos no relacionales, antes de usar un Data Factory para procesar los datos. ¿Qué almacén de datos es apropiado para el primer paso?"
+Question = "Una empresa de servicios financieros está implementando un Almacén de Datos Empresarial, y el primer paso es obtener los datos de una fuente externa a Azure. Anticipan que habrá muchos datos para traer a Azure, y no pueden estimar con certeza cuánto. Podría haber posiblemente un Exabyte de datos. Necesitan una solución de almacenamiento de datos diseñada para almacenar una gran cantidad de datos no relacionales, antes de usar un Data Factory para procesar los datos. ¿Qué almacén de datos es apropiado para el primer paso?"
 Correct = "C"
 A = "Azure Blob Storage"
 B = "Azure Synapse Analytics"
@@ -58,7 +58,7 @@ Topic = "Almacén de datos"
 
 
 [question-3]
-Question = "¿Cuáles de las siguientes métricas afectan cuánto cuesta una cuenta de Azure Table Storage?"
+Question = "Una startup de comercio electrónico está planificando su presupuesto para almacenamiento de datos. ¿Cuáles de las siguientes métricas afectan cuánto cuesta una cuenta de Azure Table Storage?"
 Correct = "B"
 A = "Solo almacenamiento consumido"
 B = "Región, geo-replicación, almacenamiento consumido"
@@ -85,7 +85,7 @@ Topic = "Despliegue no relacional"
 
 
 [question-4]
-Question = "¿Qué servicio de Azure Storage está específicamente diseñado para almacenar grandes cantidades de datos crudos y no procesados, a velocidades muy rápidas? Es decir, ¿dónde almacenaría un Almacén de Datos sus datos crudos antes de ser ingeridos?"
+Question = "Una empresa de investigación científica está diseñando su arquitectura de datos para almacenar grandes volúmenes de información de experimentos. ¿Qué servicio de Azure Storage está específicamente diseñado para almacenar grandes cantidades de datos crudos y no procesados, a velocidades muy rápidas? Es decir, ¿dónde almacenaría un Almacén de Datos sus datos crudos antes de ser ingeridos?"
 Correct = "D"
 A = "Azure SQL Database"
 B = "Azure Table Storage"
@@ -112,7 +112,7 @@ Topic = "Almacén de datos"
 
 
 [question-5]
-Question = "¿Cuáles son los cuatro niveles de precios para Azure File Storage?"
+Question = "Una empresa de arquitectura está evaluando opciones de almacenamiento para compartir archivos de diseño entre equipos. ¿Cuáles son los cuatro niveles de precios para Azure File Storage?"
 Correct = "B"
 A = "Básico, Estándar, Premium, Aislado"
 B = "Premium, Optimizado para Transacciones, Caliente, Frío"
@@ -139,7 +139,7 @@ Topic = "Azure Storage"
 
 
 [question-6]
-Question = "¿Se puede usar Azure Data Factory para copiar datos de una fuente externa como Amazon Redshift?"
+Question = "Un equipo de ingeniería de datos está diseñando una solución de migración de datos desde AWS a Azure. ¿Se puede usar Azure Data Factory para copiar datos de una fuente externa como Amazon Redshift?"
 Correct = "B"
 A = "No"
 B = "Sí"
@@ -160,7 +160,7 @@ Topic = "Procesamiento de datos"
 
 
 [question-7]
-Question = "¿Puedes ejecutar SQL Server en Linux en Azure?"
+Question = "Una empresa de desarrollo de software está migrando su infraestructura a la nube y necesita ejecutar SQL Server en un entorno Linux. ¿Puedes ejecutar SQL Server en Linux en Azure?"
 Correct = "B"
 A = "No, SQL Server es solo para Windows."
 B = "¡Sí! Azure tiene SQL Server 2017 y 2019 en Linux"
@@ -181,7 +181,7 @@ Topic = "SQL Server en VM"
 
 
 [question-8]
-Question = "¿Cuál de los siguientes términos significa \"procesar datos en grupos\"?"
+Question = "Un equipo de análisis de datos está implementando un sistema de procesamiento de datos para su plataforma de business intelligence. ¿Cuál de los siguientes términos significa \"procesar datos en grupos\"?"
 Correct = "C"
 A = "Streaming"
 B = "Buffering"
@@ -208,7 +208,7 @@ Topic = "Cargas de trabajo de datos principales"
 
 
 [question-9]
-Question = "Cuando el análisis de datos solo responde preguntas sobre qué pasó en el pasado basado en datos históricos, ¿qué categoría es?"
+Question = "Una empresa de retail está implementando un sistema de análisis de datos para entender el comportamiento histórico de sus clientes. Cuando el análisis de datos solo responde preguntas sobre qué pasó en el pasado basado en datos históricos, ¿qué categoría es?"
 Correct = "D"
 A = "Cognitivo"
 B = "Diagnóstico"
@@ -235,7 +235,7 @@ Topic = "Conceptos principales de análisis de datos"
 
 
 [question-10]
-Question = "¿Cuál de las siguientes técnicas de procesamiento de datos sería mejor usar para manejar un archivo que contiene millones de filas de datos?"
+Question = "Una empresa de logística está procesando datos de envíos que contienen millones de registros de transacciones. ¿Cuál de las siguientes técnicas de procesamiento de datos sería mejor usar para manejar un archivo que contiene millones de filas de datos?"
 Correct = "A"
 A = "Procesamiento por lotes"
 B = "Procesamiento de flujo"
@@ -256,7 +256,7 @@ Topic = "Cargas de trabajo de datos principales"
 
 
 [question-11]
-Question = "¿Qué enfoque de carga de datos es más adecuado para situaciones que requieren escalado, y es ideal para grandes volúmenes de datos?"
+Question = "Una startup de análisis de datos está diseñando su arquitectura de ingesta de datos para manejar volúmenes crecientes de información. ¿Qué enfoque de carga de datos es más adecuado para situaciones que requieren escalado, y es ideal para grandes volúmenes de datos?"
 Correct = "B"
 A = "ETL"
 B = "ELT"
@@ -277,7 +277,7 @@ Topic = "Conceptos principales de análisis de datos"
 
 
 [question-12]
-Question = "¿Cuál de los siguientes términos significa \"procesar datos a medida que llegan\"?"
+Question = "Una empresa de servicios de streaming está implementando un sistema de procesamiento de datos en tiempo real para su plataforma de video. ¿Cuál de los siguientes términos significa \"procesar datos a medida que llegan\"?"
 Correct = "D"
 A = "Batching"
 B = "Buffering"
@@ -304,7 +304,7 @@ Topic = "Cargas de trabajo de datos principales"
 
 
 [question-13]
-Question = "¿Comparten MySQL, PostgreSQL y SQL Database exactamente la misma sintaxis SQL?"
+Question = "Un equipo de desarrollo está migrando aplicaciones desde diferentes bases de datos a Azure. ¿Comparten MySQL, PostgreSQL y SQL Database exactamente la misma sintaxis SQL?"
 Correct = "B"
 A = "Sí, SQL es un estándar y todas las bases de datos administradas de Azure usan la misma versión de SQL."
 B = "No, aunque SQL es un estándar, cada base de datos tiene su propia versión de ese estándar que no es 100% igual."
@@ -325,7 +325,7 @@ Topic = "Consulta SQL"
 
 
 [question-14]
-Question = "¿Qué estilo de visualización de datos es una estructura tabular?"
+Question = "Una empresa de consultoría está creando dashboards de business intelligence para sus clientes. ¿Qué estilo de visualización de datos es una estructura tabular?"
 Correct = "C"
 A = "Gráfico de líneas"
 B = "Treemap"
@@ -352,7 +352,7 @@ Topic = "Conceptos principales de análisis de datos"
 
 
 [question-15]
-Question = "¿Qué método de aprovisionamiento de una base de datos no relacional implica primero definir la base de datos en un archivo JSON, que luego puede ser verificado en un repositorio de código para control de versiones, a veces también referido como Infraestructura como Código?"
+Question = "Una empresa de desarrollo de software está implementando prácticas de DevOps para la gestión de su infraestructura de datos. ¿Qué método de aprovisionamiento de una base de datos no relacional implica primero definir la base de datos en un archivo JSON, que luego puede ser verificado en un repositorio de código para control de versiones, a veces también referido como Infraestructura como Código?"
 Correct = "C"
 A = "Portal de Azure"
 B = "Scripts de PowerShell"
@@ -379,7 +379,7 @@ Topic = "Despliegue no relacional"
 
 
 [question-16]
-Question = "¿Qué método de aprovisionamiento de una base de datos no relacional sería mejor para usuarios que solo necesitan hacer esto una vez?"
+Question = "Un equipo de TI está configurando una base de datos de prueba para un proyecto piloto. ¿Qué método de aprovisionamiento de una base de datos no relacional sería mejor para usuarios que solo necesitan hacer esto una vez?"
 Correct = "A"
 A = "Portal de Azure"
 B = "Scripting Bicep"
@@ -406,7 +406,7 @@ Topic = "Gestión de base de datos no relacional"
 
 
 [question-17]
-Question = "¿Cuál de las siguientes características de base de datos sería mejor para una carga de trabajo analítica y no una carga de trabajo transaccional?"
+Question = "Una empresa de análisis de mercado está diseñando su arquitectura de datos para generar reportes complejos sobre tendencias de consumo. ¿Cuál de las siguientes características de base de datos sería mejor para una carga de trabajo analítica y no una carga de trabajo transaccional?"
 Correct = "D"
 A = "Una estructura de tabla completamente normalizada, requiriendo muchos JOINs para extraer reportes"
 B = "Datos semi-estructurados, almacenados en documentos JSON"
@@ -433,7 +433,7 @@ Topic = "Carga de trabajo analítica"
 
 
 [question-18]
-Question = "Con SQL Server en una Máquina Virtual, ¿puedes seleccionar la versión específica de SQL Server que necesitas o solo ejecuta la versión más reciente?"
+Question = "Una empresa manufacturera está migrando su sistema de gestión de inventario a Azure y necesita mantener compatibilidad con aplicaciones legacy. Con SQL Server en una Máquina Virtual, ¿puedes seleccionar la versión específica de SQL Server que necesitas o solo ejecuta la versión más reciente?"
 Correct = "A"
 A = "Puedes elegir entre cualquier número de versiones de SQL Server aún soportadas"
 B = "Ejecutar SQL Server en la nube significa que tienes que aceptar cualquier versión que estén ejecutando"
@@ -454,7 +454,7 @@ Topic = "SQL Server en VM"
 
 
 [question-19]
-Question = "¿Qué estructura de datos representa \"entidades\" en una base de datos relacional?"
+Question = "Un equipo de desarrollo está diseñando una base de datos para un sistema de gestión de empleados. ¿Qué estructura de datos representa \"entidades\" en una base de datos relacional?"
 Correct = "A"
 A = "Tablas"
 B = "Índices"
@@ -481,7 +481,7 @@ Topic = "Cargas de trabajo de datos relacionales"
 
 
 [question-20]
-Question = "¿Cuál de las siguientes declaraciones describe mejor Azure Databricks?"
+Question = "Una empresa de investigación de datos está evaluando plataformas para su equipo de ciencia de datos. ¿Cuál de las siguientes declaraciones describe mejor Azure Databricks?"
 Correct = "B"
 A = "Una plataforma de aprendizaje automático"
 B = "Una plataforma de análisis de datos optimizada para servicios en la nube de Azure"
@@ -508,7 +508,7 @@ Topic = "Azure Databricks"
 
 
 [question-21]
-Question = "¿Qué tipo de lenguaje de consulta SQL se usa para crear y modificar la estructura de una base de datos?"
+Question = "Un administrador de base de datos está configurando un nuevo sistema de gestión de clientes. ¿Qué tipo de lenguaje de consulta SQL se usa para crear y modificar la estructura de una base de datos?"
 Correct = "A"
 A = "DDL"
 B = "DML"
@@ -535,7 +535,7 @@ Topic = "Consulta SQL"
 
 
 [question-22]
-Question = "¿Qué tipo de carga de trabajo de análisis de datos es mejor para procesar datos que llegan en un flujo, sin un inicio o un final?"
+Question = "Una empresa de IoT está implementando un sistema de monitoreo de sensores que genera datos continuamente. ¿Qué tipo de carga de trabajo de análisis de datos es mejor para procesar datos que llegan en un flujo, sin un inicio o un final?"
 Correct = "A"
 A = "Procesamiento en tiempo real"
 B = "Pipeline ETL"
@@ -559,7 +559,7 @@ Topic = "Carga de trabajo analítica"
 
 
 [question-23]
-Question = "¿De qué manera puede ETL ayudar con la privacidad de datos y el cumplimiento?"
+Question = "Una empresa de servicios de salud está implementando un sistema de análisis de datos que debe cumplir con regulaciones de privacidad. ¿De qué manera puede ETL ayudar con la privacidad de datos y el cumplimiento?"
 Correct = "D"
 A = "ETL es ideal para grandes volúmenes de datos"
 B = "ETL no puede ayudar con privacidad y cumplimiento"
@@ -586,7 +586,7 @@ Topic = "Conceptos principales de análisis de datos"
 
 
 [question-24]
-Question = "¿Qué pasa si no aprovisionas suficientes Unidades de Solicitud por segundo (RU/s) de las que tu aplicación requiere?"
+Question = "Una startup de aplicaciones móviles está configurando Cosmos DB para su nueva aplicación de redes sociales. ¿Qué pasa si no aprovisionas suficientes Unidades de Solicitud por segundo (RU/s) de las que tu aplicación requiere?"
 Correct = "C"
 A = "Se te cobrará por las Unidades de Solicitud excesivas"
 B = "La aplicación no recibirá ningún error pero verás una notificación en el portal de Azure"
@@ -613,7 +613,7 @@ Topic = "Despliegue no relacional"
 
 
 [question-25]
-Question = "¿Cuál de las siguientes técnicas de procesamiento de datos sería mejor usar para una aplicación de trading del mercado de valores que depende de cambios en tiempo real en el precio de una acción?"
+Question = "Una empresa de servicios financieros está desarrollando una plataforma de trading automatizado. ¿Cuál de las siguientes técnicas de procesamiento de datos sería mejor usar para una aplicación de trading del mercado de valores que depende de cambios en tiempo real en el precio de una acción?"
 Correct = "A"
 A = "Procesamiento de flujo"
 B = "Procesamiento por lotes"
@@ -634,7 +634,7 @@ Topic = "Cargas de trabajo de datos principales"
 
 
 [question-26]
-Question = "¿Cuál de las siguientes declaraciones SQL es más probable que recupere todas las columnas y filas de la tabla Employees?"
+Question = "Un analista de datos está consultando una base de datos de recursos humanos para generar un reporte completo de empleados. ¿Cuál de las siguientes declaraciones SQL es más probable que recupere todas las columnas y filas de la tabla Employees?"
 Correct = "B"
 A = "SELECT Employees WHERE Location = 'Idaho';"
 B = "SELECT * FROM Employees;"
@@ -661,7 +661,7 @@ Topic = "Consulta SQL"
 
 
 [question-27]
-Question = "Tu empresa tiene una Azure Function con una URL pública. Un servicio externo llama periódicamente a esa URL con una imagen binaria como datos en el cuerpo de la solicitud. Quieres que esta Azure Function tome esta solicitud, y almacene los datos de imagen binaria en algún lugar de Azure para recuperación posterior. Necesitas un servicio de almacenamiento de Azure que pueda almacenar datos binarios como imágenes. ¿Cuál es el mejor almacén de datos no relacional para este escenario que recomendarías?"
+Question = "Una empresa de procesamiento de imágenes tiene una Azure Function con una URL pública. Un servicio externo llama periódicamente a esa URL con una imagen binaria como datos en el cuerpo de la solicitud. Quieren que esta Azure Function tome esta solicitud, y almacene los datos de imagen binaria en algún lugar de Azure para recuperación posterior. Necesitan un servicio de almacenamiento de Azure que pueda almacenar datos binarios como imágenes. ¿Cuál es el mejor almacén de datos no relacional para este escenario que recomendarías?"
 Correct = "B"
 A = "Cosmos DB"
 B = "Azure Blob Storage"
@@ -688,7 +688,7 @@ Topic = "Base de datos no relacional"
 
 
 [question-28]
-Question = "¿Qué herramienta de consulta de SQL server ofrece una experiencia de editor moderna, Intellisense, fragmentos de código, integración de control de versiones y una terminal integrada?"
+Question = "Un equipo de desarrollo de base de datos está buscando una herramienta moderna para trabajar con SQL Server. ¿Qué herramienta de consulta de SQL server ofrece una experiencia de editor moderna, Intellisense, fragmentos de código, integración de control de versiones y una terminal integrada?"
 Correct = "C"
 A = "sqlcmd"
 B = "Azure Portal Data Explorer"
@@ -715,7 +715,7 @@ Topic = "Gestión de base de datos relacional"
 
 
 [question-29]
-Question = "¿Cuál de los siguientes servicios de datos de Azure se dice que está en el modelo IaaS?"
+Question = "Una empresa de consultoría está evaluando diferentes modelos de servicio en la nube para su migración a Azure. ¿Cuál de los siguientes servicios de datos de Azure se dice que está en el modelo IaaS?"
 Correct = "A"
 A = "SQL Server en una Máquina Virtual"
 B = "SQL Server ejecutándose en las instalaciones"
@@ -742,7 +742,7 @@ Topic = "Bases de datos relacionales de Azure"
 
 
 [question-30]
-Question = "¿Cuál de las siguientes columnas haría un buen campo ID para una tabla de datos?"
+Question = "Un diseñador de base de datos está creando un esquema para un sistema de gestión de inventario. ¿Cuál de las siguientes columnas haría un buen campo ID para una tabla de datos?"
 Correct = "D"
 A = "Un campo de marca de tiempo con la fecha y hora actual, hasta el segundo"
 B = "Nombre del cliente"
@@ -769,7 +769,7 @@ Topic = "Cargas de trabajo de datos relacionales"
 
 
 [question-31]
-Question = "¿Qué servicio de Azure permite a analistas de datos, científicos de datos, ingenieros de aprendizaje automático e ingenieros de datos colaborar juntos en un espacio de trabajo interactivo? El espacio de trabajo existe dentro de un clúster Apache Spark."
+Question = "Una empresa de investigación de datos está buscando una plataforma que permita a su equipo multidisciplinario trabajar de manera colaborativa. ¿Qué servicio de Azure permite a analistas de datos, científicos de datos, ingenieros de aprendizaje automático e ingenieros de datos colaborar juntos en un espacio de trabajo interactivo? El espacio de trabajo existe dentro de un clúster Apache Spark."
 Correct = "A"
 A = "Azure Databricks"
 B = "Azure Data Factory"
@@ -796,7 +796,7 @@ Topic = "Procesamiento de datos"
 
 
 [question-32]
-Question = "¿Qué estilo de visualización de datos son rectángulos coloreados de tamaño variable?"
+Question = "Un equipo de business intelligence está creando visualizaciones para un dashboard ejecutivo. ¿Qué estilo de visualización de datos son rectángulos coloreados de tamaño variable?"
 Correct = "B"
 A = "Matriz"
 B = "Treemap"
@@ -823,7 +823,7 @@ Topic = "Conceptos principales de análisis de datos"
 
 
 [question-33]
-Question = "¿Qué estructura de datos permite a un servidor de base de datos encontrar datos mucho más rápido que sin ella?"
+Question = "Un administrador de base de datos está optimizando el rendimiento de consultas en un sistema de gestión de clientes. ¿Qué estructura de datos permite a un servidor de base de datos encontrar datos mucho más rápido que sin ella?"
 Correct = "A"
 A = "Índices"
 B = "Claves foráneas"
@@ -850,7 +850,7 @@ Topic = "Cargas de trabajo de datos relacionales"
 
 
 [question-34]
-Question = "¿Cuál es una razón por la que alguien diseñaría un reporte como un reporte paginado?"
+Question = "Un equipo de reporting está diseñando diferentes tipos de reportes para una empresa de servicios financieros. ¿Cuál es una razón por la que alguien diseñaría un reporte como un reporte paginado?"
 Correct = "C"
 A = "Generar el reporte probablemente irá a las 100,000s de páginas."
 B = "Necesita ser un resumen visual de los datos, incluyendo gráficos y diagramas"
@@ -877,7 +877,7 @@ Topic = "Power BI"
 
 
 [question-35]
-Question = "¿Puede un servidor SQL Database tener tanto reglas de firewall IP a nivel de servidor Y reglas de firewall IP a nivel de base de datos? ¿O debes elegir una u otra?"
+Question = "Un equipo de seguridad está configurando reglas de firewall para un servidor SQL Database que aloja múltiples bases de datos para diferentes departamentos. ¿Puede un servidor SQL Database tener tanto reglas de firewall IP a nivel de servidor Y reglas de firewall IP a nivel de base de datos? ¿O debes elegir una u otra?"
 Correct = "C"
 A = "No, debes elegir una u otra"
 B = "Cualquier IP en el firewall a nivel de base de datos también debe existir en el firewall a nivel de servidor"
@@ -901,7 +901,7 @@ Topic = "Seguridad de datos relacionales"
 
 
 [question-36]
-Question = "¿Qué característica de Azure Blob Storage permitiría la recuperación de un archivo que fue eliminado accidentalmente? Elige dos."
+Question = "Una empresa de servicios legales está configurando un sistema de almacenamiento para documentos importantes que deben ser recuperables en caso de eliminación accidental. ¿Qué característica de Azure Blob Storage permitiría la recuperación de un archivo que fue eliminado accidentalmente? Elige dos."
 Correct = "A,B"
 A = "Versionado de blob"
 B = "Eliminación suave"
@@ -926,7 +926,7 @@ Topic = "Azure Storage"
 
 
 [question-37]
-Question = "¿Cuál de las siguientes es una ventaja de ejecutar tu base de datos SQL en el modelo PaaS en Azure?"
+Question = "Una startup de tecnología está evaluando diferentes modelos de servicio para su nueva aplicación. ¿Cuál de las siguientes es una ventaja de ejecutar tu base de datos SQL en el modelo PaaS en Azure?"
 Correct = "A"
 A = "Gasto de capital inicial más barato"
 B = "Gasto operacional por día más barato"
@@ -953,7 +953,7 @@ Topic = "Bases de datos relacionales de Azure"
 
 
 [question-38]
-Question = "Al desplegar una cuenta de Azure Storage, y eliges Almacenamiento con Redundancia Local (LRS), ¿cuántas copias de tus datos mantiene Azure?"
+Question = "Una empresa de servicios de respaldo está configurando una cuenta de Azure Storage para almacenar datos críticos de sus clientes. Al desplegar una cuenta de Azure Storage, y eliges Almacenamiento con Redundancia Local (LRS), ¿cuántas copias de tus datos mantiene Azure?"
 Correct = "D"
 A = "1 copia en cada Zona de Disponibilidad"
 B = "1"
@@ -980,7 +980,7 @@ Topic = "Gestión de datos no relacionales"
 
 
 [question-39]
-Question = "¿Qué tipo de datos no relacional gira en torno a nodos y las relaciones entre los nodos? Este sería un buen tipo de datos para bases de datos que necesitan navegar de nodo a nodos relacionados, como un organigrama de empresa o una red social."
+Question = "Una empresa de redes sociales está diseñando su arquitectura de datos para manejar relaciones complejas entre usuarios. ¿Qué tipo de datos no relacional gira en torno a nodos y las relaciones entre los nodos? Este sería un buen tipo de datos para bases de datos que necesitan navegar de nodo a nodos relacionados, como un organigrama de empresa o una red social."
 Correct = "C"
 A = "Datos MongoDB"
 B = "Datos Core (SQL)"
@@ -1009,7 +1009,7 @@ Topic = "Base de datos no relacional"
 
 
 [question-40]
-Question = "Tu empresa tiene varias bases de datos en un único servidor de Azure SQL Database. Acabas de contratar a un nuevo desarrollador que necesita acceso a todas las bases de datos del servidor desde su dirección IP corporativa. ¿Cuál es la forma más eficiente de permitir este acceso?"
+Question = "Una empresa de consultoría tiene varias bases de datos en un único servidor de Azure SQL Database. Acaban de contratar a un nuevo desarrollador que necesita acceso a todas las bases de datos del servidor desde su dirección IP corporativa. ¿Cuál es la forma más eficiente de permitir este acceso?"
 Correct = "B"
 A = "Crear reglas de firewall IP a nivel de cada base de datos"
 B = "Configurar una regla de firewall IP a nivel de servidor"
@@ -1037,7 +1037,7 @@ Topic = "Seguridad de datos relacionales"
 
 
 [question-41]
-Question = "Estás analizando un conjunto de datos que contiene información sobre demografía de clientes e historial de compras. ¿Qué visualización de datos en Microsoft Power BI sería más apropiada para identificar patrones o tendencias en el número de compras realizadas por clientes en diferentes grupos de edad?"
+Question = "Un equipo de marketing está analizando un conjunto de datos que contiene información sobre demografía de clientes e historial de compras. ¿Qué visualización de datos en Microsoft Power BI sería más apropiada para identificar patrones o tendencias en el número de compras realizadas por clientes en diferentes grupos de edad?"
 Correct = "B"
 A = "Gráfico de medidor"
 B = "Gráfico de barras apiladas"
@@ -1064,7 +1064,7 @@ Topic = "Microsoft Power BI"
 
 
 [question-42]
-Question = "¿Cuál de los siguientes es un formato de archivo de datos comúnmente usado para almacenar grandes conjuntos de datos en formato tabular?"
+Question = "Un equipo de análisis de datos está trabajando con grandes volúmenes de información de ventas. ¿Cuál de los siguientes es un formato de archivo de datos comúnmente usado para almacenar grandes conjuntos de datos en formato tabular?"
 Correct = "D"
 A = "HTML (Hypertext Markup Language)"
 B = "XML (Extensible Markup Language)"
@@ -1091,7 +1091,7 @@ Topic = "Opciones de almacenamiento de datos"
 
 
 [question-43]
-Question = "¿Cuál de los siguientes es un tipo de base de datos relacional ofrecida por Microsoft Azure?"
+Question = "Una empresa de desarrollo de aplicaciones está evaluando opciones de base de datos para su nueva aplicación web. ¿Cuál de los siguientes es un tipo de base de datos relacional ofrecida por Microsoft Azure?"
 Correct = "C"
 A = "Azure Cosmos DB"
 B = "Azure Blob Storage"
@@ -1118,7 +1118,7 @@ Topic = "Opciones de almacenamiento de datos"
 
 
 [question-44]
-Question = "¿Cuál de los siguientes NO es una responsabilidad típica de un administrador de base de datos para una carga de trabajo de datos basada en la nube?"
+Question = "Una empresa de servicios de TI está definiendo roles y responsabilidades para su equipo de administración de bases de datos. ¿Cuál de los siguientes NO es una responsabilidad típica de un administrador de base de datos para una carga de trabajo de datos basada en la nube?"
 Correct = "D"
 A = "Implementar y gestionar políticas de gobernanza de datos"
 B = "Monitorear la utilización de recursos y el rendimiento"
@@ -1145,7 +1145,7 @@ Topic = "Roles y responsabilidades"
 
 
 [question-45]
-Question = "¿Cuál de las siguientes declaraciones sobre Azure Table storage es precisa?"
+Question = "Un equipo de arquitectura de datos está evaluando Azure Table Storage para su aplicación de gestión de inventario. ¿Cuál de las siguientes declaraciones sobre Azure Table storage es precisa?"
 Correct = "C"
 A = "Los datos en Azure Table storage están organizados en particiones que se almacenan en un conjunto de entidades."
 B = "Azure Table storage soporta sharding automático y almacenamiento en niveles caliente/frío para optimizar el almacenamiento y rendimiento."
@@ -1172,7 +1172,7 @@ Topic = "Capacidades de Azure storage"
 
 
 [question-46]
-Question = "Eres un ingeniero de datos que trabaja para una gran empresa minorista que recopila datos de diversas fuentes, incluyendo redes sociales, reseñas de clientes y descripciones de productos. ¿Qué característica de los datos no estructurados debería preocuparte más al diseñar una solución para almacenar y analizar estos datos?"
+Question = "Un ingeniero de datos que trabaja para una gran empresa minorista está recopilando datos de diversas fuentes, incluyendo redes sociales, reseñas de clientes y descripciones de productos. ¿Qué característica de los datos no estructurados debería preocuparte más al diseñar una solución para almacenar y analizar estos datos?"
 Correct = "D"
 A = "Los datos no estructurados son fácilmente buscables usando consultas SQL, igual que los datos estructurados."
 B = "Los datos no estructurados siempre están en un formato estructurado, como archivos CSV o JSON."
@@ -1199,7 +1199,7 @@ Topic = "Formas de representar datos"
 
 
 [question-47]
-Question = "¿Cuál de los siguientes describe mejor la diferencia entre el procesamiento de datos por lotes y el procesamiento de datos de streaming en el contexto de análisis de datos en tiempo real?"
+Question = "Una empresa de análisis de datos en tiempo real está evaluando diferentes enfoques de procesamiento para su plataforma de monitoreo. ¿Cuál de los siguientes describe mejor la diferencia entre el procesamiento de datos por lotes y el procesamiento de datos de streaming en el contexto de análisis de datos en tiempo real?"
 Correct = "A"
 A = "El procesamiento por lotes maneja grandes volúmenes de datos a la vez, mientras que el procesamiento de datos de streaming maneja datos continuamente a medida que llegan en tiempo real."
 B = "El procesamiento por lotes se usa para análisis de datos históricos, mientras que el procesamiento de datos de streaming se usa para análisis de datos en tiempo real."
@@ -1226,7 +1226,7 @@ Topic = "Análisis de datos en tiempo real"
 
 
 [question-48]
-Question = "¿Cuál de los siguientes NO es un formato común para almacenar archivos de datos?"
+Question = "Un equipo de ingeniería de datos está evaluando diferentes formatos de archivo para su sistema de almacenamiento de datos. ¿Cuál de los siguientes NO es un formato común para almacenar archivos de datos?"
 Correct = "A"
 A = "Microsoft Excel Workbook (.xlsx)"
 B = "JavaScript Object Notation (JSON)"
@@ -1253,7 +1253,7 @@ Topic = "Opciones de almacenamiento de datos"
 
 
 [question-49]
-Question = "¿Cuál de las siguientes opciones de Azure SQL te permite ejecutar tu propia versión completa de SQL Server con control total sobre el sistema operativo?"
+Question = "Una empresa de desarrollo de software está migrando aplicaciones legacy que requieren configuraciones específicas de SQL Server. ¿Cuál de las siguientes opciones de Azure SQL te permite ejecutar tu propia versión completa de SQL Server con control total sobre el sistema operativo?"
 Correct = "B"
 A = "Azure SQL Database"
 B = "SQL Server en Azure Virtual Machines"
@@ -1280,7 +1280,7 @@ Topic = "Servicios de datos relacionales de Azure"
 
 
 [question-50]
-Question = "¿Cuál de las siguientes declaraciones describe con precisión el proceso de normalización en el diseño de bases de datos relacionales?"
+Question = "Un equipo de arquitectura de datos está diseñando una nueva base de datos para un sistema de gestión de clientes. ¿Cuál de las siguientes declaraciones describe con precisión el proceso de normalización en el diseño de bases de datos relacionales?"
 Correct = "D"
 A = "La normalización es el proceso de eliminar todos los valores nulos de una base de datos."
 B = "La normalización mejora el rendimiento de las consultas desnormalizando datos en una sola tabla."
