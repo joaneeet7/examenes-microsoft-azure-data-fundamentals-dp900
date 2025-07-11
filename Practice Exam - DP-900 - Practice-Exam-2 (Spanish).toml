@@ -287,7 +287,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15)
 """
-Topic = "SQL"
+Topic = "Datos relacionales"
 
 
 [question-12]
@@ -395,7 +395,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/scenarios/securing-data-solutions](https://learn.microsoft.com/es-es/azure/architecture/data-guide/scenarios/securing-data-solutions)
 """
-Topic = "Gestión de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-16]
@@ -443,7 +443,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data)
 """
-Topic = "Tipos de datos"
+Topic = "Conceptos básicos de datos"
 
 
 [question-18]
@@ -788,7 +788,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/azure-sql/migration-guides/virtual-machines/sql-server-to-sql-on-azure-vm-individual-databases-guide](https://learn.microsoft.com/es-es/azure/azure-sql/migration-guides/virtual-machines/sql-server-to-sql-on-azure-vm-individual-databases-guide)
 """
-Topic = "Relational DB management"
+Topic = "Datos relacionales"
 
 
 [question-31]
@@ -815,7 +815,7 @@ Referencias:
 
 [https://azure.microsoft.com/es-es/services/virtual-machines/sql-server/](https://azure.microsoft.com/es-es/services/virtual-machines/sql-server/)
 """
-Topic = "Servicios de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-32]
@@ -1163,7 +1163,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/data-factory/](https://learn.microsoft.com/es-es/azure/data-factory/)
 """
-Topic = "Análisis a gran escala"
+Topic = "Análisis de datos"
 
 
 [question-45]
@@ -1244,7 +1244,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/synapse-analytics/](https://learn.microsoft.com/es-es/azure/synapse-analytics/)
 """
-Topic = "Análisis a gran escala"
+Topic = "Análisis de datos"
 
 
 [question-48]
@@ -1325,4 +1325,4 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/databricks/](https://learn.microsoft.com/es-es/azure/databricks/)
 """
-Topic = "Análisis a gran escala"
+Topic = "Análisis de datos"
