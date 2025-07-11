@@ -27,7 +27,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing](https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing)
 """
-Topic = "Cargas de trabajo de datos principales"
+Topic = "Conceptos básicos de datos"
 
 
 [question-2]
@@ -54,7 +54,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-ca/azure/storage/blobs/data-lake-storage-introduction](https://docs.microsoft.com/en-ca/azure/storage/blobs/data-lake-storage-introduction)
 """
-Topic = "Almacén de datos"
+Topic = "Análisis de datos"
 
 
 [question-3]
@@ -81,7 +81,7 @@ Referencias:
 
 [https://azure.microsoft.com/en-us/pricing/details/storage/tables/](https://azure.microsoft.com/en-us/pricing/details/storage/tables/)
 """
-Topic = "Despliegue no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-4]
@@ -108,7 +108,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/examine-components-of-modern-data-warehouse/3-explore-azure-data-services-warehousing](https://docs.microsoft.com/en-us/learn/modules/examine-components-of-modern-data-warehouse/3-explore-azure-data-services-warehousing)
 """
-Topic = "Almacén de datos"
+Topic = "Análisis de datos"
 
 
 [question-5]
@@ -135,7 +135,7 @@ Referencias:
 
 [https://azure.microsoft.com/en-us/pricing/details/storage/files/](https://azure.microsoft.com/en-us/pricing/details/storage/files/)
 """
-Topic = "Azure Storage"
+Topic = "Datos no relacionales"
 
 
 [question-6]
@@ -156,7 +156,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities)
 """
-Topic = "Procesamiento de datos"
+Topic = "Análisis de datos"
 
 
 [question-7]
@@ -177,7 +177,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine)
 """
-Topic = "SQL Server en VM"
+Topic = "Datos relacionales"
 
 
 [question-8]
@@ -204,7 +204,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing](https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing)
 """
-Topic = "Cargas de trabajo de datos principales"
+Topic = "Conceptos básicos de datos"
 
 
 [question-9]
@@ -231,7 +231,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-descriptive-analytics/2-understand-descriptive-analytics](https://docs.microsoft.com/en-us/learn/modules/explore-descriptive-analytics/2-understand-descriptive-analytics)
 """
-Topic = "Conceptos principales de análisis de datos"
+Topic = "Conceptos básicos de datos"
 
 
 [question-10]
@@ -252,7 +252,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing](https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing)
 """
-Topic = "Cargas de trabajo de datos principales"
+Topic = "Conceptos básicos de datos"
 
 
 [question-11]
@@ -273,7 +273,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
 """
-Topic = "Conceptos principales de análisis de datos"
+Topic = "Conceptos básicos de datos"
 
 
 [question-12]
@@ -300,7 +300,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing](https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing)
 """
-Topic = "Cargas de trabajo de datos principales"
+Topic = "Conceptos básicos de datos"
 
 
 [question-13]
@@ -321,7 +321,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
 """
-Topic = "Consulta SQL"
+Topic = "Datos relacionales"
 
 
 [question-14]
@@ -348,7 +348,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization](https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization)
 """
-Topic = "Conceptos principales de análisis de datos"
+Topic = "Conceptos básicos de datos"
 
 
 [question-15]
@@ -375,7 +375,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services](https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services)
 """
-Topic = "Despliegue no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-16]
@@ -402,7 +402,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services](https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services)
 """
-Topic = "Gestión de base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-17]
@@ -429,7 +429,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing)
 """
-Topic = "Carga de trabajo analítica"
+Topic = "Análisis de datos"
 
 
 [question-18]
@@ -450,7 +450,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview)
 """
-Topic = "SQL Server en VM"
+Topic = "Datos relacionales"
 
 
 [question-19]
@@ -477,7 +477,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
 """
-Topic = "Cargas de trabajo de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-20]
@@ -504,7 +504,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks)
 """
-Topic = "Azure Databricks"
+Topic = "Análisis de datos"
 
 
 [question-21]
@@ -531,7 +531,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/sql/t-sql/statements/statements?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/t-sql/statements/statements?view=sql-server-ver15)
 """
-Topic = "Consulta SQL"
+Topic = "Datos relacionales"
 
 
 [question-22]
@@ -555,7 +555,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/real-time-processing](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/real-time-processing)
 """
-Topic = "Carga de trabajo analítica"
+Topic = "Análisis de datos"
 
 
 [question-23]
@@ -582,7 +582,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
 """
-Topic = "Conceptos principales de análisis de datos"
+Topic = "Conceptos básicos de datos"
 
 
 [question-24]
@@ -609,7 +609,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/3-provision-azure-cosmos-db](https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/3-provision-azure-cosmos-db)
 """
-Topic = "Despliegue no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-25]
@@ -630,7 +630,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing](https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing)
 """
-Topic = "Cargas de trabajo de datos principales"
+Topic = "Conceptos básicos de datos"
 
 
 [question-26]
@@ -657,7 +657,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15)
 """
-Topic = "Consulta SQL"
+Topic = "Datos relacionales"
 
 
 [question-27]
@@ -684,7 +684,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/3-explore-azure-blob-storage](https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/3-explore-azure-blob-storage)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-28]
@@ -711,7 +711,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15)
 """
-Topic = "Gestión de base de datos relacional"
+Topic = "Datos relacionales"
 
 
 [question-29]
@@ -738,7 +738,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview)
 """
-Topic = "Bases de datos relacionales de Azure"
+Topic = "Datos relacionales"
 
 
 [question-30]
@@ -765,7 +765,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/sql/relational-databases/tables/create-primary-keys?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/relational-databases/tables/create-primary-keys?view=sql-server-ver15)
 """
-Topic = "Cargas de trabajo de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-31]
@@ -792,7 +792,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks)
 """
-Topic = "Procesamiento de datos"
+Topic = "Análisis de datos"
 
 
 [question-32]
@@ -819,7 +819,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization](https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization)
 """
-Topic = "Conceptos principales de análisis de datos"
+Topic = "Conceptos básicos de datos"
 
 
 [question-33]
@@ -846,7 +846,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/sql/relational-databases/indexes/indexes?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/indexes?view=sql-server-ver15)
 """
-Topic = "Cargas de trabajo de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-34]
@@ -873,7 +873,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/power-bi/paginated-reports/paginated-reports-report-builder-power-bi](https://docs.microsoft.com/en-us/power-bi/paginated-reports/paginated-reports-report-builder-power-bi)
 """
-Topic = "Power BI"
+Topic = "Análisis de datos"
 
 
 [question-35]
@@ -897,7 +897,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-configure](https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-configure)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-36]
@@ -922,7 +922,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview](https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview)
 """
-Topic = "Azure Storage"
+Topic = "Datos no relacionales"
 
 
 [question-37]
@@ -949,7 +949,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview)
 """
-Topic = "Bases de datos relacionales de Azure"
+Topic = "Datos relacionales"
 
 
 [question-38]
@@ -976,7 +976,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy)
 """
-Topic = "Gestión de datos no relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-39]
@@ -1003,7 +1003,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-gb/azure/architecture/data-guide/big-data/non-relational-data](https://docs.microsoft.com/en-gb/azure/architecture/data-guide/big-data/non-relational-data)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 
@@ -1032,7 +1032,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure](https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 
@@ -1060,7 +1060,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization](https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization)
 """
-Topic = "Microsoft Power BI"
+Topic = "Análisis de datos"
 
 
 [question-42]
@@ -1087,7 +1087,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
 """
-Topic = "Opciones de almacenamiento de datos"
+Topic = "Datos no relacionales"
 
 
 [question-43]
@@ -1114,7 +1114,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview)
 """
-Topic = "Opciones de almacenamiento de datos"
+Topic = "Datos no relacionales"
 
 
 [question-44]
@@ -1141,7 +1141,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
 """
-Topic = "Roles y responsabilidades"
+Topic = "Conceptos básicos de datos"
 
 
 [question-45]
@@ -1168,7 +1168,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview](https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview)
 """
-Topic = "Capacidades de Azure storage"
+Topic = "Datos no relacionales"
 
 
 [question-46]
@@ -1195,7 +1195,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/2-explore-azure-cosmos-db](https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/2-explore-azure-cosmos-db)
 """
-Topic = "Formas de representar datos"
+Topic = "Conceptos básicos de datos"
 
 
 [question-47]
@@ -1222,7 +1222,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing](https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing)
 """
-Topic = "Análisis de datos en tiempo real"
+Topic = "Análisis de datos"
 
 
 [question-48]
@@ -1249,7 +1249,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
 """
-Topic = "Opciones de almacenamiento de datos"
+Topic = "Datos no relacionales"
 
 
 [question-49]
@@ -1276,7 +1276,7 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview](https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview)
 """
-Topic = "Servicios de datos relacionales de Azure"
+Topic = "Datos relacionales"
 
 
 [question-50]
@@ -1303,5 +1303,5 @@ Referencias:
 
 [https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
 """
-Topic = "Conceptos relacionales"
+Topic = "Datos relacionales"
 

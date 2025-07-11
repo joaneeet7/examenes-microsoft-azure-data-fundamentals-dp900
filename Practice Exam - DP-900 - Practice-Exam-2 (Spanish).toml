@@ -26,7 +26,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing)
 """
-Topic = "Carga de trabajo analítica"
+Topic = "Análisis de datos"
 
 
 [question-2]
@@ -53,7 +53,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/learn/modules/explore-provision-deploy-non-relational-data-services-azure/3-provision-azure-cosmos-db](https://learn.microsoft.com/es-es/learn/modules/explore-provision-deploy-non-relational-data-services-azure/3-provision-azure-cosmos-db)
 """
-Topic = "Implementación no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-3]
@@ -80,7 +80,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15#data-definition-language](https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15#data-definition-language)
 """
-Topic = "Lenguaje SQL"
+Topic = "Datos relacionales"
 
 
 [question-4]
@@ -107,7 +107,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-ca/azure/storage/blobs/data-lake-storage-supported-blob-storage-features](https://learn.microsoft.com/es-ca/azure/storage/blobs/data-lake-storage-supported-blob-storage-features)
 """
-Topic = "Almacén de datos"
+Topic = "Análisis de datos"
 
 
 [question-5]
@@ -134,7 +134,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/batch-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/batch-processing)
 """
-Topic = "Carga de trabajo analítica"
+Topic = "Análisis de datos"
 
 
 [question-6]
@@ -155,7 +155,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure](https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-7]
@@ -209,7 +209,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/data-factory/concepts-pipelines-activities](https://learn.microsoft.com/es-es/azure/data-factory/concepts-pipelines-activities)
 """
-Topic = "Procesamiento de datos"
+Topic = "Análisis de datos"
 
 
 [question-9]
@@ -236,7 +236,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blobs-introduction](https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blobs-introduction)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-10]
@@ -260,7 +260,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/power-bi/create-reports/service-interactive-reports](https://learn.microsoft.com/es-es/power-bi/create-reports/service-interactive-reports)
 """
-Topic = "Power BI"
+Topic = "Análisis de datos"
 
 
 [question-11]
@@ -341,7 +341,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/learn/modules/examine-components-of-modern-data-warehouse/3-explore-azure-data-services-warehousing](https://learn.microsoft.com/es-es/learn/modules/examine-components-of-modern-data-warehouse/3-explore-azure-data-services-warehousing)
 """
-Topic = "Almacén de datos"
+Topic = "Análisis de datos"
 
 
 [question-14]
@@ -368,7 +368,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/security/fundamentals/data-encryption-best-practices#protect-data-in-transit](https://learn.microsoft.com/es-es/azure/security/fundamentals/data-encryption-best-practices#protect-data-in-transit)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-15]
@@ -470,7 +470,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/azure-sql/database/security-overview](https://learn.microsoft.com/es-es/azure/azure-sql/database/security-overview)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-19]
@@ -497,7 +497,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/power-bi/consumer/end-user-dashboards](https://learn.microsoft.com/es-es/power-bi/consumer/end-user-dashboards)
 """
-Topic = "Power BI"
+Topic = "Análisis de datos"
 
 
 [question-20]
@@ -524,7 +524,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/storage/tables/table-storage-overview](https://learn.microsoft.com/es-es/azure/storage/tables/table-storage-overview)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-21]
@@ -545,7 +545,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/etl](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/etl)
 """
-Topic = "Procesamiento de datos"
+Topic = "Análisis de datos"
 
 
 [question-22]
@@ -572,7 +572,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/database-security](https://learn.microsoft.com/es-es/azure/cosmos-db/database-security)
 """
-Topic = "Seguridad de datos no relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-23]
@@ -599,7 +599,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/security/zero-trust/](https://learn.microsoft.com/es-es/security/zero-trust/)
 """
-Topic = "Gestión de datos no relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-24]
@@ -626,7 +626,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blob-storage-tiers](https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blob-storage-tiers)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-25]
@@ -653,7 +653,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-26]
@@ -680,7 +680,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/introduction](https://learn.microsoft.com/es-es/azure/cosmos-db/introduction)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-27]
@@ -734,7 +734,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/solution-ideas/articles/enterprise-data-warehouse](https://learn.microsoft.com/es-es/azure/architecture/solution-ideas/articles/enterprise-data-warehouse)
 """
-Topic = "Almacén de datos"
+Topic = "Análisis de datos"
 
 
 [question-29]
@@ -761,7 +761,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/how-to-configure-firewall](https://learn.microsoft.com/es-es/azure/cosmos-db/how-to-configure-firewall)
 """
-Topic = "Gestión de datos no relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-30]
@@ -839,7 +839,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/account-databases-containers-items](https://learn.microsoft.com/es-es/azure/cosmos-db/account-databases-containers-items)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-33]
@@ -866,7 +866,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/introduction](https://learn.microsoft.com/es-es/azure/cosmos-db/introduction)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-34]
@@ -893,7 +893,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/learn/modules/explore-non-relational-data-offerings-azure/2-explore-azure-table-storage](https://learn.microsoft.com/es-es/learn/modules/explore-non-relational-data-offerings-azure/2-explore-azure-table-storage)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-35]
@@ -920,7 +920,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/cosmosdb-migrationchoices](https://learn.microsoft.com/es-es/azure/cosmos-db/cosmosdb-migrationchoices)
 """
-Topic = "Gestión de base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-36]
@@ -947,7 +947,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-37]
@@ -974,7 +974,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/storage/common/storage-redundancy](https://learn.microsoft.com/es-es/azure/storage/common/storage-redundancy)
 """
-Topic = "Gestión de datos no relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-38]
@@ -1001,7 +1001,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure](https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-39]
@@ -1028,7 +1028,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-analytical-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-analytical-processing)
 """
-Topic = "Carga de trabajo analítica"
+Topic = "Análisis de datos"
 
 
 [question-40]
@@ -1055,7 +1055,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/sql/relational-databases/security/sql-injection?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/security/sql-injection?view=sql-server-ver15)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-41]
@@ -1082,7 +1082,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/sql/t-sql/statements/insert-transact-sql](https://learn.microsoft.com/es-es/sql/t-sql/statements/insert-transact-sql)
 """
-Topic = "Conceptos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-42]
@@ -1109,7 +1109,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/databricks/data/data-sources/read-write-data/file-formats/parquet](https://learn.microsoft.com/es-es/azure/databricks/data/data-sources/read-write-data/file-formats/parquet)
 """
-Topic = "Opciones de almacenamiento de datos"
+Topic = "Datos no relacionales"
 
 
 [question-43]
@@ -1136,7 +1136,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/)
 """
-Topic = "Conceptos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-44]
@@ -1190,7 +1190,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing)
 """
-Topic = "Cargas de trabajo de datos comunes"
+Topic = "Análisis de datos"
 
 
 [question-46]
@@ -1217,7 +1217,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/power-bi/transform-model/desktop-relationships-understand](https://learn.microsoft.com/es-es/power-bi/transform-model/desktop-relationships-understand)
 """
-Topic = "Microsoft Power BI"
+Topic = "Análisis de datos"
 
 
 [question-47]
@@ -1271,7 +1271,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/normalization](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/normalization)
 """
-Topic = "Conceptos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-49]
@@ -1298,7 +1298,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/postgresql/hyperscale/](https://learn.microsoft.com/es-es/azure/postgresql/hyperscale/)
 """
-Topic = "Servicios de datos relacionales de Azure"
+Topic = "Datos relacionales"
 
 
 [question-50]

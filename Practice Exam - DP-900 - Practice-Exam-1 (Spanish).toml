@@ -25,7 +25,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/relational-nosql](https://learn.microsoft.com/es-es/azure/cosmos-db/relational-nosql)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-2]
@@ -52,7 +52,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/azure-cache-for-redis/cache-pricing](https://learn.microsoft.com/es-es/azure/azure-cache-for-redis/cache-pricing)
 """
-Topic = "Implementación no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-3]
@@ -79,7 +79,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure](https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure)
 """
-Topic = "Gestión de base de datos relacional"
+Topic = "Datos relacionales"
 
 
 [question-4]
@@ -106,7 +106,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15#data-manipulation-language](https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15#data-manipulation-language)
 """
-Topic = "Lenguaje SQL"
+Topic = "Datos relacionales"
 
 
 [question-5]
@@ -133,7 +133,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver15)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-6]
@@ -160,7 +160,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/power-bi/paginated-reports/paginated-reports-report-builder-power-bi](https://learn.microsoft.com/es-es/power-bi/paginated-reports/paginated-reports-report-builder-power-bi)
 """
-Topic = "Power BI"
+Topic = "Análisis de datos"
 
 
 [question-7]
@@ -187,7 +187,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/power-bi/create-reports/desktop-interactive-reports](https://learn.microsoft.com/es-es/power-bi/create-reports/desktop-interactive-reports)
 """
-Topic = "Power BI"
+Topic = "Análisis de datos"
 
 
 [question-8]
@@ -214,7 +214,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/relational-nosql](https://learn.microsoft.com/es-es/azure/cosmos-db/relational-nosql)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-9]
@@ -241,7 +241,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/set-throughput](https://learn.microsoft.com/es-es/azure/cosmos-db/set-throughput)
 """
-Topic = "Implementación no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-10]
@@ -268,7 +268,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/storage/common/storage-require-secure-transfer](https://learn.microsoft.com/es-es/azure/storage/common/storage-require-secure-transfer)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-11]
@@ -295,7 +295,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/database-security](https://learn.microsoft.com/es-es/azure/cosmos-db/database-security)
 """
-Topic = "Seguridad de datos no relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-12]
@@ -322,7 +322,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/security/fundamentals/protection-customer-data](https://learn.microsoft.com/es-es/azure/security/fundamentals/protection-customer-data)
 """
-Topic = "Gestión de datos no relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-13]
@@ -349,7 +349,7 @@ Referencias:
 
 [https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-14]
@@ -403,7 +403,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/batch-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/batch-processing)
 """
-Topic = "Carga de trabajo analítica"
+Topic = "Análisis de datos"
 
 
 [question-16]
@@ -457,7 +457,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-gb/azure/architecture/data-guide/big-data/non-relational-data](https://learn.microsoft.com/es-gb/azure/architecture/data-guide/big-data/non-relational-data)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-18]
@@ -484,7 +484,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/security/zero-trust/](https://learn.microsoft.com/es-es/security/zero-trust/)
 """
-Topic = "Gestión de datos no relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-19]
@@ -511,7 +511,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/data-factory/concepts-pipelines-activities#control-flow-activities](https://learn.microsoft.com/es-es/azure/data-factory/concepts-pipelines-activities#control-flow-activities)
 """
-Topic = "Procesamiento de datos"
+Topic = "Análisis de datos"
 
 
 [question-20]
@@ -538,7 +538,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-21]
@@ -565,7 +565,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-ca/azure/storage/blobs/data-lake-storage-introduction](https://learn.microsoft.com/es-ca/azure/storage/blobs/data-lake-storage-introduction)
 """
-Topic = "Almacén de datos"
+Topic = "Análisis de datos"
 
 
 [question-22]
@@ -592,7 +592,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/training/modules/explore-provision-deploy-non-relational-data-services-azure/5-azure-tables](https://learn.microsoft.com/es-es/training/modules/explore-provision-deploy-non-relational-data-services-azure/5-azure-tables)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-23]
@@ -646,7 +646,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services](https://learn.microsoft.com/es-es/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services)
 """
-Topic = "Implementación no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-25]
@@ -673,7 +673,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/data-factory/introduction](https://learn.microsoft.com/es-es/azure/data-factory/introduction)
 """
-Topic = "Procesamiento de datos"
+Topic = "Análisis de datos"
 
 
 [question-26]
@@ -694,7 +694,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure](https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-27]
@@ -721,7 +721,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure.microsoft.com/en-us/pricing/details/storage/files/](https://learn.microsoft.com/es-es/azure.microsoft.com/en-us/pricing/details/storage/files/)
 """
-Topic = "Azure Storage"
+Topic = "Datos no relacionales"
 
 
 [question-28]
@@ -748,7 +748,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-29]
@@ -775,7 +775,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/security/fundamentals/data-encryption-best-practices#protect-data-in-transit](https://learn.microsoft.com/es-es/azure/security/fundamentals/data-encryption-best-practices#protect-data-in-transit)
 """
-Topic = "Seguridad de datos relacionales"
+Topic = "Datos relacionales"
 
 
 [question-30]
@@ -802,7 +802,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/concepts-limits](https://learn.microsoft.com/es-es/azure/cosmos-db/concepts-limits)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-31]
@@ -856,7 +856,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/azure-sql/database/service-tiers-dtu](https://learn.microsoft.com/es-es/azure/azure-sql/database/service-tiers-dtu)
 """
-Topic = "Gestión de base de datos relacional"
+Topic = "Datos relacionales"
 
 
 [question-33]
@@ -883,7 +883,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/learn/modules/choose-storage-approach-in-azure/2-classify-data](https://learn.microsoft.com/es-es/learn/modules/choose-storage-approach-in-azure/2-classify-data)
 """
-Topic = "Almacén de datos"
+Topic = "Análisis de datos"
 
 
 [question-34]
@@ -910,7 +910,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blob-storage-tiers](https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blob-storage-tiers)
 """
-Topic = "Base de datos no relacional"
+Topic = "Datos no relacionales"
 
 
 [question-35]
@@ -937,7 +937,7 @@ Referencias:
 
 [https://whatismyipaddress.com/cidr](https://whatismyipaddress.com/cidr)
 """
-Topic = "Gestión de datos no relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-36]
@@ -964,7 +964,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing)
 """
-Topic = "Carga de trabajo analítica"
+Topic = "Análisis de datos"
 
 
 [question-37]
@@ -991,7 +991,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/storage/blobs/soft-delete-blob-overview](https://learn.microsoft.com/es-es/azure/storage/blobs/soft-delete-blob-overview)
 """
-Topic = "Azure Storage"
+Topic = "Datos no relacionales"
 
 
 [question-38]
@@ -1018,7 +1018,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/storage/common/storage-redundancy](https://learn.microsoft.com/es-es/azure/storage/common/storage-redundancy)
 """
-Topic = "Gestión de datos no relacionales"
+Topic = "Datos no relacionales"
 
 [question-39]
 Question = "Como administrador de base de datos para una empresa de retail que está rediseñando su sistema de inventario para mejorar el rendimiento y reducir la duplicación de datos, necesitas entender los principios de diseño de bases de datos. ¿Qué es el concepto de NORMALIZACIÓN cuando se trata de bases de datos relacionales?"
@@ -1044,7 +1044,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/office/troubleshoot/access/database-normalization-description](https://learn.microsoft.com/es-es/office/troubleshoot/access/database-normalization-description)
 """
-Topic = "Analítica"
+Topic = "Análisis de datos"
 
 
 [question-40]
@@ -1071,7 +1071,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/synapse-analytics/overview-what-is](https://learn.microsoft.com/es-es/azure/synapse-analytics/overview-what-is)
 """
-Topic = "Almacén de datos"
+Topic = "Análisis de datos"
 
 [question-41]
 Question = "Como desarrollador de aplicaciones para una empresa de gestión de recursos humanos que está diseñando un sistema de gestión de empleados con múltiples tablas relacionadas (empleados, departamentos, proyectos), necesitas implementar mecanismos de integridad de datos. ¿Cuál de los siguientes es un objeto de base de datos común utilizado para hacer cumplir la integridad de datos y mantener relaciones entre tablas en una base de datos relacional?"
@@ -1099,7 +1099,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/sql/relational-databases/tables/create-foreign-key-relationships](https://learn.microsoft.com/es-es/sql/relational-databases/tables/create-foreign-key-relationships)
 """
-Topic = "Conceptos relacionales"
+Topic = "Datos relacionales"
 
 [question-42]
 Question = "Como director de tecnología para una empresa de consultoría que está construyendo un equipo de datos y necesita definir roles y responsabilidades claros para diferentes perfiles profesionales, necesitas entender las funciones específicas. ¿Cuáles de las siguientes responsabilidades están típicamente asociadas con el rol de analista de datos?"
@@ -1127,7 +1127,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/roles/data-analyst](https://learn.microsoft.com/es-es/azure/architecture/data-guide/roles/data-analyst)
 """
-Topic = "Roles y responsabilidades"
+Topic = "Conceptos básicos de datos"
 
 [question-43]
 Question = "Como arquitecto de soluciones para una empresa de medios digitales que necesita almacenar y gestionar grandes volúmenes de contenido multimedia (videos, imágenes, documentos) de manera escalable y rentable, necesitas evaluar opciones de almacenamiento. ¿Cuál de los siguientes es una descripción precisa de Azure Blob storage?"
@@ -1155,7 +1155,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blobs-overview](https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blobs-overview)
 """
-Topic = "Capacidades de Azure storage"
+Topic = "Datos no relacionales"
 
 [question-44]
 Question = "Como administrador de sistemas para una empresa de desarrollo de software que necesita configurar almacenamiento de archivos compartidos en la nube para que múltiples equipos de desarrollo puedan acceder a recursos compartidos desde diferentes ubicaciones, necesitas evaluar Azure File Storage. ¿Cuál de las siguientes declaraciones sobre Azure File storage, nivel estándar, NO es verdadera?"
@@ -1183,7 +1183,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/storage/files/storage-files-planning](https://learn.microsoft.com/es-es/azure/storage/files/storage-files-planning)
 """
-Topic = "Capacidades de Azure storage"
+Topic = "Datos no relacionales"
 
 [question-45]
 Question = "Como desarrollador senior para una startup de IoT que está construyendo una plataforma de monitoreo de dispositivos conectados que necesita almacenar y consultar grandes cantidades de datos JSON no estructurados de sensores distribuidos globalmente. La aplicación necesita manejar alto rendimiento con baja latencia y tener capacidades de distribución global. ¿Qué servicio de Azure sería la mejor elección para este escenario?"
@@ -1211,7 +1211,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/modeling-data](https://learn.microsoft.com/es-es/azure/cosmos-db/modeling-data)
 """
-Topic = "Azure Cosmos DB"
+Topic = "Datos no relacionales"
 
 [question-46]
 Question = "Como arquitecto de datos para una empresa de servicios públicos que necesita monitorear en tiempo real el consumo de energía de miles de medidores inteligentes distribuidos en toda la ciudad, necesitas implementar un sistema de procesamiento de streams. ¿Cuál de los siguientes servicios en la nube de Microsoft está diseñado para análisis en tiempo real y procesamiento de streams de grandes volúmenes de datos de varias fuentes?"
@@ -1239,7 +1239,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/stream-analytics/stream-analytics-overview](https://learn.microsoft.com/es-es/azure/stream-analytics/stream-analytics-overview)
 """
-Topic = "Analytics de datos en tiempo real"
+Topic = "Análisis de datos"
 
 [question-47]
 Question = "Como director de datos para una empresa de servicios financieros que maneja información confidencial de clientes y necesita cumplir con regulaciones como GDPR y SOX, necesitas implementar una estrategia de gobernanza de datos. ¿Cuál de los siguientes es un servicio de datos completamente administrado, seguro e inteligente para establecer una estrategia de gobernanza de datos unificada en toda la propiedad de datos de tu organización en Microsoft Cloud?"
@@ -1267,7 +1267,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/purview/concept-data-catalog](https://learn.microsoft.com/es-es/azure/purview/concept-data-catalog)
 """
-Topic = "Opciones de almacenamiento de datos"
+Topic = "Datos no relacionales"
 
 [question-48]
 Question = "Como científico de datos para una empresa de retail que necesita desarrollar modelos predictivos para optimizar inventario, predecir demanda de productos y personalizar recomendaciones para clientes, necesitas elegir la plataforma más apropiada. ¿Qué servicio de Azure utilizarías para entrenar e implementar modelos de aprendizaje automático para cargas de trabajo de analytics avanzadas?"
@@ -1295,7 +1295,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/machine-learning/concept-azure-machine-learning](https://learn.microsoft.com/es-es/azure/machine-learning/concept-azure-machine-learning)
 """
-Topic = "Cargas de trabajo de datos comunes"
+Topic = "Análisis de datos"
 
 [question-49]
 Question = "Como director de tecnología para una empresa de e-commerce que está construyendo un equipo de datos para consolidar información de múltiples fuentes (ventas online, tiendas físicas, marketplace, redes sociales), necesitas definir roles claros. ¿Cuál de los siguientes describe mejor las responsabilidades de un ingeniero de datos en una solución de datos en la nube?"
@@ -1323,7 +1323,7 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/data-factory/introduction](https://learn.microsoft.com/es-es/azure/data-factory/introduction)
 """
-Topic = "Roles y responsabilidades"
+Topic = "Conceptos básicos de datos"
 
 [question-50]
 Question = "Como desarrollador de aplicaciones para una startup de gaming que está evaluando Azure Cosmos DB para su plataforma de juegos multijugador que necesita soporte para múltiples tipos de datos y APIs, necesitas entender las opciones disponibles. ¿Cuál de los siguientes NO es una API soportada en Azure Cosmos DB?"
@@ -1351,5 +1351,5 @@ Referencias:
 
 [https://learn.microsoft.com/es-es/azure/cosmos-db/introduction](https://learn.microsoft.com/es-es/azure/cosmos-db/introduction)
 """
-Topic = "Azure Cosmos DB"
+Topic = "Datos no relacionales"
 
