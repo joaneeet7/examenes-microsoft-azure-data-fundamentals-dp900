@@ -244,7 +244,7 @@ Opción correcta:
 
 **[@@-A]** - El procesamiento por lotes está mejor diseñado para manejar grandes cantidades de datos eficientemente. El procesamiento de flujo está destinado para pequeños lotes de datos o elementos individuales.
 
-Opciones incorrectas:
+Opción incorrecta:
 
 **[@@-B]** - El procesamiento de flujo está diseñado para manejar datos en tiempo real y pequeños volúmenes de datos, no para archivos con millones de filas.
 
@@ -670,7 +670,7 @@ Opción correcta:
 
 **[@@-B]** - Puedes tener reglas de firewall IP tanto a nivel de servidor como de base de datos, y existen independientemente. Una IP puede existir en una regla de base de datos y no en una regla de servidor, y el usuario tendría acceso a la base de datos específica y no a todas las bases de datos en el servidor. En este caso, el cliente que intenta acceder a la base de datos está permitido por una regla de IP a nivel de base de datos.
 
-Opciones incorrectas:
+Opción incorrecta:
 
 **[@@-A]** - Esta opción es incorrecta porque las reglas de firewall a nivel de base de datos pueden permitir acceso independientemente de las reglas a nivel de servidor.
 
@@ -1309,6 +1309,7 @@ Referencias:
 """
 Topic = "Conceptos básicos de datos"
 
+
 [question-50]
 Question = "Como desarrollador de aplicaciones para una startup de gaming que está evaluando Azure Cosmos DB para su plataforma de juegos multijugador que necesita soporte para múltiples tipos de datos y APIs, necesitas entender las opciones disponibles. ¿Cuál de los siguientes NO es una API soportada en Azure Cosmos DB?"
 Correct = "A"
@@ -1336,4 +1337,3 @@ Referencias:
 [https://learn.microsoft.com/es-es/azure/cosmos-db/introduction](https://learn.microsoft.com/es-es/azure/cosmos-db/introduction)
 """
 Topic = "Datos no relacionales"
-

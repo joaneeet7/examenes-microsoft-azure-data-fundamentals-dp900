@@ -339,7 +339,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats)
+[https://learn.microsoft.com/es-es/training/modules/explore-core-data-concepts/2-data-formats](https://learn.microsoft.com/es-es/training/modules/explore-core-data-concepts/2-data-formats)
 """
 Topic = "Datos no relacionales"
 
@@ -366,7 +366,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/en-us/azure/cosmos-db/table/support](https://learn.microsoft.com/en-us/azure/cosmos-db/table/support)
+[https://learn.microsoft.com/es-es/azure/cosmos-db/table/support](https://learn.microsoft.com/es-es/azure/cosmos-db/table/support)
 """
 Topic = "Datos no relacionales"
 
@@ -484,8 +484,8 @@ Question = "Como ingeniero de datos para una empresa manufacturera que está imp
 Correct = "A"
 A = "Condición Si"
 B = "MapReduce"
-C = "Copiar Datos"
-D = "Flujo de Datos"
+C = "Copiar datos"
+D = "Flujo de datos"
 Explanation = """
 Opción correcta:
 
@@ -566,11 +566,11 @@ Correct = "D"
 A = "Firewall basado en IP"
 B = "Autenticación de redes sociales (ej. Facebook, LinkedIn, Microsoft, etc.)"
 C = "Listas de Control de Acceso"
-D = "Autenticación de Azure AD"
+D = "Autenticación de Microsoft Entra ID"
 Explanation = """
 Opción correcta:
 
-**[@@-D]** - La autenticación de Azure Active Directory (Azure AD) es un mecanismo para conectarse a Azure SQL Database, Azure SQL Managed Instance y Synapse SQL en Azure Synapse Analytics usando identidades en Azure AD. Con la autenticación de Azure AD, puedes gestionar centralmente las identidades de usuarios de base de datos y otros servicios de Microsoft en una ubicación central.
+**[@@-D]** - La autenticación de Microsoft Entra ID (anteriormente Azure Active Directory) es un mecanismo para conectarse a Azure SQL Database, Azure SQL Managed Instance y Synapse SQL en Azure Synapse Analytics usando identidades en Microsoft Entra ID. Con la autenticación de Microsoft Entra ID, puedes gestionar centralmente las identidades de usuarios de base de datos y otros servicios de Microsoft en una ubicación central.
 
 Opciones incorrectas:
 
@@ -825,7 +825,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/cosmos-db/table-support?toc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fstorage%2Ftables%2Ftoc.json&bc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json](https://learn.microsoft.com/es-es/azure/cosmos-db/table-support?toc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fstorage%2Ftables%2Ftoc.json&bc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+[https://learn.microsoft.com/es-es/azure/cosmos-db/table-support](https://learn.microsoft.com/es-es/azure/cosmos-db/table-support)
 """
 Topic = "Datos no relacionales"
 

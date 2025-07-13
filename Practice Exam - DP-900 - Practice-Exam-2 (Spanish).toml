@@ -926,7 +926,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-configure](https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-configure)
+[https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure](https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure)
 """
 Topic = "Datos relacionales"
 
@@ -951,7 +951,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview](https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview)
+[https://learn.microsoft.com/es-es/azure/storage/blobs/soft-delete-blob-overview](https://learn.microsoft.com/es-es/azure/storage/blobs/soft-delete-blob-overview)
 """
 Topic = "Datos no relacionales"
 
@@ -978,36 +978,33 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview)
+[https://learn.microsoft.com/es-es/azure/azure-sql/database/sql-database-paas-overview](https://learn.microsoft.com/es-es/azure/azure-sql/database/sql-database-paas-overview)
 """
 Topic = "Datos relacionales"
 
 
 [question-38]
-Question = "Una empresa de servicios de respaldo está configurando una cuenta de Azure Storage para almacenar datos críticos de sus clientes. Al desplegar una cuenta de Azure Storage, y eliges Almacenamiento con Redundancia Local (LRS), ¿cuántas copias de tus datos mantiene Azure?"
-Correct = "D"
-A = "1 copia en cada Zona de Disponibilidad"
-B = "1"
-C = "6"
-D = "3"
+Question = "Una empresa de comercio electrónico quiere mejorar la seguridad de sus datos almacenados en Azure SQL Database. ¿Cuál de las siguientes características de Azure SQL Database permite cifrar los datos almacenados en reposo de forma automática?"
+Correct = "B"
+A = "Always Encrypted"
+B = "Transparent Data Encryption (TDE)"
+C = "Dynamic Data Masking"
+D = "Auditing"
 Explanation = """
 Opción correcta:
 
-**[@@-D]** - Azure Storage siempre almacena múltiples copias de tus datos para que estén protegidos de eventos planificados y no planificados, incluyendo fallas de hardware transitorias, interrupciones de red o energía, y desastres naturales masivos. La redundancia asegura que tu cuenta de almacenamiento cumpla sus objetivos de disponibilidad y durabilidad incluso ante fallas. El almacenamiento con redundancia local (LRS) copia tus datos sincrónicamente tres veces dentro de una sola ubicación física en la región primaria.
+**[@@-B]** - Transparent Data Encryption (TDE) cifra automáticamente los datos almacenados en reposo en Azure SQL Database, ayudando a proteger los datos contra accesos no autorizados a nivel de almacenamiento.
 
-Opciones incorrectas:
+**[@@-A]** - Always Encrypted protege los datos sensibles en tránsito y en uso, pero requiere cambios en la aplicación y no cifra todos los datos en reposo automáticamente.
 
-**[@@-A]** - LRS no distribuye copias entre zonas de disponibilidad, solo dentro de una ubicación física.
+**[@@-C]** - Dynamic Data Masking oculta datos sensibles en los resultados de las consultas, pero no cifra los datos en reposo.
 
-**[@@-B]** - Azure Storage nunca mantiene solo 1 copia de los datos.
-
-**[@@-C]** - 6 copias corresponde a ZRS (Zone-Redundant Storage), no LRS.
+**[@@-D]** - Auditing permite registrar el acceso y las acciones sobre la base de datos, pero no cifra los datos en reposo.
 
 Referencias:
-
-[https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy)
+[https://learn.microsoft.com/es-es/azure/azure-sql/database/transparent-data-encryption-tde-overview](https://learn.microsoft.com/es-es/azure/azure-sql/database/transparent-data-encryption-tde-overview)
 """
-Topic = "Datos no relacionales"
+Topic = "Datos relacionales"
 
 
 [question-39]
@@ -1032,7 +1029,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-gb/azure/architecture/data-guide/big-data/non-relational-data](https://docs.microsoft.com/en-gb/azure/architecture/data-guide/big-data/non-relational-data)
+[https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data)
 """
 Topic = "Datos no relacionales"
 
@@ -1089,7 +1086,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization](https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization)
+[https://learn.microsoft.com/es-es/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization](https://learn.microsoft.com/es-es/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization)
 """
 Topic = "Análisis de datos"
 
@@ -1116,7 +1113,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
+[https://learn.microsoft.com/es-es/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://learn.microsoft.com/es-es/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
 """
 Topic = "Datos no relacionales"
 
@@ -1143,7 +1140,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview)
+[https://learn.microsoft.com/es-es/azure/azure-sql/database/sql-database-paas-overview](https://learn.microsoft.com/es-es/azure/azure-sql/database/sql-database-paas-overview)
 """
 Topic = "Datos no relacionales"
 
@@ -1170,7 +1167,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
+[https://learn.microsoft.com/es-es/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://learn.microsoft.com/es-es/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
 """
 Topic = "Conceptos básicos de datos"
 
@@ -1197,7 +1194,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview](https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview)
+[https://learn.microsoft.com/es-es/azure/storage/tables/table-storage-overview](https://learn.microsoft.com/es-es/azure/storage/tables/table-storage-overview)
 """
 Topic = "Datos no relacionales"
 
@@ -1224,7 +1221,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/2-explore-azure-cosmos-db](https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/2-explore-azure-cosmos-db)
+[https://learn.microsoft.com/es-es/learn/modules/explore-non-relational-data-offerings-azure/2-explore-azure-cosmos-db](https://learn.microsoft.com/es-es/learn/modules/explore-non-relational-data-offerings-azure/2-explore-azure-cosmos-db)
 """
 Topic = "Conceptos básicos de datos"
 
@@ -1251,7 +1248,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing](https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing)
+[https://learn.microsoft.com/es-es/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing](https://learn.microsoft.com/es-es/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing)
 """
 Topic = "Análisis de datos"
 
@@ -1278,7 +1275,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
+[https://learn.microsoft.com/es-es/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://learn.microsoft.com/es-es/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
 """
 Topic = "Datos no relacionales"
 
@@ -1305,7 +1302,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview](https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview)
+[https://learn.microsoft.com/es-es/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview](https://learn.microsoft.com/es-es/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview)
 """
 Topic = "Datos relacionales"
 
@@ -1332,6 +1329,6 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
+[https://learn.microsoft.com/es-es/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://learn.microsoft.com/es-es/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
 """
 Topic = "Datos relacionales"

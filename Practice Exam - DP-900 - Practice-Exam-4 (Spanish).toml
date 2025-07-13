@@ -34,8 +34,8 @@ Topic = "Datos no relacionales"
 Question = "Un equipo de desarrollo está evaluando implementar Azure Redis Cache para mejorar el rendimiento de una aplicación web que maneja sesiones de usuario y datos de caché. ¿Cuáles de las siguientes métricas afectan cuánto cuesta una instancia de Azure Redis Cache?"
 Correct = "A"
 A = "Región, nivel de precios, horas"
-B = "Región, Nivel de precios"
-C = "Región, Almacenamiento consumido, nivel de precios"
+B = "Región, nivel de precios"
+C = "Región, almacenamiento consumido, nivel de precios"
 D = "Por transacción"
 Explanation = """
 Opción correcta:
@@ -170,20 +170,20 @@ Question = "Como analista de datos para una empresa de telecomunicaciones, está
 Correct = "D"
 A = "Dashboard"
 B = "Informes PDF"
-C = "Informes Paginados"
-D = "Informes Interactivos"
+C = "Informes paginados"
+D = "Informes interactivos"
 Explanation = """
 Opción correcta:
 
-**[@@-D]** - Los Informes Interactivos en Power BI permiten a los usuarios interactuar con los datos personalizando filtros, ordenando columnas y haciendo drill-through a otros informes para análisis adicional. Este tipo de informe es ideal para usuarios que quieren explorar y analizar datos de manera dinámica e interactiva.
+**[@@-D]** - Los informes interactivos en Power BI permiten a los usuarios interactuar con los datos personalizando filtros, ordenando columnas y haciendo drill-through a otros informes para análisis adicional. Este tipo de informe es ideal para usuarios que quieren explorar y analizar datos de manera dinámica e interactiva.
 
 Opciones incorrectas:
 
 **[@@-A]** - Los dashboards en Power BI proporcionan una vista general de alto nivel de métricas clave y KPIs. Si bien los usuarios pueden interactuar con los dashboards haciendo clic en visuales para ver datos subyacentes, no ofrecen el mismo nivel de capacidades de personalización, ordenamiento y drill-through que los Informes Interactivos.
 
-**[@@-B]** - Los Informes PDF en Power BI son informes estáticos que se exportan a formato PDF para compartir o imprimir. Los usuarios no pueden interactuar con los datos, personalizar filtros, ordenar columnas o hacer drill-through a otros informes en un informe PDF. Este tipo de informe no es adecuado para usuarios que requieren exploración e análisis de datos interactivos.
+**[@@-B]** - Los informes PDF en Power BI son informes estáticos que se exportan a formato PDF para compartir o imprimir. Los usuarios no pueden interactuar con los datos, personalizar filtros, ordenar columnas o hacer drill-through a otros informes en un informe PDF. Este tipo de informe no es adecuado para usuarios que requieren exploración e análisis de datos interactivos.
 
-**[@@-C]** - Los Informes Paginados en Power BI están diseñados para imprimir o compartir datos en un formato de diseño fijo. No son interactivos y no permiten que los usuarios personalicen filtros, ordenen columnas o hagan drill-through a otros informes. Este tipo de informe es más adecuado para vistas estáticas y paginadas de datos.
+**[@@-C]** - Los informes paginados en Power BI están diseñados para imprimir o compartir datos en un formato de diseño fijo. No son interactivos y no permiten que los usuarios personalicen filtros, ordenen columnas o hagan drill-through a otros informes. Este tipo de informe es más adecuado para vistas estáticas y paginadas de datos.
 
 Referencias:
 
@@ -289,7 +289,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
+[https://learn.microsoft.com/es-es/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://learn.microsoft.com/es-es/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
 """
 Topic = "Conceptos básicos de datos"
 
@@ -316,7 +316,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing](https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing)
+[https://learn.microsoft.com/es-es/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing](https://learn.microsoft.com/es-es/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing)
 """
 Topic = "Conceptos básicos de datos"
 
@@ -337,7 +337,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
+[https://learn.microsoft.com/es-es/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://learn.microsoft.com/es-es/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
 """
 Topic = "Datos relacionales"
 
@@ -364,7 +364,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization](https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization)
+[https://learn.microsoft.com/es-es/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization](https://learn.microsoft.com/es-es/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization)
 """
 Topic = "Conceptos básicos de datos"
 
@@ -391,7 +391,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services](https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services)
+[https://learn.microsoft.com/es-es/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services](https://learn.microsoft.com/es-es/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services)
 """
 Topic = "Datos no relacionales"
 
@@ -418,7 +418,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services](https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services)
+[https://learn.microsoft.com/es-es/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services](https://learn.microsoft.com/es-es/learn/modules/explore-provision-deploy-non-relational-data-services-azure/2-describe-provision-non-relational-data-services)
 """
 Topic = "Datos no relacionales"
 
@@ -445,7 +445,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing)
+[https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing)
 """
 Topic = "Análisis de datos"
 
@@ -466,7 +466,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview)
+[https://learn.microsoft.com/es-es/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview](https://learn.microsoft.com/es-es/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview)
 """
 Topic = "Datos relacionales"
 
@@ -493,7 +493,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
+[https://learn.microsoft.com/es-es/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://learn.microsoft.com/es-es/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
 """
 Topic = "Datos relacionales"
 
@@ -520,7 +520,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks)
+[https://learn.microsoft.com/es-es/azure/databricks/scenarios/what-is-azure-databricks](https://learn.microsoft.com/es-es/azure/databricks/scenarios/what-is-azure-databricks)
 """
 Topic = "Análisis de datos"
 
@@ -547,7 +547,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/sql/t-sql/statements/statements?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/t-sql/statements/statements?view=sql-server-ver15)
+[https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15)
 """
 Topic = "Datos relacionales"
 
@@ -571,7 +571,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/real-time-processing](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/real-time-processing)
+[https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/real-time-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/real-time-processing)
 """
 Topic = "Análisis de datos"
 
@@ -598,7 +598,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
+[https://learn.microsoft.com/es-es/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://learn.microsoft.com/es-es/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
 """
 Topic = "Conceptos básicos de datos"
 
@@ -625,7 +625,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/3-provision-azure-cosmos-db](https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-non-relational-data-services-azure/3-provision-azure-cosmos-db)
+[https://learn.microsoft.com/es-es/learn/modules/explore-provision-deploy-non-relational-data-services-azure/3-provision-azure-cosmos-db](https://learn.microsoft.com/es-es/learn/modules/explore-provision-deploy-non-relational-data-services-azure/3-provision-azure-cosmos-db)
 """
 Topic = "Datos no relacionales"
 
@@ -646,7 +646,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing](https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing)
+[https://learn.microsoft.com/es-es/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing](https://learn.microsoft.com/es-es/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing)
 """
 Topic = "Conceptos básicos de datos"
 
@@ -673,7 +673,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15)
+[https://learn.microsoft.com/es-es/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15)
 """
 Topic = "Datos relacionales"
 
@@ -700,7 +700,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/3-explore-azure-blob-storage](https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/3-explore-azure-blob-storage)
+[https://learn.microsoft.com/es-es/learn/modules/explore-non-relational-data-offerings-azure/3-explore-azure-blob-storage](https://learn.microsoft.com/es-es/learn/modules/explore-non-relational-data-offerings-azure/3-explore-azure-blob-storage)
 """
 Topic = "Datos no relacionales"
 
@@ -727,7 +727,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15)
+[https://learn.microsoft.com/es-es/sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15)
 """
 Topic = "Datos relacionales"
 
@@ -754,7 +754,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview)
+[https://learn.microsoft.com/es-es/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview](https://learn.microsoft.com/es-es/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview)
 """
 Topic = "Datos relacionales"
 
@@ -781,7 +781,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/sql/relational-databases/tables/create-primary-keys?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/relational-databases/tables/create-primary-keys?view=sql-server-ver15)
+[https://learn.microsoft.com/es-es/sql/relational-databases/tables/create-primary-keys?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/tables/create-primary-keys?view=sql-server-ver15)
 """
 Topic = "Datos relacionales"
 
@@ -808,7 +808,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks)
+[https://learn.microsoft.com/es-es/azure/databricks/scenarios/what-is-azure-databricks](https://learn.microsoft.com/es-es/azure/databricks/scenarios/what-is-azure-databricks)
 """
 Topic = "Análisis de datos"
 
@@ -835,7 +835,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization](https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization)
+[https://learn.microsoft.com/es-es/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization](https://learn.microsoft.com/es-es/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization)
 """
 Topic = "Conceptos básicos de datos"
 
@@ -862,7 +862,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/sql/relational-databases/indexes/indexes?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/indexes?view=sql-server-ver15)
+[https://learn.microsoft.com/es-es/sql/relational-databases/indexes/indexes?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/indexes/indexes?view=sql-server-ver15)
 """
 Topic = "Datos relacionales"
 
@@ -889,7 +889,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://docs.microsoft.com/en-us/power-bi/paginated-reports/paginated-reports-report-builder-power-bi](https://docs.microsoft.com/en-us/power-bi/paginated-reports/paginated-reports-report-builder-power-bi)
+[https://learn.microsoft.com/es-es/power-bi/paginated-reports/paginated-reports-report-builder-power-bi](https://learn.microsoft.com/es-es/power-bi/paginated-reports/paginated-reports-report-builder-power-bi)
 """
 Topic = "Análisis de datos"
 
