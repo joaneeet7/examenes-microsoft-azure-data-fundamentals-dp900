@@ -753,7 +753,7 @@ Correct = "B"
 A = "Nombre de usuario y contraseña"
 B = "Un token de autorización válido"
 C = "Certificado de cliente de seguridad"
-D = "Azure Active Directory"
+D = "Microsoft Entra ID"
 Explanation = """
 Opción correcta:
 
@@ -765,7 +765,7 @@ Opciones incorrectas:
 
 **[@@-C]** - Los certificados de cliente de seguridad no son el modelo de seguridad por defecto de Cosmos DB, aunque pueden ser configurados para casos específicos.
 
-**[@@-D]** - Azure Active Directory puede ser configurado para Cosmos DB, pero no es el modelo de seguridad por defecto. El modelo por defecto usa tokens de autorización basados en claves.
+**[@@-D]** - Microsoft Entra ID puede ser configurado para Cosmos DB, pero no es el modelo de seguridad por defecto. El modelo por defecto usa tokens de autorización basados en claves.
 
 Referencias:
 

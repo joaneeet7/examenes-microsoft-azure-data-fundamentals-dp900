@@ -60,7 +60,7 @@ Topic = "Datos no relacionales"
 [question-3]
 Question = "Como administrador de sistemas trabajando desde casa durante la pandemia, tienes problemas para conectarte a una base de datos SQL de Azure que contiene información crítica de la empresa. Otros miembros del equipo pueden conectarse exitosamente desde sus oficinas. Tienes el software instalado y puedes conectarte a otras bases de datos SQL de Azure en tu suscripción. ¿Cuál es la razón más probable por la que no puedes conectarte a esta base de datos SQL en particular?"
 Correct = "C"
-A = "Necesitas otorgar derechos de lectura a tu usuario de Azure AD en la base de datos"
+A = "Necesitas otorgar derechos de lectura a tu usuario de Microsoft Entra ID en la base de datos"
 B = "Necesitas conectarte a través del puerto 1433"
 C = "Necesitas agregar la dirección IP de tu cliente al firewall."
 D = "Necesitas dar derechos específicos al usuario en la base de datos individual"

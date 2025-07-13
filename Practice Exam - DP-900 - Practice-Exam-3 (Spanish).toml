@@ -644,18 +644,18 @@ Topic = "Datos no relacionales"
 [question-25]
 Question = "Una empresa de servicios financieros está configurando acceso seguro a su base de datos Cosmos DB. ¿A través de qué método puedes habilitar el inicio de sesión único para Cosmos DB, para que los usuarios puedan usar su nombre de usuario y contraseña corporativos para acceder al contenido de esa base de datos?"
 Correct = "B"
-A = "Habilitar Azure AD Conditional Access"
-B = "Habilitar Autenticación de Azure AD"
+A = "Habilitar Microsoft Entra ID Conditional Access"
+B = "Habilitar Autenticación de Microsoft Entra ID"
 C = "Habilitar Privileged Identity Management"
 D = "Otorgar al usuario acceso al rol Cosmos DB Reader en RBAC"
 Explanation = """
 Opción correcta:
 
-**[@@-B]** - Habilitar Autenticación de Azure AD permite el inicio de sesión único para Cosmos DB, para que los usuarios puedan usar su nombre de usuario y contraseña corporativos para acceder al contenido de esa base de datos. Con Azure AD, los usuarios pueden acceder convenientemente a todas sus aplicaciones con SSO desde cualquier ubicación, en cualquier dispositivo, desde un portal centralizado.
+**[@@-B]** - Habilitar Autenticación de Microsoft Entra ID permite el inicio de sesión único para Cosmos DB, para que los usuarios puedan usar su nombre de usuario y contraseña corporativos para acceder al contenido de esa base de datos. Con Microsoft Entra ID, los usuarios pueden acceder convenientemente a todas sus aplicaciones con SSO desde cualquier ubicación, en cualquier dispositivo, desde un portal centralizado.
 
 Opciones incorrectas:
 
-**[@@-A]** - Azure AD Conditional Access es una funcionalidad de seguridad adicional, pero no es el método principal para habilitar SSO.
+**[@@-A]** - Microsoft Entra ID Conditional Access es una funcionalidad de seguridad adicional, pero no es el método principal para habilitar SSO.
 
 **[@@-C]** - Privileged Identity Management es para gestión de identidades privilegiadas, no para habilitar SSO básico.
 
@@ -671,10 +671,10 @@ Topic = "Datos no relacionales"
 [question-26]
 Question = "Una empresa de tecnología está implementando un nuevo modelo de seguridad para proteger sus sistemas críticos. ¿Cómo implementas el modelo Zero Trust de seguridad?"
 Correct = "C"
-A = "Agregar Autenticación Multi-factor usando Azure AD Conditional Access."
+A = "Agregar Autenticación Multi-factor usando Microsoft Entra ID Conditional Access."
 B = "Usar la característica Advanced Threat Protection de Azure para monitoreo de IA de actividades."
 C = "Verificar cada solicitud como si se originara desde una red no controlada."
-D = "Requerir que todos los usuarios estén registrados en Azure Active Directory para acceso."
+D = "Requerir que todos los usuarios estén registrados en Microsoft Entra ID para acceso."
 Explanation = """
 Opción correcta:
 
@@ -686,7 +686,7 @@ Opciones incorrectas:
 
 **[@@-B]** - Usar Advanced Threat Protection es una herramienta de seguridad, pero no es la implementación del modelo Zero Trust.
 
-**[@@-D]** - Requerir que todos los usuarios estén registrados en Azure AD es una práctica de gestión de identidades, pero no es la implementación del modelo Zero Trust.
+**[@@-D]** - Requerir que todos los usuarios estén registrados en Microsoft Entra ID es una práctica de gestión de identidades, pero no es la implementación del modelo Zero Trust.
 
 Referencias:
 
@@ -996,7 +996,7 @@ Topic = "Datos no relacionales"
 Question = "Una empresa de servicios de respaldo en la nube está implementando medidas de seguridad para proteger datos críticos. ¿Cuál de los siguientes métodos se usa comúnmente para asegurar datos en reposo?"
 Correct = "C"
 A = "HTTPS / SSL"
-B = "Azure Active Directory (Azure AD)"
+B = "Microsoft Entra ID"
 C = "Azure Disk Encryption"
 D = "Azure Information Protection"
 Explanation = """
@@ -1008,7 +1008,7 @@ Opciones incorrectas:
 
 **[@@-A]** - HTTPS/SSL se usa para asegurar datos en tránsito, no datos en reposo.
 
-**[@@-B]** - Azure Active Directory se usa para autenticación y autorización, no para cifrar datos en reposo.
+**[@@-B]** - Microsoft Entra ID se usa para autenticación y autorización, no para cifrar datos en reposo.
 
 **[@@-D]** - Azure Information Protection se usa para clasificar y proteger documentos, no para cifrar datos en reposo a nivel de disco.
 
