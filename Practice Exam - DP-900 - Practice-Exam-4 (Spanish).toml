@@ -25,7 +25,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/cosmos-db/relational-nosql](https://learn.microsoft.com/es-es/azure/cosmos-db/relational-nosql)
+[https://learn.microsoft.com/es-es/azure/cosmos-db/introduction](https://learn.microsoft.com/es-es/azure/cosmos-db/introduction)
 """
 Topic = "Datos no relacionales"
 
@@ -52,7 +52,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/azure-cache-for-redis/cache-pricing](https://learn.microsoft.com/es-es/azure/azure-cache-for-redis/cache-pricing)
+[https://learn.microsoft.com/es-es/azure/azure-cache-for-redis/cache-overview](https://learn.microsoft.com/es-es/azure/azure-cache-for-redis/cache-overview)
 """
 Topic = "Datos no relacionales"
 
@@ -106,7 +106,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15#data-manipulation-language](https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15#data-manipulation-language)
+[https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15)
 """
 Topic = "Datos relacionales"
 
@@ -133,7 +133,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver15)
+[https://learn.microsoft.com/es-es/sql/relational-databases/security/dynamic-data-masking](https://learn.microsoft.com/es-es/sql/relational-databases/security/dynamic-data-masking)
 """
 Topic = "Datos relacionales"
 
@@ -160,7 +160,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/power-bi/paginated-reports/paginated-reports-report-builder-power-bi](https://learn.microsoft.com/es-es/power-bi/paginated-reports/paginated-reports-report-builder-power-bi)
+[https://learn.microsoft.com/es-es/power-bi/paginated-reports/report-builder-power-bi](https://learn.microsoft.com/es-es/power-bi/paginated-reports/report-builder-power-bi)
 """
 Topic = "Análisis de datos"
 
@@ -214,7 +214,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/cosmos-db/relational-nosql](https://learn.microsoft.com/es-es/azure/cosmos-db/relational-nosql)
+[https://learn.microsoft.com/es-es/azure/cosmos-db/introduction](https://learn.microsoft.com/es-es/azure/cosmos-db/introduction)
 """
 Topic = "Datos no relacionales"
 
@@ -241,7 +241,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/cosmos-db/set-throughput](https://learn.microsoft.com/es-es/azure/cosmos-db/set-throughput)
+[https://learn.microsoft.com/es-es/azure/cosmos-db/provision-deploy-non-relational](https://learn.microsoft.com/es-es/azure/cosmos-db/provision-deploy-non-relational)
 """
 Topic = "Datos no relacionales"
 
@@ -289,7 +289,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://learn.microsoft.com/es-es/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
+[https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/etl-vs-elt](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/etl-vs-elt)
 """
 Topic = "Conceptos básicos de datos"
 
@@ -316,7 +316,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing](https://learn.microsoft.com/es-es/learn/modules/explore-data-processing-in-azure-databricks/3-understand-stream-processing)
+[https://learn.microsoft.com/es-es/azure/architecture/databases/](https://learn.microsoft.com/es-es/azure/architecture/databases/)
 """
 Topic = "Conceptos básicos de datos"
 
@@ -337,7 +337,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://learn.microsoft.com/es-es/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
+[https://learn.microsoft.com/es-es/azure/architecture/databases/](https://learn.microsoft.com/es-es/azure/architecture/databases/)
 """
 Topic = "Datos relacionales"
 
@@ -445,7 +445,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing)
+[https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-analytical-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-analytical-processing)
 """
 Topic = "Análisis de datos"
 
@@ -889,7 +889,7 @@ Opciones incorrectas:
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/power-bi/paginated-reports/paginated-reports-report-builder-power-bi](https://learn.microsoft.com/es-es/power-bi/paginated-reports/paginated-reports-report-builder-power-bi)
+[https://learn.microsoft.com/es-es/power-bi/paginated-reports/report-builder-power-bi](https://learn.microsoft.com/es-es/power-bi/paginated-reports/report-builder-power-bi)
 """
 Topic = "Análisis de datos"
 
