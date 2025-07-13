@@ -901,7 +901,7 @@ Topic = "Datos no relacionales"
 Question = "Como administrador de red para una empresa de tecnología que necesita configurar reglas de firewall para proteger sus recursos de Azure, necesitas entender la notación CIDR. ¿Cuál de los siguientes es un rango de dirección IP válido usando el método de dirección CIDR?"
 Correct = "A"
 A = "110.0.0.0/8"
-B = "110.0.0.*"
+B = "110.0.0.(*)"
 C = "110.0.0.0-110.0.0.255"
 D = "110.0.0.0-255"
 Explanation = """
@@ -911,7 +911,7 @@ Opción correcta:
 
 Opciones incorrectas:
 
-**[@@-B]** - El formato 110.0.0.* no es una notación CIDR válida. La notación CIDR requiere que la máscara de subred se especifique después del rango de dirección IP usando la notación de barra diagonal. Usar un asterisco (*) en el rango de dirección IP no es una representación válida en notación CIDR.
+**[@@-B]** - El formato 110.0.0.(*) no es una notación CIDR válida. La notación CIDR requiere que la máscara de subred se especifique después del rango de dirección IP usando la notación de barra diagonal. Usar un asterisco (*) en el rango de dirección IP no es una representación válida en notación CIDR.
 
 **[@@-C]** - El formato 110.0.0.0-110.0.0.255 no representa una notación CIDR válida. La notación CIDR usa una barra diagonal seguida de la máscara de subred para especificar el rango de direcciones IP. Este formato no sigue el formato CIDR estándar.
 
