@@ -3,51 +3,51 @@ PracticeTestID = 7061679
 
 
 [question-1]
-Question = "Una clínica dental necesita registrar cada procedimiento realizado en tiempo real. Cuando un dentista termina un tratamiento, el sistema inmediatamente actualiza la base de datos con los detalles del procedimiento. ¿Qué tipo de base de datos está utilizando esta clínica para manejar estas actualizaciones instantáneas?"
-Correct = "A"
-A = "Base de datos transaccional"
-B = "Almacén de datos"
-C = "Base de datos de caché"
-D = "Base de datos analítica"
+Question = "Una empresa de análisis financiero está evaluando Synapse Analytics y Azure Databricks para su plataforma de big data. Ambas son plataformas analíticas basadas en Spark. ¿Qué característica ofrece Synapse Analytics que Databricks actualmente no tiene?"
+Correct = "D"
+A = "Capacidad de realizar procesamiento paralelo"
+B = "Capacidad de ingerir datos desde Azure Blob Storage"
+C = "Capacidad de escalar basado en necesidades de negocio"
+D = "Basado en el Motor SQL, familiar para entornos existentes de SQL Server"
 Explanation = """
 Opción correcta:
 
-**[@@-A]** - Una base de datos transaccional está diseñada para procesar transacciones en tiempo real. Cuando un cliente compra un servicio y se agrega inmediatamente una nueva fila a la tabla VENTAS, esto representa un sistema OLTP (Procesamiento de Transacciones En Línea) que registra las interacciones comerciales a medida que ocurren en la operación diaria de la organización.
+**[@@-D]** - Synapse Analytics está basado en el Motor SQL, lo que lo hace familiar para entornos existentes de SQL Server. Ambas plataformas pueden realizar tareas similares, como escalar, procesamiento paralelo e ingerir datos desde varias fuentes. Synapse Analytics también soporta sintaxis SQL, que será familiar para desarrolladores de SQL Server.
 
 Opciones incorrectas:
 
-**[@@-B]** - Un almacén de datos está diseñado para análisis y reportes, no para procesamiento de transacciones en tiempo real. Los datos en un almacén de datos típicamente se cargan en lotes y se optimizan para consultas analíticas complejas.
+**[@@-A]** - La capacidad de realizar procesamiento paralelo es una característica común tanto en Synapse Analytics como en Azure Databricks, no una característica única de Synapse Analytics.
 
-**[@@-C]** - Una base de datos de caché está diseñada para almacenar temporalmente datos en memoria para mejorar el rendimiento, no para procesar transacciones comerciales en tiempo real.
+**[@@-B]** - La capacidad de ingerir datos desde Azure Blob Storage es una característica común en ambas plataformas, no una característica única de Synapse Analytics.
 
-**[@@-D]** - Una base de datos analítica está optimizada para consultas complejas y análisis de datos, no para el procesamiento rápido de transacciones individuales como una compra de cliente.
+**[@@-C]** - La capacidad de escalar basado en necesidades de negocio es una característica común en ambas plataformas, no una característica única de Synapse Analytics.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing)
+[https://azure.microsoft.com/es-es/services/synapse-analytics/#key-service-capabilities](https://azure.microsoft.com/es-es/services/synapse-analytics/#key-service-capabilities)
 """
 Topic = "Análisis de datos"
 
 
 [question-2]
-Question = "Como administrador de sistemas de una startup de juegos móviles, se ha configurado Cosmos DB con 10,000 RU/s para manejar el tráfico de usuarios. Sin embargo, durante las horas de menor actividad, solo se utilizan 2,000 RU/s. ¿Qué consecuencia financiera tendrá esta configuración en la facturación mensual?"
-Correct = "D"
-A = "Cosmos DB escalará las RU/s a lo que uses, independientemente de lo que aprovisiones"
-B = "Las RU/s aprovisionadas no impactan nada"
-C = "Las consultas escalarán en rendimiento al número de RU/s que hayas asignado"
-D = "Tendrás que pagar por la cantidad asignada independientemente de cuántas se usen"
+Question = "Un equipo de desarrollo está configurando Cosmos DB para su aplicación de comercio electrónico. Cosmos DB mide su rendimiento en términos de Unidades de Solicitud por segundo (RU/s). ¿Qué es una Unidad de Solicitud?"
+Correct = "B"
+A = "Cada solicitud de lectura toma 1 Unidad de Solicitud"
+B = "La cantidad de recursos aproximadamente requeridos para leer un documento de 1KB con 10 campos."
+C = "Leer, escribir y actualizar datos toma 1 Unidad de Solicitud cada uno"
+D = "Cada solicitud de lectura toma 1 Unidad de Solicitud por partición"
 Explanation = """
 Opción correcta:
 
-**[@@-D]** - Una vez que asignes rendimiento a una base de datos o contenedor de Cosmos DB, se te cobrará por los recursos aprovisionados, ya sea que los uses o no. El rendimiento mínimo que puedes asignar es 400 RU/s, y asignar más RU/s aumenta el costo. Cosmos DB no escala automáticamente las RU/s basándose en el uso real.
+**[@@-B]** - Una Unidad de Solicitud (RU) es la cantidad de recursos aproximadamente requeridos para leer un documento de 1KB con 10 campos. Es la unidad de medida que usa Cosmos DB para cuantificar el costo de las operaciones de lectura, escritura y consulta.
 
 Opciones incorrectas:
 
-**[@@-A]** - Cosmos DB no escala automáticamente las RU/s basándose en el uso real. Una vez que aprovisionas RU/s, se te cobra por esa cantidad independientemente del uso.
+**[@@-A]** - No todas las solicitudes de lectura toman exactamente 1 Unidad de Solicitud. El costo varía según el tamaño del documento y la complejidad de la operación.
 
-**[@@-B]** - Las RU/s aprovisionadas sí tienen un impacto significativo en el costo. Se te cobra por la cantidad asignada, no por el uso real.
+**[@@-C]** - Las operaciones de leer, escribir y actualizar datos no toman exactamente 1 Unidad de Solicitud cada una. El costo varía según la complejidad y el tamaño de los datos.
 
-**[@@-C]** - Si bien asignar más RU/s puede mejorar el rendimiento de las consultas, el impacto principal es en el costo, ya que pagas por la cantidad asignada independientemente del uso.
+**[@@-D]** - Las Unidades de Solicitud no se miden por partición de esta manera. Se miden por operación individual.
 
 Referencias:
 
@@ -57,153 +57,132 @@ Topic = "Datos no relacionales"
 
 
 [question-3]
-Question = "Se está desarrollando una aplicación para una cadena de farmacias que necesita gestionar inventario, recetas y ventas. El equipo de desarrollo necesita crear las tablas, índices y procedimientos almacenados. ¿Qué lenguaje SQL utilizarían para definir estas estructuras de base de datos?"
-Correct = "A"
-A = "Definir estructuras de datos"
-B = "Afectar la información almacenada en la base de datos"
-C = "Determinar qué usuarios e inicios de sesión pueden acceder a datos y realizar operaciones."
-D = "Proporcionar formas de crear respaldos y restaurar desde respaldos."
+Question = "Un administrador de base de datos está optimizando el rendimiento de consultas en SQL Server. ¿Cuál de las siguientes oraciones describe mejor qué es un ÍNDICE en SQL Server?"
+Correct = "C"
+A = "Una colección de tablas que almacena un conjunto específico de datos estructurados."
+B = "Un tipo especial de procedimiento almacenado que se ejecuta automáticamente cuando tienen lugar declaraciones INSERT, UPDATE o DELETE."
+C = "Una estructura asociada con una tabla o vista que acelera la recuperación de filas."
+D = "Una tabla virtual cuyo contenido está definido por una consulta."
 Explanation = """
 Opción correcta:
 
-**[@@-A]** - El Lenguaje de Definición de Datos (DDL) se utiliza principalmente para definir estructuras de datos en una base de datos. Incluye declaraciones como CREATE, ALTER y DROP para crear, modificar y eliminar objetos de base de datos como tablas, vistas, índices y procedimientos almacenados.
+**[@@-C]** - Un índice es una estructura asociada con una tabla o vista que acelera la recuperación de filas al pre-ordenarlas de una manera que es rápida de buscar. Los índices mejoran significativamente el rendimiento de las consultas al reducir la cantidad de datos que deben ser escaneados.
 
 Opciones incorrectas:
 
-**[@@-B]** - Afectar la información almacenada en la base de datos es función del Lenguaje de Manipulación de Datos (DML), que incluye declaraciones como INSERT, UPDATE y DELETE para modificar los datos contenidos en las estructuras.
+**[@@-A]** - Una colección de tablas que almacena un conjunto específico de datos estructurados describe una base de datos, no un índice específico.
 
-**[@@-C]** - Determinar qué usuarios e inicios de sesión pueden acceder a datos y realizar operaciones es función del Lenguaje de Control de Datos (DCL), que incluye declaraciones como GRANT y REVOKE para gestionar permisos.
+**[@@-B]** - Un tipo especial de procedimiento almacenado que se ejecuta automáticamente describe un trigger, no un índice.
 
-**[@@-D]** - Proporcionar formas de crear respaldos y restaurar desde respaldos no es una función del DDL. Estas operaciones se manejan típicamente a través de herramientas administrativas específicas del sistema de gestión de base de datos.
+**[@@-D]** - Una tabla virtual cuyo contenido está definido por una consulta describe una vista, no un índice.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15#data-definition-language](https://learn.microsoft.com/es-es/sql/t-sql/statements/statements?view=sql-server-ver15#data-definition-language)
+[https://learn.microsoft.com/es-es/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15)
 """
 Topic = "Datos relacionales"
 
 
 [question-4]
-Question = "Una empresa tiene 30 TB de datos históricos en Azure Data Lake Storage Gen2 que raramente se consultan, pero deben conservarse por cumplimiento. ¿Cuál es la estrategia más eficiente para optimizar los costos sin mover físicamente los archivos?"
-Correct = "D"
-A = "Establecer el nivel de acceso predeterminado en la cuenta al nivel Cool"
-B = "Implementar un algoritmo de compresión (como ZIP) para reducir el tamaño de los archivos"
-C = "Usar Azure Data Factory para mover los datos desde almacenamiento Data Lake de alto costo a Blob Storage estándar de menor costo"
-D = "Implementar políticas de gestión del ciclo de vida en el almacenamiento Azure Data Lake para mover archivos al nivel de almacenamiento cool o archive"
+Question = "Una empresa de servicios de salud está implementando medidas de seguridad para proteger información sensible de pacientes en SQL Database. ¿Qué característica de SQL Database (basado en el motor SQL Server) te permite prevenir que campos sensibles (como número de seguridad social, número de teléfono, número de tarjeta de crédito) se muestren en un informe ocultando parcialmente el valor para proporcionar mayor privacidad de datos?"
+Correct = "B"
+A = "Always On Encryption"
+B = "Enmascaramiento Dinámico de Datos"
+C = "Cifrado de Datos de Azure"
+D = "Seguridad a nivel de fila"
 Explanation = """
 Opción correcta:
 
-**[@@-D]** - Implementar políticas de gestión del ciclo de vida en Azure Data Lake Storage es la solución más eficiente. No necesitas mover archivos ni comprimirlos manualmente. Simplemente crea una regla que mueva los archivos al nivel Cool o Archive para ahorrar dinero. El nivel Cool es probablemente el mejor para este escenario, ya que el nivel Archive tiene un tiempo mínimo de duración más largo.
+**[@@-B]** - El enmascaramiento dinámico de datos (DDM) limita la exposición de datos sensibles enmascarándolos para usuarios no privilegiados. Se puede usar para simplificar enormemente el diseño y codificación de seguridad en tu aplicación. El enmascaramiento dinámico de datos ayuda a prevenir el acceso no autorizado a datos sensibles permitiendo a los clientes especificar cuántos datos sensibles revelar con impacto mínimo en la capa de aplicación. DDM se puede configurar en campos de base de datos designados para ocultar datos sensibles en los conjuntos de resultados de consultas.
 
 Opciones incorrectas:
 
-**[@@-A]** - Establecer el nivel de acceso predeterminado en la cuenta no cambiará el nivel de acceso de los archivos existentes. Solo afectará a los nuevos archivos que se creen.
+**[@@-A]** - Always On Encryption es una característica de seguridad que cifra datos en tránsito y en reposo, pero no enmascara datos para usuarios específicos.
 
-**[@@-B]** - Implementar compresión manual es innecesario y consume recursos adicionales. Azure Data Lake Storage ya tiene capacidades de gestión del ciclo de vida integradas que son más eficientes.
+**[@@-C]** - El cifrado de datos de Azure protege los datos en reposo, pero no proporciona enmascaramiento dinámico para usuarios específicos.
 
-**[@@-C]** - Mover datos a Blob Storage usando Azure Data Factory es innecesario y consume recursos adicionales. Azure Data Lake Storage Gen2 ya soporta políticas de gestión del ciclo de vida que pueden mover archivos a niveles más económicos automáticamente.
+**[@@-D]** - La seguridad a nivel de fila controla el acceso a filas específicas basándose en el usuario, pero no enmascara datos sensibles dentro de las filas a las que el usuario tiene acceso.
 
 Referencias:
 
-[https://learn.microsoft.com/es-ca/azure/storage/blobs/data-lake-storage-supported-blob-storage-features](https://learn.microsoft.com/es-ca/azure/storage/blobs/data-lake-storage-supported-blob-storage-features)
+[https://learn.microsoft.com/es-es/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver15)
 """
-Topic = "Análisis de datos"
+Topic = "Datos relacionales"
 
 
 [question-5]
-Question = "Una ciudad está implementando un sistema inteligente de gestión de residuos que utiliza sensores en los contenedores para detectar el nivel de llenado. Estos sensores envían datos cada 3-5 segundos a un centro de procesamiento. ¿Qué enfoque de análisis de datos debería implementar para procesar esta información de manera inmediata y tomar decisiones operativas en tiempo real?"
+Question = "Una startup de IoT está diseñando un sistema para almacenar datos de sensores a gran escala. ¿Cuál es la cantidad máxima de datos que se pueden almacenar en una base de datos de Azure Table Storage?"
 Correct = "D"
-A = "Procesamiento por lotes"
-B = "Mensajería basada en eventos"
-C = "Azure Blob Storage"
-D = "Procesamiento en tiempo real"
+A = "100 TB"
+B = "Ilimitado"
+C = "1 TB"
+D = "5 PB"
 Explanation = """
 Opción correcta:
 
-**[@@-D]** - El procesamiento en tiempo real es la mejor opción para procesar datos sensibles al tiempo que llegan de una fuente externa cada pocos segundos. Maneja flujos de datos que se capturan en tiempo real y se procesan con latencia mínima para generar informes en tiempo real o respuestas automatizadas.
+**[@@-D]** - Azure Table Storage está limitado al tamaño de una cuenta de Azure Storage, que generalmente es 5 PB en la mayoría de lugares. Esto proporciona una capacidad de almacenamiento extremadamente alta para la mayoría de aplicaciones.
 
 Opciones incorrectas:
 
-**[@@-A]** - El procesamiento por lotes está diseñado para procesar grandes volúmenes de datos en intervalos programados, no para datos que llegan cada pocos segundos y requieren procesamiento inmediato.
+**[@@-A]** - 100 TB es significativamente menor que la capacidad máxima real de Azure Table Storage.
 
-**[@@-B]** - La mensajería basada en eventos es un patrón de comunicación, no un tipo de carga de trabajo de análisis de datos. Puede ser parte de una solución de procesamiento en tiempo real, pero no es la carga de trabajo de análisis en sí.
+**[@@-B]** - Azure Table Storage no tiene capacidad ilimitada. Está limitado por el tamaño de la cuenta de Azure Storage.
 
-**[@@-C]** - Azure Blob Storage es un servicio de almacenamiento, no un tipo de carga de trabajo de análisis de datos. Puede almacenar datos que luego se procesan, pero no es la carga de trabajo de análisis en sí.
+**[@@-C]** - 1 TB es mucho menor que la capacidad máxima real de Azure Table Storage.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/batch-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/batch-processing)
+[https://learn.microsoft.com/es-es/azure/storage/tables/table-storage-overview](https://learn.microsoft.com/es-es/azure/storage/tables/table-storage-overview)
 """
-Topic = "Análisis de datos"
+Topic = "Datos no relacionales"
 
 
 [question-6]
-Question = "Un servidor SQL Database tiene dos bases de datos. El firewall del servidor permite acceso desde el rango 123.123.123.0-123.123.123.255, mientras que DB1 tiene una regla específica que solo permite IPs del rango 123.123.123.0-123.123.123.10. Si alguien intenta conectarse a DB1 desde la IP 123.123.123.25, ¿podrá acceder exitosamente?"
-Correct = "B"
-A = "No, la conexión no tendrá éxito"
-B = "Sí, la conexión tendrá éxito"
+Question = "Una empresa de desarrollo de software necesita configurar almacenamiento compartido para que múltiples equipos puedan acceder a recursos desde diferentes ubicaciones. ¿Qué solución de almacenamiento de Azure te permite montar el almacenamiento como una unidad en Windows Servers y asignarle una letra de unidad usando el protocolo SMB?"
+Correct = "D"
+A = "Azure Data Lake"
+B = "Azure Table Storage"
+C = "Azure Blob Storage"
+D = "Azure File Storage"
 Explanation = """
 Opción correcta:
 
-**[@@-B]** - La conexión tendrá éxito. Las reglas de firewall IP a nivel de servidor y de base de datos existen independientemente. En este caso, la IP del cliente (123.123.123.25) cae dentro del rango permitido por la regla de firewall a nivel de servidor (123.123.123.0-123.123.123.255), por lo que se le permitirá acceso a todas las bases de datos en el servidor, incluyendo DB1, a pesar de que la IP no esté en la regla específica de DB1.
+**[@@-D]** - Azure File Storage te permite montar el almacenamiento como una unidad en Windows Servers y asignarle una letra de unidad usando el protocolo SMB. Azure Files ofrece recursos compartidos de archivos completamente administrados en la nube que son accesibles a través del protocolo estándar de la industria Server Message Block (SMB) o protocolo Network File System (NFS).
 
 Opciones incorrectas:
 
-**[@@-A]** - Esta opción es incorrecta. Las reglas de firewall a nivel de servidor tienen prioridad sobre las reglas a nivel de base de datos. Si una IP está permitida a nivel de servidor, puede acceder a todas las bases de datos en ese servidor.
+**[@@-A]** - Azure Data Lake no está diseñado para ser montado como una unidad de Windows usando SMB. Está optimizado para análisis de big data.
+
+**[@@-B]** - Azure Table Storage es un servicio de almacenamiento NoSQL, no está diseñado para ser montado como una unidad de Windows.
+
+**[@@-C]** - Azure Blob Storage no está diseñado para ser montado como una unidad de Windows usando SMB. Está optimizado para almacenamiento de objetos.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure](https://learn.microsoft.com/es-es/azure/azure-sql/database/firewall-configure)
+[https://learn.microsoft.com/es-es/azure/storage/files/storage-files-introduction](https://learn.microsoft.com/es-es/azure/storage/files/storage-files-introduction)
 """
-Topic = "Datos relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-7]
-Question = "Una organización está diseñando una base de datos para gestionar donaciones y voluntarios. ¿Cuál de las siguientes afirmaciones explica correctamente el papel fundamental de las tablas en este sistema?"
+Question = "Un equipo de ingeniería de datos está diseñando una canalización de ETL usando Azure Data Factory. ¿Cuáles son los tres tipos de actividades que soporta Azure Data Factory?"
 Correct = "A"
-A = "Las tablas son objetos de base de datos que contienen todos los datos en una base de datos."
-B = "Las tablas son colecciones de pares clave-valor."
-C = "Las tablas son una colección de vistas."
-D = "Los datos se pueden almacenar directamente en una base de datos relacional, y el uso de tablas es opcional."
+A = "Movimiento de datos, Transformación de datos y Control"
+B = "Hive, Pig, Spark"
+C = "Conjunto de datos, Actividad, Pipeline"
+D = "Copy Data, MapReduce, Procedimiento almacenado"
 Explanation = """
 Opción correcta:
 
-**[@@-A]** - Las tablas son objetos de base de datos que contienen todos los datos en una base de datos. En las tablas, los datos se organizan lógicamente en un formato de filas y columnas similar a una hoja de cálculo. Cada fila representa un registro único, y cada columna representa un campo en el registro.
+**[@@-A]** - Movimiento de datos, Transformación de datos y Control son los tres tipos de actividades que soporta Azure Data Factory. Copy Data es la actividad de Movimiento de datos, mientras que MapReduce y Procedimiento almacenado son ambas actividades de transformación.
 
 Opciones incorrectas:
 
-**[@@-B]** - Las colecciones de pares clave-valor son características de bases de datos NoSQL como Redis o Azure Table Storage, no de tablas relacionales en SQL Server.
+**[@@-B]** - Hive, Pig y Spark son tecnologías de procesamiento de datos, no tipos de actividades de Azure Data Factory.
 
-**[@@-C]** - Las tablas no son una colección de vistas. Las vistas son objetos de base de datos que se basan en consultas y pueden referenciar una o más tablas, pero las tablas son estructuras de datos independientes.
+**[@@-C]** - Conjunto de datos, Actividad y Pipeline son componentes de Azure Data Factory, no tipos de actividades.
 
-**[@@-D]** - En una base de datos relacional, los datos se almacenan en tablas. Las tablas no son opcionales; son la estructura fundamental para almacenar datos en una base de datos relacional.
-
-Referencias:
-
-[https://learn.microsoft.com/es-es/sql/relational-databases/tables/tables?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/tables/tables?view=sql-server-ver15)
-"""
-Topic = "Datos relacionales"
-
-
-[question-8]
-Question = "Una empresa de análisis financiero necesita consolidar datos de múltiples fuentes (bancos, bolsas de valores y agencias de calificación) en un data warehouse centralizado. Para automatizar este proceso, el equipo está utilizando Azure Data Factory. ¿Qué componente de Azure Data Factory agrupa todas las actividades necesarias para extraer, transformar y cargar estos datos financieros de manera coordinada?"
-Correct = "B"
-A = "Nodo"
-B = "Pipeline"
-C = "Paquete"
-D = "Clúster"
-Explanation = """
-Opción correcta:
-
-**[@@-B]** - Un pipeline es una agrupación lógica de actividades en Azure Data Factory. Los pipelines contienen las actividades que juntas realizan una tarea específica, como mover y transformar datos de una fuente a un destino.
-
-Opciones incorrectas:
-
-**[@@-A]** - Un nodo es un concepto de procesamiento de datos, pero no es el término específico usado en Azure Data Factory para describir una agrupación lógica de actividades.
-
-**[@@-C]** - Un paquete es un concepto usado en SQL Server Integration Services (SSIS), no en Azure Data Factory.
-
-**[@@-D]** - Un clúster es un grupo de servidores o recursos computacionales, no el término usado para describir una agrupación lógica de actividades en Azure Data Factory.
+**[@@-D]** - Copy Data, MapReduce y Procedimiento almacenado son ejemplos específicos de actividades, no los tres tipos principales de actividades.
 
 Referencias:
 
@@ -212,55 +191,86 @@ Referencias:
 Topic = "Análisis de datos"
 
 
-[question-9]
-Question = "Una empresa de arquitectura está desarrollando una aplicación para gestionar planos, renders 3D y documentación técnica de proyectos. Estos archivos incluyen imágenes de alta resolución, videos de recorridos virtuales y documentos PDF. ¿Qué tipo de datos almacenaría en Azure Blob Storage para este conjunto de archivos multimedia?"
-Correct = "A"
-A = "Datos no estructurados"
-B = "Datos particionados"
-C = "Datos estructurados"
-D = "Datos clave-valor"
+[question-8]
+Question = "Una empresa de retail está evaluando diferentes tipos de cargas de trabajo para su sistema de gestión de inventario. ¿Cuál de los siguientes tipos de datos es un ejemplo de una carga de trabajo transaccional?"
+Correct = "C"
+A = "Una base de datos que alimenta el aprendizaje automático para construir y entrenar modelos."
+B = "Una base de datos que alimenta Azure Analysis Services para análisis complejos y de procesamiento intensivo."
+C = "Una base de datos que contiene las operaciones diarias de una organización."
+D = "Una base de datos que alimenta PowerBI para proporcionar informes ricos e interactivos."
 Explanation = """
 Opción correcta:
 
-**[@@-A]** - Azure Blob Storage está diseñado para almacenar datos no estructurados como documentos, videos, imágenes, respaldos y otros datos de texto o binarios. Block Blob Storage se usa específicamente para transmitir y almacenar este tipo de datos no estructurados.
+**[@@-C]** - Una base de datos que contiene las operaciones diarias de una organización es un ejemplo de carga de trabajo transaccional. La gestión de datos transaccionales usando sistemas informáticos se conoce como procesamiento de transacciones en línea (OLTP). Los sistemas OLTP registran las interacciones comerciales a medida que ocurren en la operación diaria de la organización, y soportan la consulta de estos datos para hacer inferencias.
 
 Opciones incorrectas:
 
-**[@@-B]** - Los datos particionados no son un tipo específico de datos que se almacene en Azure Blob Storage. La partición es una técnica de organización de datos, no un tipo de datos.
+**[@@-A]** - Una base de datos que alimenta el aprendizaje automático es típicamente una carga de trabajo analítica, no transaccional.
 
-**[@@-C]** - Los datos estructurados típicamente se almacenan en bases de datos relacionales como Azure SQL Database o Azure Table Storage, no en Azure Blob Storage.
+**[@@-B]** - Una base de datos que alimenta Azure Analysis Services es una carga de trabajo analítica para análisis complejos.
 
-**[@@-D]** - Los datos clave-valor se almacenan en servicios como Azure Table Storage o Redis Cache, no en Azure Blob Storage.
+**[@@-D]** - Una base de datos que alimenta PowerBI es una carga de trabajo analítica para informes e interactivos.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blobs-introduction](https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blobs-introduction)
+[https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing)
 """
-Topic = "Datos no relacionales"
+Topic = "Análisis de datos"
+
+
+[question-9]
+Question = "Un desarrollador está diseñando una base de datos para un sistema de gestión de empleados. ¿Cuál de las siguientes es una consecuencia de tener una clave primaria en una tabla de datos relacionales?"
+Correct = "B"
+A = "Todas las tablas deben tener una y solo una clave primaria. Es obligatorio."
+B = "La base de datos impone unicidad y ninguna otra fila puede tener la misma clave primaria."
+C = "Una tabla puede tener varias claves primarias."
+D = "Todos los elementos en una partición lógica tienen el mismo valor de clave primaria."
+Explanation = """
+Opción correcta:
+
+**[@@-B]** - La base de datos impone unicidad y ninguna otra fila puede tener la misma clave primaria. Una tabla típicamente tiene una columna o combinación de columnas que contienen valores que identifican únicamente cada fila en la tabla. Esta columna, o columnas, se llama la clave primaria (PK) de la tabla y impone la integridad de entidad de la tabla.
+
+Opciones incorrectas:
+
+**[@@-A]** - Las claves primarias son opcionales, no obligatorias en todas las tablas.
+
+**[@@-C]** - Una tabla puede tener solo una clave primaria, aunque puede estar compuesta por múltiples columnas.
+
+**[@@-D]** - Los elementos en una partición lógica no necesariamente tienen el mismo valor de clave primaria.
+
+Referencias:
+
+[https://learn.microsoft.com/es-es/sql/relational-databases/tables/primary-and-foreign-key-constraints?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/tables/primary-and-foreign-key-constraints?view=sql-server-ver15)
+"""
+Topic = "Datos relacionales"
 
 
 [question-10]
-Question = "Una empresa de fabricación quiere que los supervisores puedan explorar datos de rendimiento de manera interactiva y crear visualizaciones personalizadas. ¿Qué característica de Power BI permitiría crear estos informes dinámicos?"
-Correct = "A"
-A = "La capacidad de crear informes web en línea personalizables, que son hermosos y se pueden personalizar y modificar de varias maneras complejas."
-B = "La capacidad de crear dashboards que te dan una mirada visual del estado del negocio."
-C = "La capacidad de crear informes detallados que están destinados a ser impresos y compartidos."
+Question = "Una empresa de investigación científica está procesando grandes volúmenes de datos de experimentos que requieren análisis complejo. ¿Qué tipo de carga de trabajo de análisis de datos es mejor para procesar datos que son grandes, complejos y toman una cantidad significativa de tiempo para procesar?"
+Correct = "B"
+A = "Azure Function Web Trigger"
+B = "Procesamiento por lotes"
+C = "Procesamiento en tiempo real"
+D = "Azure Stream Analytics"
 Explanation = """
 Opción correcta:
 
-**[@@-A]** - Los informes interactivos de Power BI tienen la capacidad de crear informes web en línea personalizables que son visualmente atractivos y se pueden personalizar y modificar de varias maneras complejas. Esto incluye interactividad, filtros dinámicos, drill-down y otras características avanzadas.
+**[@@-B]** - El procesamiento por lotes es mejor para procesar datos que son grandes, complejos y toman una cantidad significativa de tiempo para procesar. El procesamiento por lotes se usa en una variedad de escenarios, desde transformaciones de datos simples hasta un pipeline ETL (extraer-transformar-cargar) más completo. En un contexto de big data, el procesamiento por lotes puede operar sobre conjuntos de datos muy grandes, donde el cómputo toma tiempo significativo.
 
 Opciones incorrectas:
 
-**[@@-B]** - Los dashboards son una característica diferente de Power BI. Los dashboards proporcionan una vista general del estado del negocio, pero no son lo mismo que los informes interactivos que se pueden personalizar y modificar de manera compleja.
+**[@@-A]** - Azure Function Web Trigger está diseñado para procesamiento de eventos en tiempo real, no para grandes volúmenes de datos complejos.
 
-**[@@-C]** - Los informes detallados destinados a ser impresos y compartidos son una característica diferente. Los informes interactivos de Power BI están diseñados para ser utilizados en línea con capacidades interactivas, no para impresión estática.
+**[@@-C]** - El procesamiento en tiempo real está optimizado para latencia baja, no para grandes volúmenes de datos complejos que requieren tiempo significativo.
+
+**[@@-D]** - Azure Stream Analytics está diseñado para procesamiento de streaming en tiempo real, no para grandes volúmenes de datos complejos.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/power-bi/create-reports/service-interactive-reports](https://learn.microsoft.com/es-es/power-bi/create-reports/service-interactive-reports)
+[https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/batch-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/batch-processing)
 """
 Topic = "Análisis de datos"
+
 
 
 [question-11]
@@ -896,106 +906,158 @@ Referencias:
 Topic = "Datos no relacionales"
 
 
+
 [question-35]
-Question = "Una startup de comercio electrónico tiene una pequeña base de datos de 25MB actualmente alojada en AWS DynamoDB que les gustaría mover a Azure Cosmos DB. Han elegido Core SQL API como el tipo de base de datos. ¿Cuál es la mejor herramienta de migración de base de datos o técnica para obtener datos de AWS DynamoDB a Azure CosmosDB?"
-Correct = "A"
-A = "Data Migration Tool"
-B = "Exportar la DB usando bcp e importar a Azure usando la misma herramienta"
-C = "Exportar la DB usando un respaldo de base de datos (BACPAC) y crear una nueva SQL DB usando ese archivo"
-D = "Al crear la SQL Database en el Portal de Azure, elegir DynamoDB como la fuente de la nueva base de datos"
+Question = "Un equipo de seguridad está configurando reglas de firewall para un servidor SQL Database que aloja múltiples bases de datos para diferentes departamentos. ¿Puede un servidor SQL Database tener tanto reglas de firewall IP a nivel de servidor Y reglas de firewall IP a nivel de base de datos? ¿O debes elegir una u otra?"
+Correct = "C"
+A = "No, debes elegir una u otra"
+B = "Cualquier IP en el firewall a nivel de base de datos también debe existir en el firewall a nivel de servidor"
+C = "Puedes tener tanto reglas a nivel de servidor como reglas a nivel de base de datos"
 Explanation = """
 Opción correcta:
 
-**[@@-A]** - Data Migration Tool es la mejor opción para migrar datos de AWS DynamoDB a Azure Cosmos DB. Azure ama cuando migras datos de otras fuentes especialmente AWS, y su Data Migration Tool puede manejar esa conexión de manera eficiente.
+**[@@-C]** - Puedes tener tanto reglas de firewall IP a nivel de servidor como a nivel de base de datos, y existen independientemente. Una IP puede existir en una regla de base de datos y no en una regla de servidor, y el usuario tendría acceso a la base de datos específica y no a todas las bases de datos en el servidor.
 
 Opciones incorrectas:
 
-**[@@-B]** - BCP (Bulk Copy Program) es una herramienta de SQL Server, no es apropiada para migrar desde DynamoDB a Cosmos DB.
+**[@@-A]** - No es correcto. Puedes tener ambos tipos de reglas simultáneamente.
 
-**[@@-C]** - BACPAC es un formato de respaldo específico de SQL Server, no es compatible con DynamoDB ni Cosmos DB.
-
-**[@@-D]** - El Portal de Azure no tiene una opción directa para migrar desde DynamoDB como fuente. Esta opción no existe en la interfaz.
+**[@@-B]** - No es correcto. Las reglas de base de datos y servidor son independientes.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/cosmos-db/cosmosdb-migrationchoices](https://learn.microsoft.com/es-es/azure/cosmos-db/cosmosdb-migrationchoices)
+[https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-configure](https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-configure)
 """
-Topic = "Datos no relacionales"
+Topic = "Datos relacionales"
 
 
 [question-36]
-Question = "Una empresa de desarrollo de aplicaciones de caché está evaluando diferentes tipos de datos no relacionales para su sistema de almacenamiento en memoria. Necesitan un tipo de datos que pueda almacenar y recuperar rápidamente un solo valor por elemento único, sin necesidad de consultas complejas. ¿Qué tipo de datos no relacional gira en torno a almacenar y recuperar rápidamente un solo valor por elemento único?"
-Correct = "B"
-A = "Datos de objeto"
-B = "Datos clave-valor"
-C = "Datos de documento"
-D = "Datos de gráfico"
+Question = "Una empresa de servicios legales está configurando un sistema de almacenamiento para documentos importantes que deben ser recuperables en caso de eliminación accidental. ¿Qué característica de Azure Blob Storage permitiría la recuperación de un archivo que fue eliminado accidentalmente? Elige dos."
+Correct = "A,B"
+A = "Versionado de blob"
+B = "Eliminación suave"
+C = "Feed de cambios"
+D = "Blobs inmutables"
 Explanation = """
 Opción correcta:
 
-**[@@-B]** - Los datos clave-valor están diseñados para el almacenamiento y recuperación rápida de datos basados en una clave. No es bueno para hacer búsquedas a través de múltiples claves, o examinar el contenido de múltiples valores para encontrar los relevantes. Es extremadamente escalable y está diseñado para almacenar datos a través de múltiples nodos en máquinas separadas.
+**[@@-A,B]** - La mejor respuesta es la característica de eliminación suave. Esto impone un tiempo en el cual un blob eliminado es recuperable. El versionado de blob también permite que un blob eliminado sea recuperado. Las otras dos respuestas no tratan específicamente con recuperar datos eliminados.
 
 Opciones incorrectas:
 
-**[@@-A]** - Los datos de objeto no son un tipo específico de datos no relacionales. Esta opción no corresponde a una categoría estándar de bases de datos NoSQL.
+**[@@-C]** - El feed de cambios no está diseñado específicamente para recuperar archivos eliminados.
 
-**[@@-C]** - Los datos de documento están optimizados para almacenar documentos completos (como JSON) y permiten consultas complejas sobre el contenido de los documentos, no solo recuperación por clave.
-
-**[@@-D]** - Los datos de gráfico están optimizados para relaciones complejas entre entidades y permiten consultas de gráficos sofisticadas, no solo recuperación por clave.
+**[@@-D]** - Los blobs inmutables están diseñados para prevenir modificaciones, no para recuperar archivos eliminados.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data)
+[https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview](https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview)
 """
 Topic = "Datos no relacionales"
 
 
 [question-37]
-Question = "Una empresa de servicios de respaldo en la nube está configurando Azure Storage para almacenar datos críticos de sus clientes. El equipo de infraestructura necesita entender cuántas copias de los datos mantiene Azure cuando se elige Almacenamiento con Redundancia Geográfica (GRS) para garantizar la máxima durabilidad."
-Correct = "C"
-A = "2"
-B = "3"
-C = "6"
-D = "1"
+Question = "Una startup de tecnología está evaluando diferentes modelos de servicio para su nueva aplicación. ¿Cuál de las siguientes es una ventaja de ejecutar tu base de datos SQL en el modelo PaaS en Azure?"
+Correct = "A"
+A = "Gasto de capital inicial más barato"
+B = "Gasto operacional por día más barato"
+C = "Mantener control de tus datos dentro de tu propio entorno corporativo"
+D = "Maximizar tu control de la configuración del hardware"
 Explanation = """
 Opción correcta:
 
-**[@@-C]** - Azure Storage mantiene 6 copias de tus datos cuando usas Almacenamiento con Redundancia Geográfica (GRS). El almacenamiento con redundancia geográfica (GRS) copia tus datos sincrónicamente tres veces dentro de una sola ubicación física en la región primaria usando LRS. Luego copia tus datos asincrónicamente a una sola ubicación física en la región secundaria. Dentro de la región secundaria, tus datos se copian sincrónicamente tres veces usando LRS.
+**[@@-A]** - Comenzar una SQL Database en Azure no cuesta nada por adelantado ($0), simplemente pagas por el costo continuo por hora de ejecutar la base de datos.
 
 Opciones incorrectas:
 
-**[@@-A]** - 2 copias no son suficientes para GRS. Azure Storage siempre almacena múltiples copias de tus datos para protección contra eventos planificados y no planificados.
+**[@@-B]** - El gasto operacional puede no ser más barato que soluciones on-premise a largo plazo.
 
-**[@@-B]** - 3 copias corresponden al almacenamiento con redundancia local (LRS), no a GRS que incluye redundancia geográfica.
+**[@@-C]** - En PaaS, Microsoft maneja la infraestructura, por lo que tienes menos control directo sobre el entorno.
 
-**[@@-D]** - 1 copia no proporcionaría ninguna redundancia. Azure Storage siempre mantiene múltiples copias para garantizar la durabilidad de los datos.
+**[@@-D]** - En PaaS, Microsoft maneja la configuración del hardware, por lo que tienes menos control sobre esta configuración.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/storage/common/storage-redundancy](https://learn.microsoft.com/es-es/azure/storage/common/storage-redundancy)
+[https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview)
+"""
+Topic = "Datos relacionales"
+
+
+[question-38]
+Question = "Una empresa de servicios de respaldo está configurando una cuenta de Azure Storage para almacenar datos críticos de sus clientes. Al desplegar una cuenta de Azure Storage, y eliges Almacenamiento con Redundancia Local (LRS), ¿cuántas copias de tus datos mantiene Azure?"
+Correct = "D"
+A = "1 copia en cada Zona de Disponibilidad"
+B = "1"
+C = "6"
+D = "3"
+Explanation = """
+Opción correcta:
+
+**[@@-D]** - Azure Storage siempre almacena múltiples copias de tus datos para que estén protegidos de eventos planificados y no planificados, incluyendo fallas de hardware transitorias, interrupciones de red o energía, y desastres naturales masivos. La redundancia asegura que tu cuenta de almacenamiento cumpla sus objetivos de disponibilidad y durabilidad incluso ante fallas. El almacenamiento con redundancia local (LRS) copia tus datos sincrónicamente tres veces dentro de una sola ubicación física en la región primaria.
+
+Opciones incorrectas:
+
+**[@@-A]** - LRS no distribuye copias entre zonas de disponibilidad, solo dentro de una ubicación física.
+
+**[@@-B]** - Azure Storage nunca mantiene solo 1 copia de los datos.
+
+**[@@-C]** - 6 copias corresponde a ZRS (Zone-Redundant Storage), no LRS.
+
+Referencias:
+
+[https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy)
 """
 Topic = "Datos no relacionales"
 
 
-[question-38]
-Question = "Una empresa de servicios de consultoría tiene un servidor de SQL Database que tiene dos bases de datos SQL en él. Quieren permitir conexiones a través de la internet pública a estas bases de datos. Cada base de datos tiene un conjunto diferente de clientes sin superposición. Quieren que los clientes de una empresa puedan acceder a una base de datos pero no a la otra. ¿Cómo configuran su firewall para habilitar esto?"
+[question-39]
+Question = "Una empresa de redes sociales está diseñando su arquitectura de datos para manejar relaciones complejas entre usuarios. ¿Qué tipo de datos no relacional gira en torno a nodos y las relaciones entre los nodos? Este sería un buen tipo de datos para bases de datos que necesitan navegar de nodo a nodos relacionados, como un organigrama de empresa o una red social."
 Correct = "C"
-A = "Grupo de Seguridad de Red (NSG)"
-B = "Servicio Azure Firewall"
-C = "Firewall IP a nivel de base de datos"
-D = "Firewall IP a nivel de servidor"
+A = "Datos MongoDB"
+B = "Datos Core (SQL)"
+C = "Datos de gráfico"
+D = "Datos de documento"
 Explanation = """
 Opción correcta:
 
-**[@@-C]** - El firewall IP a nivel de base de datos está específicamente diseñado para permitir que las direcciones IP accedan solo a una base de datos en un servidor y no a todas las bases de datos. Esto es exactamente lo que necesitas para este escenario donde quieres control granular por base de datos.
+**[@@-C]** - Las bases de datos de gráficos te permiten navegar fácilmente las relaciones entre los datos (bordes) y no solo los datos mismos. Fue especialmente diseñado para cosas como redes sociales.
 
 Opciones incorrectas:
 
-**[@@-A]** - Los Grupos de Seguridad de Red (NSG) controlan el tráfico de red a nivel de subred, no proporcionan control granular a nivel de base de datos individual.
+**[@@-A]** - MongoDB es una base de datos de documentos, no de gráficos.
 
-**[@@-B]** - Azure Firewall es un servicio de firewall administrado, pero no proporciona control específico a nivel de base de datos individual dentro de un servidor SQL.
+**[@@-B]** - Core (SQL) es una base de datos relacional, no de gráficos.
 
-**[@@-D]** - El firewall IP a nivel de servidor controla el acceso a todo el servidor SQL, no permite control granular por base de datos individual.
+**[@@-D]** - Los datos de documento están estructurados como documentos, no como nodos y relaciones.
+
+Referencias:
+
+[https://docs.microsoft.com/en-gb/azure/architecture/data-guide/big-data/non-relational-data](https://docs.microsoft.com/en-gb/azure/architecture/data-guide/big-data/non-relational-data)
+"""
+Topic = "Datos no relacionales"
+
+
+
+
+[question-40]
+Question = "Una empresa de consultoría tiene varias bases de datos en un único servidor de Azure SQL Database. Acaban de contratar a un nuevo desarrollador que necesita acceso a todas las bases de datos del servidor desde su dirección IP corporativa. ¿Cuál es la forma más eficiente de permitir este acceso?"
+Correct = "B"
+A = "Crear reglas de firewall IP a nivel de cada base de datos"
+B = "Configurar una regla de firewall IP a nivel de servidor"
+C = "Implementar una regla de red en Azure Firewall"
+D = "Añadir una regla en un grupo de seguridad de red asociado"
+Explanation = """
+Opción correcta:
+
+**[@@-B]** - Cuando se necesita conceder acceso a múltiples bases de datos alojadas en el mismo servidor de Azure SQL, lo más eficiente es establecer una regla de firewall IP a nivel de servidor. Esto evita tener que configurar reglas individualmente para cada base de datos. Azure Firewall o los NSG no aplican directamente a este escenario.
+
+Opciones incorrectas:
+
+**[@@-A]** - Crear reglas individuales para cada base de datos sería menos eficiente que una regla a nivel de servidor.
+
+**[@@-C]** - Azure Firewall no aplica directamente a Azure SQL Database.
+
+**[@@-D]** - Los grupos de seguridad de red no aplican directamente a Azure SQL Database.
 
 Referencias:
 
@@ -1004,325 +1066,272 @@ Referencias:
 Topic = "Datos relacionales"
 
 
-[question-39]
-Question = "Una empresa de investigación de mercado está evaluando diferentes modelos de base de datos para su sistema de análisis de tendencias de consumo. Necesitan ejecutar consultas complejas que pueden tomar varias horas para procesar grandes volúmenes de datos históricos. ¿Cuál de los siguientes modelos de base de datos está optimizado para consultas profundas y complejas que podrían tomar horas para ejecutar?"
-Correct = "D"
-A = "Azure Stream Analytics"
-B = "Almacenamiento Data Lake"
-C = "OLTP (procesamiento de transacciones en línea)"
-D = "OLAP (procesamiento analítico en línea)"
+
+[question-41]
+Question = "Un equipo de marketing está analizando un conjunto de datos que contiene información sobre demografía de clientes e historial de compras. ¿Qué visualización de datos en Microsoft Power BI sería más apropiada para identificar patrones o tendencias en el número de compras realizadas por clientes en diferentes grupos de edad?"
+Correct = "B"
+A = "Gráfico de medidor"
+B = "Gráfico de barras apiladas"
+C = "Gráfico de dispersión"
+D = "Gráfico circular"
 Explanation = """
 Opción correcta:
 
-**[@@-D]** - OLAP (procesamiento analítico en línea) está optimizado para consultas profundas y complejas que podrían tomar horas para ejecutar. Las cargas de trabajo analíticas se hacen mejor en una base de datos optimizada para tareas analíticas. Las tareas analíticas a veces pueden requerir procesar muchos datos, y pueden tomar horas para ejecutar.
+**[@@-B]** - Un gráfico de barras apiladas es la opción más apropiada para identificar patrones o tendencias en el número de compras realizadas por clientes en diferentes grupos de edad. Los gráficos de barras apiladas permiten una comparación fácil de valores totales entre diferentes categorías (grupos de edad en este caso) y pueden ayudar a visualizar tendencias o patrones en los datos de manera efectiva.
 
 Opciones incorrectas:
 
-**[@@-A]** - Azure Stream Analytics es más para análisis en tiempo real, no para consultas complejas que toman horas para ejecutar.
+**[@@-A]** - Los gráficos de medidor son mejores para mostrar un valor único en relación a un objetivo, no para comparar múltiples categorías.
 
-**[@@-B]** - Data Lake no es un modelo de base de datos, es un almacén de datos. No está optimizado específicamente para consultas analíticas complejas.
+**[@@-C]** - Los gráficos de dispersión son mejores para mostrar correlaciones entre dos variables continuas, no para comparar categorías.
 
-**[@@-C]** - OLTP (procesamiento de transacciones en línea) está optimizado para transacciones rápidas y simples, no para consultas complejas que toman horas. No querrías hacer tareas analíticas complejas en un sistema OLTP que está procesando tu negocio diario.
+**[@@-D]** - Los gráficos circulares son mejores para mostrar proporciones de un todo, no para comparar múltiples categorías.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-analytical-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-analytical-processing)
+[https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization](https://docs.microsoft.com/en-us/learn/modules/explore-data-visualization-in-power-bi/2-understand-data-visualization)
 """
 Topic = "Análisis de datos"
 
 
-[question-40]
-Question = "Una empresa de desarrollo web está evaluando las vulnerabilidades de seguridad de su aplicación de comercio electrónico. El equipo de seguridad necesita identificar qué tipo de ataque malicioso intenta leer valores de base de datos usando campos de formulario en un sitio web."
-Correct = "C"
-A = "Ataque de Denegación de Servicio Distribuido (DDoS)"
-B = "Ataque de Fuerza Bruta"
-C = "Ataque de Inyección SQL"
-D = "XSS (Cross Site Scripting)"
-Explanation = """
-Opción correcta:
-
-**[@@-C]** - La inyección SQL es un ataque en el que se inserta código malicioso en cadenas que luego se pasan a una instancia de SQL Server para análisis y ejecución. Cualquier procedimiento que construya declaraciones SQL debe ser revisado para vulnerabilidades de inyección porque SQL Server ejecutará todas las consultas sintácticamente válidas que reciba. Incluso los datos parametrizados pueden ser manipulados por un atacante hábil y determinado.
-
-Opciones incorrectas:
-
-**[@@-A]** - Un ataque de Denegación de Servicio Distribuido (DDoS) intenta hacer que un servicio no esté disponible, no intenta leer valores de base de datos específicos.
-
-**[@@-B]** - Un ataque de Fuerza Bruta intenta adivinar credenciales mediante múltiples intentos, no intenta leer valores de base de datos usando campos de formulario.
-
-**[@@-D]** - XSS (Cross Site Scripting) es un ataque que inserta scripts maliciosos en páginas web, no intenta leer valores de base de datos directamente.
-
-Referencias:
-
-[https://learn.microsoft.com/es-es/sql/relational-databases/security/sql-injection?view=sql-server-ver15](https://learn.microsoft.com/es-es/sql/relational-databases/security/sql-injection?view=sql-server-ver15)
-"""
-Topic = "Datos relacionales"
-
-
-[question-41]
-Question = "Un equipo de desarrollo está creando una aplicación de gestión de empleados para una empresa. Necesitan entender qué declaración SQL utilizar cuando un nuevo empleado se une a la empresa y necesitan agregar su información a la base de datos. ¿Qué declaración SQL se utiliza para agregar una nueva fila a una tabla?"
-Correct = "A"
-A = "INSERT"
-B = "SELECT"
-C = "UPDATE"
-D = "CREATE"
-Explanation = """
-Opción correcta:
-
-**[@@-A]** - La declaración INSERT se utiliza para agregar una nueva fila a una tabla. Te permite especificar los valores para cada columna en la nueva fila, efectivamente agregando un nuevo registro a la tabla.
-
-Opciones incorrectas:
-
-**[@@-B]** - La declaración SELECT se utiliza para recuperar datos de una o más tablas, no para agregar nuevas filas. Te permite consultar datos existentes basándose en condiciones especificadas y recuperar los resultados.
-
-**[@@-C]** - La declaración UPDATE se utiliza para modificar registros existentes en una tabla, no para agregar nuevas filas. Actualiza los valores de columnas específicas en filas existentes basándose en condiciones especificadas.
-
-**[@@-D]** - La declaración CREATE se utiliza para crear una nueva tabla, no para agregar una nueva fila a una tabla existente. Define la estructura de la tabla, incluyendo nombres de columnas, tipos de datos y restricciones.
-
-Referencias:
-
-[https://learn.microsoft.com/es-es/sql/t-sql/statements/insert-transact-sql](https://learn.microsoft.com/es-es/sql/t-sql/statements/insert-transact-sql)
-"""
-Topic = "Datos relacionales"
-
-
 [question-42]
-Question = "Una empresa de análisis de big data está evaluando diferentes formatos de archivo para almacenar grandes volúmenes de datos de sensores IoT. Necesitan un formato que sea eficiente en almacenamiento y optimizado para consultas analíticas. ¿Cuál de los siguientes formatos de archivo se utiliza para almacenar datos estructurados y semi-estructurados en un formato binario comprimido que está optimizado para análisis de datos?"
-Correct = "B"
-A = "CSV (Comma-Separated Values)"
-B = "Parquet"
-C = "XML (Extensible Markup Language)"
-D = "JSON (JavaScript Object Notation)"
+Question = "Un equipo de análisis de datos está trabajando con grandes volúmenes de información de ventas. ¿Cuál de los siguientes es un formato de archivo de datos comúnmente usado para almacenar grandes conjuntos de datos en formato tabular?"
+Correct = "D"
+A = "HTML (Hypertext Markup Language)"
+B = "XML (Extensible Markup Language)"
+C = "JSON (JavaScript Object Notation)"
+D = "CSV (Comma-Separated Values)"
 Explanation = """
 Opción correcta:
 
-**[@@-B]** - Parquet es un formato de almacenamiento columnar que está optimizado para análisis de datos. Almacena datos estructurados y semi-estructurados en un formato binario comprimido, haciéndolo eficiente para consultar y analizar grandes conjuntos de datos. Parquet es ampliamente utilizado en frameworks de procesamiento de big data como Apache Spark y Hadoop por sus capacidades de rendimiento y optimización de almacenamiento.
+**[@@-D]** - CSV (Comma-Separated Values) es un formato de archivo de datos comúnmente usado para almacenar grandes conjuntos de datos en formato tabular. Es ligero, fácil de leer y escribir, y ampliamente soportado por varias herramientas y aplicaciones para análisis y manipulación de datos.
 
 Opciones incorrectas:
 
-**[@@-A]** - CSV es un formato de texto plano que almacena datos tabulares en un formato separado por comas. No está optimizado para análisis de datos y no admite compresión o almacenamiento binario, haciéndolo menos eficiente para manejar datos estructurados y semi-estructurados en escenarios de análisis de datos.
+**[@@-A]** - HTML es un lenguaje de marcado para páginas web, no para almacenar datos tabulares.
 
-**[@@-C]** - XML es un lenguaje de marcado que se utiliza para codificar documentos en un formato que es tanto legible por humanos como por máquinas. Aunque XML puede almacenar datos estructurados, no está optimizado para almacenamiento de análisis de datos. XML no ofrece el mismo nivel de compresión y almacenamiento binario que Parquet, haciéndolo menos eficiente para cargas de trabajo de análisis de datos.
+**[@@-B]** - XML es un lenguaje de marcado, pero no es tan eficiente como CSV para datos tabulares.
 
-**[@@-D]** - JSON es un formato de intercambio de datos ligero que es fácil de leer y escribir para los humanos. Aunque se utiliza comúnmente para intercambio de datos entre sistemas, no está optimizado para almacenamiento de análisis de datos. JSON no ofrece compresión o almacenamiento binario, haciéndolo menos eficiente para análisis de datos a gran escala.
+**[@@-C]** - JSON es un formato de intercambio de datos, pero no es tan eficiente como CSV para datos tabulares.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/databricks/data/data-sources/read-write-data/file-formats/parquet](https://learn.microsoft.com/es-es/azure/databricks/data/data-sources/read-write-data/file-formats/parquet)
+[https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
 """
 Topic = "Datos no relacionales"
 
 
 [question-43]
-Question = "Una empresa de servicios financieros está diseñando una nueva base de datos para gestionar transacciones bancarias. El equipo de arquitectura de datos necesita entender qué característica fundamental define una base de datos relacional. ¿Cuál de las siguientes es una característica clave de una base de datos relacional?"
-Correct = "D"
-A = "Los datos se almacenan en una estructura jerárquica"
-B = "Los datos se almacenan en una estructura distribuida y particionada"
-C = "Los datos se almacenan en colecciones de pares clave-valor"
-D = "Los datos se almacenan en tablas con filas y columnas"
+Question = "Una empresa de desarrollo de aplicaciones está evaluando opciones de base de datos para su nueva aplicación web. ¿Cuál de los siguientes es un tipo de base de datos relacional ofrecida por Microsoft Azure?"
+Correct = "C"
+A = "Azure Cosmos DB"
+B = "Azure Blob Storage"
+C = "Azure SQL Database"
+D = "Azure Data Lake Storage"
 Explanation = """
 Opción correcta:
 
-**[@@-D]** - Los datos se almacenan en tablas con filas y columnas es una característica fundamental de una base de datos relacional. Esta estructura permite la organización de datos en entidades y atributos, habilitando consultas y manipulación eficiente de datos a través de SQL.
+**[@@-C]** - Azure SQL Database es un servicio de base de datos relacional completamente administrado proporcionado por Microsoft Azure. Está basado en el motor Microsoft SQL Server y está diseñado para construir y desplegar aplicaciones que requieren una base de datos relacional. Soporta características como transacciones ACID, integridad referencial y consultas SQL, convirtiéndolo en un tipo de base de datos relacional ofrecida por Azure.
 
 Opciones incorrectas:
 
-**[@@-A]** - Los datos almacenados en una estructura jerárquica es una característica de un modelo de base de datos jerárquico, no de una base de datos relacional. En una base de datos relacional, los datos se organizan en tablas con filas y columnas, no de manera jerárquica.
+**[@@-A]** - Azure Cosmos DB es una base de datos no relacional (NoSQL).
 
-**[@@-B]** - Almacenar datos en una estructura distribuida y particionada es una característica comúnmente asociada con bases de datos distribuidas o bases de datos fragmentadas, no específicamente con bases de datos relacionales. Las bases de datos relacionales típicamente almacenan datos de manera centralizada dentro de tablas.
+**[@@-B]** - Azure Blob Storage es un servicio de almacenamiento de objetos, no una base de datos relacional.
 
-**[@@-C]** - Almacenar datos en colecciones de pares clave-valor es una característica de bases de datos NoSQL, como las bases de datos orientadas a documentos. En una base de datos relacional, los datos se estructuran en tablas con filas y columnas, permitiendo relaciones entre entidades.
+**[@@-D]** - Azure Data Lake Storage es un servicio de almacenamiento de datos, no una base de datos relacional.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/)
+[https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview)
 """
-Topic = "Datos relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-44]
-Question = "Una empresa de retail está diseñando una canalización de ingesta de datos para su solución de análisis de ventas a gran escala. Necesitan procesar y transformar datos de múltiples fuentes antes de almacenarlos en un data lake. ¿Qué servicio utilizarían para procesar y transformar datos antes de almacenarlos en un data lake?"
-Correct = "A"
-A = "Azure Data Factory"
-B = "Azure Synapse Analytics"
-C = "Azure Event Hubs"
-D = "Azure Stream Analytics"
+Question = "Una empresa de servicios de TI está definiendo roles y responsabilidades para su equipo de administración de bases de datos. ¿Cuál de los siguientes NO es una responsabilidad típica de un administrador de base de datos para una carga de trabajo de datos basada en la nube?"
+Correct = "D"
+A = "Implementar y gestionar políticas de gobernanza de datos"
+B = "Monitorear la utilización de recursos y el rendimiento"
+C = "Mantener copias de seguridad de la base de datos y recuperación ante desastres"
+D = "Escribir código de aplicación complejo y lógica"
 Explanation = """
 Opción correcta:
 
-**[@@-A]** - Azure Data Factory es un servicio de integración de datos basado en la nube que te permite crear, programar y gestionar canalizaciones de datos para ingerir, preparar y transformar datos antes de almacenarlos en un data lake. Proporciona capacidades de movimiento de datos y transformación de datos esenciales para construir canalizaciones de ingesta de datos.
+**[@@-D]** - Escribir código de aplicación complejo y lógica NO es una responsabilidad típica de un administrador de base de datos para una carga de trabajo de datos basada en la nube. Los administradores de base de datos son principalmente responsables de gestionar y optimizar el sistema de base de datos, no de desarrollar código de aplicación.
 
 Opciones incorrectas:
 
-**[@@-B]** - Azure Synapse Analytics se utiliza principalmente para análisis de big data y almacenamiento de datos, proporcionando capacidades para exploración, transformación y visualización de datos. Aunque puede procesar y analizar datos, no está específicamente diseñado para ingesta y transformación de datos antes de almacenarlos en un data lake.
+**[@@-A]** - Implementar y gestionar políticas de gobernanza de datos SÍ es una responsabilidad típica de un administrador de base de datos.
 
-**[@@-C]** - Azure Event Hubs es una plataforma de transmisión de datos en tiempo real que puede ingerir y procesar grandes volúmenes de datos en tiempo real. Sin embargo, se enfoca más en transmisión de eventos e ingesta de datos en lugar de transformación de datos antes de almacenarlos en un data lake.
+**[@@-B]** - Monitorear la utilización de recursos y el rendimiento SÍ es una responsabilidad típica de un administrador de base de datos.
 
-**[@@-D]** - Azure Stream Analytics es un servicio de procesamiento de eventos en tiempo real que puede analizar y procesar datos de transmisión en tiempo real. Aunque es adecuado para procesamiento de datos en tiempo real, no está específicamente diseñado para transformar y procesar datos antes de almacenarlos en un data lake.
+**[@@-C]** - Mantener copias de seguridad de la base de datos y recuperación ante desastres SÍ es una responsabilidad típica de un administrador de base de datos.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/data-factory/](https://learn.microsoft.com/es-es/azure/data-factory/)
+[https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
 """
-Topic = "Análisis de datos"
+Topic = "Conceptos básicos de datos"
 
 
 [question-45]
-Question = "Una empresa de servicios de pago en línea está evaluando las características de las cargas de trabajo transaccionales para su sistema de procesamiento de pagos. El equipo de desarrollo necesita entender qué característica es fundamental para garantizar la precisión de las transacciones financieras. ¿Cuál de las siguientes es una característica clave de las cargas de trabajo transaccionales en los servicios de datos de Microsoft?"
-Correct = "D"
-A = "Admite análisis a gran escala y almacenamiento de datos"
-B = "Optimizado para cargas de trabajo de aprendizaje automático e inteligencia artificial"
-C = "Diseñado para ingesta de alto volumen y transmisión de datos"
-D = "Garantiza la integridad y consistencia de datos a través del uso de transacciones"
+Question = "Un equipo de arquitectura de datos está evaluando Azure Table Storage para su aplicación de gestión de inventario. ¿Cuál de las siguientes declaraciones sobre Azure Table storage es precisa?"
+Correct = "C"
+A = "Los datos en Azure Table storage están organizados en particiones que se almacenan en un conjunto de entidades."
+B = "Azure Table storage soporta sharding automático y almacenamiento en niveles caliente/frío para optimizar el almacenamiento y rendimiento."
+C = "Azure Table storage proporciona un almacén de clave-valor con un diseño sin esquema, permitiéndote almacenar datos en una estructura flexible y no relacional."
+D = "Azure Table storage está diseñado para almacenar objetos binarios grandes como videos, imágenes y copias de seguridad, con soporte integrado para streaming."
 Explanation = """
 Opción correcta:
 
-**[@@-D]** - Garantizar la integridad y consistencia de datos a través del uso de transacciones es una característica clave de las cargas de trabajo transaccionales en los servicios de datos de Microsoft. Las transacciones ayudan a mantener la precisión y confiabilidad de las operaciones de datos asegurando que todos los cambios se confirmen completamente o se reviertan en caso de falla.
+**[@@-C]** - Azure Table storage es un almacén de clave-valor con un diseño sin esquema, lo que significa que cada entidad puede tener diferentes conjuntos de propiedades. Esta flexibilidad te permite almacenar datos en una estructura no relacional sin esquemas predefinidos.
 
 Opciones incorrectas:
 
-**[@@-A]** - Admitir análisis a gran escala y almacenamiento de datos está más alineado con cargas de trabajo analíticas en lugar de cargas de trabajo transaccionales. Las cargas de trabajo transaccionales se enfocan en asegurar la integridad y consistencia de datos a través de transacciones.
+**[@@-A]** - Azure Table storage no está organizado en particiones de esa manera específica.
 
-**[@@-B]** - La optimización para cargas de trabajo de aprendizaje automático e inteligencia artificial está más relacionada con cargas de trabajo de análisis avanzado en lugar de cargas de trabajo transaccionales. Las cargas de trabajo transaccionales se ocupan principalmente de gestionar la integridad y consistencia de datos a través de transacciones.
+**[@@-B]** - Azure Table storage no soporta sharding automático ni almacenamiento en niveles caliente/frío.
 
-**[@@-C]** - La ingesta de alto volumen y transmisión de datos son características de cargas de trabajo de procesamiento en tiempo real, no específicamente de cargas de trabajo transaccionales. Las cargas de trabajo transaccionales se enfocan principalmente en mantener la integridad y consistencia de datos a través de transacciones.
+**[@@-D]** - Azure Table storage no está diseñado para almacenar objetos binarios grandes como videos e imágenes.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/online-transaction-processing)
+[https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview](https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview)
 """
-Topic = "Análisis de datos"
+Topic = "Datos no relacionales"
 
 
 [question-46]
-Question = "Una empresa de consultoría está evaluando las capacidades de Microsoft Power BI para su proyecto de análisis de datos. El equipo de BI necesita entender qué características están disponibles en los modelos de datos de Power BI. ¿Cuál de las siguientes NO es una característica de los modelos de datos en Microsoft Power BI?"
-Correct = "A"
-A = "Aplicar políticas de gobernanza de datos en toda la organización"
-B = "Habilitar seguridad a nivel de fila basada en roles de usuario"
-C = "Definir medidas y calcular columnas"
-D = "Crear relaciones entre tablas"
+Question = "Un ingeniero de datos que trabaja para una gran empresa minorista está recopilando datos de diversas fuentes, incluyendo redes sociales, reseñas de clientes y descripciones de productos. ¿Qué característica de los datos no estructurados debería preocuparte más al diseñar una solución para almacenar y analizar estos datos?"
+Correct = "D"
+A = "Los datos no estructurados son fácilmente buscables usando consultas SQL, igual que los datos estructurados."
+B = "Los datos no estructurados siempre están en un formato estructurado, como archivos CSV o JSON."
+C = "Los datos no estructurados típicamente son pequeños en tamaño, lo que dificulta extraer insights significativos."
+D = "Los datos no estructurados carecen de un esquema predefinido, lo que hace desafiante almacenarlos y consultarlos en bases de datos tradicionales."
 Explanation = """
 Opción correcta:
 
-**[@@-A]** - Aplicar políticas de gobernanza de datos en toda la organización no es una característica directamente relacionada con los modelos de datos en Microsoft Power BI. La gobernanza de datos típicamente implica gestionar el acceso a datos, seguridad y cumplimiento a nivel organizacional.
+**[@@-D]** - Los datos no estructurados carecen de un esquema predefinido, lo que significa que no encajan perfectamente en filas y columnas como los datos estructurados. Esto hace desafiante almacenar y consultar datos no estructurados en bases de datos tradicionales que requieren un esquema fijo, ya que los datos pueden variar en estructura y contenido.
 
 Opciones incorrectas:
 
-**[@@-B]** - Habilitar seguridad a nivel de fila basada en roles de usuario es una característica de los modelos de datos en Power BI que permite a los usuarios restringir el acceso a filas específicas de datos basándose en los roles asignados a ellos. Esto ayuda a asegurar la seguridad y confidencialidad de los datos dentro de la organización.
+**[@@-A]** - Los datos no estructurados NO son fácilmente buscables usando consultas SQL, ya que no tienen un esquema fijo.
 
-**[@@-C]** - Definir medidas y calcular columnas es otra característica importante de los modelos de datos en Power BI. Los usuarios pueden crear cálculos personalizados y métricas para obtener insights de sus datos.
+**[@@-B]** - Los datos no estructurados NO siempre están en formato estructurado. Por definición, carecen de estructura predefinida.
 
-**[@@-D]** - Crear relaciones entre tablas es una característica clave de los modelos de datos en Microsoft Power BI. Permite a los usuarios establecer conexiones entre diferentes tablas para analizar datos a través de múltiples fuentes.
+**[@@-C]** - Los datos no estructurados típicamente son grandes en tamaño, no pequeños.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/power-bi/transform-model/desktop-relationships-understand](https://learn.microsoft.com/es-es/power-bi/transform-model/desktop-relationships-understand)
+[https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/2-explore-azure-cosmos-db](https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-offerings-azure/2-explore-azure-cosmos-db)
 """
-Topic = "Análisis de datos"
+Topic = "Conceptos básicos de datos"
 
 
 [question-47]
-Question = "Una empresa de investigación científica está buscando un servicio de Azure para almacenar y consultar grandes volúmenes de datos de experimentos que incluyen tanto datos estructurados como semi-estructurados. Necesitan un servicio optimizado para cargas de trabajo analíticas complejas. ¿Qué servicio de Azure se recomienda para almacenar y consultar grandes volúmenes de datos estructurados y semi-estructurados para cargas de trabajo analíticas?"
-Correct = "D"
-A = "Azure Cosmos DB"
-B = "Azure Data Lake Storage Gen2"
-C = "Azure SQL Database"
-D = "Azure Synapse Analytics"
+Question = "Una empresa de análisis de datos en tiempo real está evaluando diferentes enfoques de procesamiento para su plataforma de monitoreo. ¿Cuál de los siguientes describe mejor la diferencia entre el procesamiento de datos por lotes y el procesamiento de datos de streaming en el contexto de análisis de datos en tiempo real?"
+Correct = "A"
+A = "El procesamiento por lotes maneja grandes volúmenes de datos a la vez, mientras que el procesamiento de datos de streaming maneja datos continuamente a medida que llegan en tiempo real."
+B = "El procesamiento por lotes se usa para análisis de datos históricos, mientras que el procesamiento de datos de streaming se usa para análisis de datos en tiempo real."
+C = "El procesamiento por lotes es más adecuado para datos transaccionales, mientras que el procesamiento de datos de streaming es más adecuado para datos analíticos."
+D = "El procesamiento por lotes requiere que los datos se almacenen primero, mientras que el procesamiento de datos de streaming puede procesar datos directamente sin almacenamiento."
 Explanation = """
 Opción correcta:
 
-**[@@-D]** - Azure Synapse Analytics es un servicio de análisis completamente administrado que está diseñado para almacenar y consultar grandes volúmenes de datos estructurados y semi-estructurados para cargas de trabajo analíticas. Proporciona capacidades para integración de datos, almacenamiento de datos y análisis de big data.
+**[@@-A]** - El procesamiento por lotes está diseñado para manejar grandes volúmenes de datos en un solo lote, procesando todos los datos a la vez. Por otro lado, el procesamiento de datos de streaming maneja datos continuamente a medida que llegan en tiempo real, permitiendo que se generen análisis e insights en tiempo real.
 
 Opciones incorrectas:
 
-**[@@-A]** - Azure Cosmos DB es un servicio de base de datos multi-modelo distribuido globalmente que está optimizado para aplicaciones rápidas y escalables. Aunque puede manejar datos estructurados y semi-estructurados, puede no ser el servicio más recomendado específicamente para cargas de trabajo analíticas.
+**[@@-B]** - Aunque esta diferencia existe, no es la descripción más precisa de la diferencia fundamental entre ambos tipos de procesamiento.
 
-**[@@-B]** - Azure Data Lake Storage Gen2 es un servicio de data lake escalable y seguro que está optimizado para análisis de big data y cargas de trabajo de aprendizaje automático. Es más adecuado para almacenar grandes volúmenes de datos no estructurados en lugar de datos estructurados y semi-estructurados para cargas de trabajo analíticas.
+**[@@-C]** - Esta no es una distinción precisa entre procesamiento por lotes y streaming.
 
-**[@@-C]** - Azure SQL Database es un servicio de base de datos relacional que es más adecuado para cargas de trabajo transaccionales y datos estructurados. Puede no ser la mejor opción para almacenar y consultar grandes volúmenes de datos estructurados y semi-estructurados para cargas de trabajo analíticas.
+**[@@-D]** - Ambos tipos de procesamiento pueden requerir almacenamiento, no es una diferencia fundamental.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/synapse-analytics/](https://learn.microsoft.com/es-es/azure/synapse-analytics/)
+[https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing](https://docs.microsoft.com/en-us/learn/modules/explore-data-processing-in-azure-databricks/2-understand-batch-processing)
 """
 Topic = "Análisis de datos"
 
 
 [question-48]
-Question = "Una empresa de desarrollo de software está normalizando su base de datos de gestión de clientes. El equipo de base de datos necesita entender los principios de la primera forma normal (1NF) para evitar redundancia de datos. Al normalizar datos en una base de datos relacional, ¿cuál de las siguientes declaraciones sobre la primera forma normal (1NF) es correcta?"
-Correct = "B"
-A = "Requiere que no haya dependencias transitivas entre atributos no clave."
-B = "Requiere que cada registro sea único y no haya grupos de datos repetidos."
-C = "Requiere que todos los atributos dependan de la clave primaria y que todos los atributos no clave sean mutuamente independientes."
-D = "Requiere que todos los atributos sean completamente dependientes de la clave primaria."
+Question = "Un equipo de ingeniería de datos está evaluando diferentes formatos de archivo para su sistema de almacenamiento de datos. ¿Cuál de los siguientes NO es un formato común para almacenar archivos de datos?"
+Correct = "A"
+A = "Microsoft Excel Workbook (.xlsx)"
+B = "JavaScript Object Notation (JSON)"
+C = "Comma-separated values (CSV)"
+D = "Extensible Markup Language (XML)"
 Explanation = """
 Opción correcta:
 
-**[@@-B]** - La primera forma normal (1NF) requiere que cada registro en la tabla de la base de datos sea único, y no debe haber grupos de datos repetidos dentro de la tabla. Esto ayuda a organizar los datos de manera estructurada y evita la redundancia de datos.
+**[@@-A]** - Microsoft Excel Workbook (.xlsx) NO es un formato común para almacenar archivos de datos comparado con CSV, JSON y XML. Aunque los archivos de Excel se usan comúnmente para almacenamiento y análisis de datos, no son tan universalmente aceptados o versátiles como los otros formatos listados.
 
 Opciones incorrectas:
 
-**[@@-A]** - La ausencia de dependencias transitivas entre atributos no clave es una característica de la tercera forma normal (3NF), no de la primera forma normal (1NF). En 1NF, el énfasis está en asegurar que cada registro sea único y no haya grupos de datos repetidos.
+**[@@-B]** - JSON es un formato común y ampliamente utilizado para almacenar datos.
 
-**[@@-C]** - Esta declaración combina aspectos de los requisitos de la segunda forma normal (2NF) y la tercera forma normal (3NF), en lugar de enfocarse en la primera forma normal (1NF). En 1NF, el requisito clave es tener registros únicos y eliminar grupos de datos repetidos.
+**[@@-C]** - CSV es un formato muy común y universalmente aceptado para almacenar datos tabulares.
 
-**[@@-D]** - Esta declaración describe el requisito de la segunda forma normal (2NF), no de la primera forma normal (1NF). En 1NF, el enfoque está en asegurar que cada registro sea único y no haya grupos de datos repetidos, en lugar de la dependencia completa de la clave primaria.
+**[@@-D]** - XML es un formato común y ampliamente utilizado para almacenar datos estructurados.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/normalization](https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/normalization)
+[https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt](https://docs.microsoft.com/en-us/learn/modules/explore-data-ingestion-in-azure/2-understand-etl-vs-elt)
 """
-Topic = "Datos relacionales"
+Topic = "Datos no relacionales"
 
 
 [question-49]
-Question = "Una empresa de desarrollo de aplicaciones web requiere una solución de base de datos PostgreSQL escalable en Azure que admita tanto escalado vertical como horizontal para acomodar cargas variables. ¿Qué servicio de base de datos de Azure recomendarías para satisfacer esta necesidad específica para un sistema de base de datos de código abierto, mientras también proporciona respaldos automáticos, características de seguridad sólidas y la capacidad de escalar recursos de computación y almacenamiento de forma independiente?"
-Correct = "A"
-A = "Azure Database for PostgreSQL - Hyperscale (Citus)"
-B = "Azure Database for PostgreSQL - Single Server"
+Question = "Una empresa de desarrollo de software está migrando aplicaciones legacy que requieren configuraciones específicas de SQL Server. ¿Cuál de las siguientes opciones de Azure SQL te permite ejecutar tu propia versión completa de SQL Server con control total sobre el sistema operativo?"
+Correct = "B"
+A = "Azure SQL Database"
+B = "SQL Server en Azure Virtual Machines"
 C = "Azure SQL Managed Instance"
-D = "Azure Database for MariaDB"
+D = "Azure SQL Edge"
 Explanation = """
 Opción correcta:
 
-**[@@-A]** - Azure Database for PostgreSQL - Hyperscale (Citus) es la elección correcta para este escenario. Es un servicio de base de datos PostgreSQL completamente administrado y escalable horizontalmente que puede admitir tanto escalado vertical como horizontal para acomodar cargas variables. Proporciona respaldos automáticos, características de seguridad sólidas y la capacidad de escalar recursos de computación y almacenamiento de forma independiente, haciéndolo una solución ideal para una base de datos PostgreSQL escalable en Azure.
+**[@@-B]** - SQL Server en Azure Virtual Machines te permite ejecutar tu propia versión completa de SQL Server con control total sobre el sistema operativo. Proporciona la flexibilidad para personalizar la configuración de la máquina virtual, instalar cualquier software y tener control completo sobre la instancia de SQL Server que se ejecuta en la máquina virtual.
 
 Opciones incorrectas:
 
-**[@@-B]** - Azure Database for PostgreSQL - Single Server es un servicio administrado que proporciona un despliegue de servidor único para bases de datos PostgreSQL. Aunque ofrece respaldos automáticos, características de seguridad sólidas y la capacidad de escalar recursos de computación y almacenamiento de forma independiente, no admite escalado horizontal para acomodar cargas variables, que es un requisito en este escenario.
+**[@@-A]** - Azure SQL Database es un servicio PaaS que no te da control total sobre el sistema operativo.
 
-**[@@-C]** - Azure SQL Managed Instance es un motor de base de datos SQL Server completamente administrado que proporciona alta compatibilidad con SQL Server, pero no está específicamente diseñado para PostgreSQL. Aunque ofrece respaldos automáticos, características de seguridad sólidas y la capacidad de escalar recursos de computación y almacenamiento de forma independiente, no es la mejor opción para un sistema de base de datos PostgreSQL de código abierto.
+**[@@-C]** - Azure SQL Managed Instance es un servicio PaaS que no te da control total sobre el sistema operativo.
 
-**[@@-D]** - Azure Database for MariaDB es un servicio administrado para bases de datos MariaDB, no PostgreSQL. Aunque ofrece respaldos automáticos, características de seguridad sólidas y la capacidad de escalar recursos de computación y almacenamiento de forma independiente, no es la mejor opción para un sistema de base de datos PostgreSQL de código abierto que requiere capacidades de escalado tanto vertical como horizontal.
+**[@@-D]** - Azure SQL Edge es una versión ligera de SQL Server para IoT, no te da control total sobre el sistema operativo.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/postgresql/hyperscale/](https://learn.microsoft.com/es-es/azure/postgresql/hyperscale/)
+[https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview](https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview)
 """
 Topic = "Datos relacionales"
 
 
 [question-50]
-Question = "Una empresa de análisis de datos está buscando un servicio de Azure que les permita crear y gestionar un servicio de análisis de big data nativo de la nube y completamente administrado que integre Apache Spark con las capacidades de seguridad empresarial y cumplimiento de Microsoft. ¿Qué servicio les permitiría lograr esto?"
-Correct = "C"
-A = "Azure Synapse Analytics"
-B = "Microsoft Purview"
-C = "Azure Databricks"
-D = "Azure AI Services"
+Question = "Un equipo de arquitectura de datos está diseñando una nueva base de datos para un sistema de gestión de clientes. ¿Cuál de las siguientes declaraciones describe con precisión el proceso de normalización en el diseño de bases de datos relacionales?"
+Correct = "D"
+A = "La normalización es el proceso de eliminar todos los valores nulos de una base de datos."
+B = "La normalización mejora el rendimiento de las consultas desnormalizando datos en una sola tabla."
+C = "La normalización se usa para asegurar la integridad referencial entre tablas."
+D = "La normalización ayuda a eliminar datos redundantes organizando campos y tablas."
 Explanation = """
 Opción correcta:
 
-**[@@-C]** - Azure Databricks es un servicio que te permite crear y gestionar un servicio de análisis de big data nativo de la nube y completamente administrado que integra Apache Spark con las capacidades de seguridad empresarial y cumplimiento de Microsoft. Proporciona un entorno colaborativo para científicos de datos, ingenieros de datos y analistas de negocio para trabajar juntos en proyectos de análisis de big data.
+**[@@-D]** - La normalización en el diseño de bases de datos relacionales tiene como objetivo reducir la redundancia organizando los datos en tablas separadas y estructurando las relaciones entre ellas. Este proceso ayuda a minimizar la duplicación de datos y las inconsistencias, llevando a un esquema de base de datos más eficiente y mantenible.
 
 Opciones incorrectas:
 
-**[@@-A]** - Azure Synapse Analytics es un servicio que proporciona una experiencia unificada para análisis de big data. Aunque se integra con Apache Spark, no se enfoca específicamente en crear un servicio de análisis de big data nativo de la nube y completamente administrado con capacidades de seguridad empresarial y cumplimiento como el servicio mencionado en la pregunta.
+**[@@-A]** - La normalización no se trata de eliminar valores nulos, sino de organizar datos para reducir redundancia.
 
-**[@@-B]** - Microsoft Purview es un servicio de gobernanza de datos que ayuda a las organizaciones a descubrir y gestionar sus datos. No se enfoca específicamente en crear un servicio de análisis de big data nativo de la nube y completamente administrado que integre Apache Spark con capacidades de seguridad empresarial y cumplimiento.
+**[@@-B]** - La normalización no desnormaliza datos, sino que los organiza en tablas separadas para reducir redundancia.
 
-**[@@-D]** - Azure AI Services se enfoca en proporcionar capacidades de inteligencia artificial y aprendizaje automático en la nube de Azure. Aunque estos servicios pueden complementar el análisis de big data, no habilitan específicamente la creación y gestión de un servicio de análisis de big data nativo de la nube y completamente administrado que integre Apache Spark con capacidades de seguridad empresarial y cumplimiento como el servicio mencionado en la pregunta.
+**[@@-C]** - La integridad referencial es un concepto relacionado pero separado de la normalización.
 
 Referencias:
 
-[https://learn.microsoft.com/es-es/azure/databricks/](https://learn.microsoft.com/es-es/azure/databricks/)
+[https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database](https://docs.microsoft.com/en-us/learn/modules/explore-relational-data-offerings-azure/2-explore-azure-sql-database)
 """
-Topic = "Análisis de datos"
+Topic = "Datos relacionales"
