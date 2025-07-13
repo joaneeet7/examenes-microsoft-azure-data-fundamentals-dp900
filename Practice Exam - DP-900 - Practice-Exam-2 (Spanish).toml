@@ -984,7 +984,7 @@ Topic = "Datos relacionales"
 
 
 [question-38]
-Question = "Una empresa de comercio electrónico quiere mejorar la seguridad de sus datos almacenados en Azure SQL Database. ¿Cuál de las siguientes características de Azure SQL Database permite cifrar los datos almacenados en reposo de forma automática?"
+Question = "Una empresa de comercio electrónico desea reforzar la seguridad de su base de datos en Azure SQL Database, asegurando que los datos en reposo estén protegidos de forma automática. ¿Qué característica integrada de Azure SQL Database permite cifrar los datos en reposo sin requerir cambios en la aplicación?"
 Correct = "B"
 A = "Always Encrypted"
 B = "Transparent Data Encryption (TDE)"
@@ -993,13 +993,15 @@ D = "Auditing"
 Explanation = """
 Opción correcta:
 
-**[@@-B]** - Transparent Data Encryption (TDE) cifra automáticamente los datos almacenados en reposo en Azure SQL Database, ayudando a proteger los datos contra accesos no autorizados a nivel de almacenamiento.
+**[@@-B]** - Transparent Data Encryption (TDE) cifra automáticamente los datos almacenados en reposo en Azure SQL Database, incluidos archivos de base de datos y backups, sin necesidad de modificar la lógica de la aplicación. Protege contra accesos no autorizados a nivel de almacenamiento físico.
 
-**[@@-A]** - Always Encrypted protege los datos sensibles en tránsito y en uso, pero requiere cambios en la aplicación y no cifra todos los datos en reposo automáticamente.
+Opciones incorrectas:
 
-**[@@-C]** - Dynamic Data Masking oculta datos sensibles en los resultados de las consultas, pero no cifra los datos en reposo.
+**[@@-A]** - Always Encrypted protege datos sensibles en tránsito y en uso (por ejemplo, durante consultas), pero requiere que la aplicación controle las claves de cifrado y no cifra todos los datos en reposo por defecto.
 
-**[@@-D]** - Auditing permite registrar el acceso y las acciones sobre la base de datos, pero no cifra los datos en reposo.
+**[@@-C]** - Dynamic Data Masking oculta datos sensibles a nivel de consulta para ciertos usuarios, pero no implica ningún tipo de cifrado.
+
+**[@@-D]** - Auditing permite registrar actividades sobre la base de datos para fines de seguridad y cumplimiento, pero no cifra los datos en ningún momento.
 
 Referencias:
 [https://learn.microsoft.com/es-es/azure/azure-sql/database/transparent-data-encryption-tde-overview](https://learn.microsoft.com/es-es/azure/azure-sql/database/transparent-data-encryption-tde-overview)
@@ -1032,8 +1034,6 @@ Referencias:
 [https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data](https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data)
 """
 Topic = "Datos no relacionales"
-
-
 
 
 [question-40]
